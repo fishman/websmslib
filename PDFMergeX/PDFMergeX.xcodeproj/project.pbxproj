@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D94F0B8C0E5425F6009F6D80 /* ImportPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F0B8B0E5425F6009F6D80 /* ImportPagesController.m */; };
+		D94F0BFB0E542C24009F6D80 /* PDFImportedPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F0BFA0E542C24009F6D80 /* PDFImportedPage.m */; };
+		D94F0FE70E5457E2009F6D80 /* icon_downloads.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D94F0FE60E5457E2009F6D80 /* icon_downloads.tiff */; };
+		D94F10C30E545C12009F6D80 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94F10C20E545C12009F6D80 /* Sparkle.framework */; };
+		D94F10D80E545C25009F6D80 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D94F10C20E545C12009F6D80 /* Sparkle.framework */; };
+		D94F11F40E545ED4009F6D80 /* icon_send.tif in Resources */ = {isa = PBXBuildFile; fileRef = D94F11F30E545ED4009F6D80 /* icon_send.tif */; };
+		D94F136B0E546B11009F6D80 /* SSCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94F136A0E546B11009F6D80 /* SSCrypto.framework */; };
+		D94F13700E546B19009F6D80 /* SSCrypto.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D94F136A0E546B11009F6D80 /* SSCrypto.framework */; };
+		D94F15000E5485C3009F6D80 /* PublicKeyPDFMerge.key in Resources */ = {isa = PBXBuildFile; fileRef = D94F14FF0E5485C3009F6D80 /* PublicKeyPDFMerge.key */; };
+		D94F15A30E548A64009F6D80 /* All.icns in Resources */ = {isa = PBXBuildFile; fileRef = D94F15A20E548A64009F6D80 /* All.icns */; };
+		D94F3E400DD627E300441CD6 /* IKBrowserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F3E3F0DD627E300441CD6 /* IKBrowserItem.m */; };
+		D94F3FAF0DD6320400441CD6 /* prova.png in Resources */ = {isa = PBXBuildFile; fileRef = D94F3FAE0DD6320400441CD6 /* prova.png */; };
+		D94F419A0DD63B6700441CD6 /* SimpleMergeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F41990DD63B6700441CD6 /* SimpleMergeController.m */; };
+		D94F42090DD7083B00441CD6 /* PDFDocumentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F42080DD7083B00441CD6 /* PDFDocumentsController.m */; };
+		D94F420C0DD708F100441CD6 /* PDFMergerDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F420B0DD708F100441CD6 /* PDFMergerDocument.m */; };
+		D94F42210DD7159600441CD6 /* PDFPageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F42200DD7159600441CD6 /* PDFPageContainer.m */; };
+		D94F42550DD71A4700441CD6 /* PDFMergeWorkflow.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F42540DD71A4700441CD6 /* PDFMergeWorkflow.m */; };
+		D94F426A0DD71E1700441CD6 /* PDFEmptyPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F42690DD71E1700441CD6 /* PDFEmptyPage.m */; };
+		D94F426D0DD71EBC00441CD6 /* PDFRawPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F426C0DD71EBC00441CD6 /* PDFRawPage.m */; };
+		D94F45790DD7303100441CD6 /* AdvancedMergeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F45780DD7303100441CD6 /* AdvancedMergeController.m */; };
+		D94F4AEA0DD74E5300441CD6 /* PreviewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F4AE90DD74E5300441CD6 /* PreviewWindowController.m */; };
+		D98443690DD4DF3000FAD83B /* MainWndController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98443680DD4DF3000FAD83B /* MainWndController.m */; };
+		D984436C0DD4DF6100FAD83B /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D984436B0DD4DF6100FAD83B /* PDFKit.framework */; };
+		D984446E0DD4F6C800FAD83B /* PDFPage_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D984446D0DD4F6C800FAD83B /* PDFPage_Extensions.m */; };
+		D98444730DD4F76200FAD83B /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98444720DD4F76200FAD83B /* Quartz.framework */; };
+		D98445940DD4FCAB00FAD83B /* DragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98445930DD4FCAB00FAD83B /* DragDropImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D94F10DE0E545C31009F6D80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D94F13700E546B19009F6D80 /* SSCrypto.framework in CopyFiles */,
+				D94F10D80E545C25009F6D80 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* PDFMergeX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFMergeX_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* PDFMergeX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFMergeX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94F0B8A0E5425F6009F6D80 /* ImportPagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportPagesController.h; sourceTree = "<group>"; };
+		D94F0B8B0E5425F6009F6D80 /* ImportPagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportPagesController.m; sourceTree = "<group>"; };
+		D94F0BF90E542C24009F6D80 /* PDFImportedPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFImportedPage.h; sourceTree = "<group>"; };
+		D94F0BFA0E542C24009F6D80 /* PDFImportedPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFImportedPage.m; sourceTree = "<group>"; };
+		D94F0FE60E5457E2009F6D80 /* icon_downloads.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = icon_downloads.tiff; sourceTree = "<group>"; };
+		D94F10C20E545C12009F6D80 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../../Builds/Release/Sparkle.framework; sourceTree = SOURCE_ROOT; };
+		D94F11F30E545ED4009F6D80 /* icon_send.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = icon_send.tif; sourceTree = "<group>"; };
+		D94F136A0E546B11009F6D80 /* SSCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSCrypto.framework; path = ../../../Builds/Deployment/SSCrypto.framework; sourceTree = SOURCE_ROOT; };
+		D94F14FF0E5485C3009F6D80 /* PublicKeyPDFMerge.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = PublicKeyPDFMerge.key; sourceTree = "<group>"; };
+		D94F15A20E548A64009F6D80 /* All.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = All.icns; sourceTree = "<group>"; };
+		D94F3E3E0DD627E300441CD6 /* IKBrowserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKBrowserItem.h; sourceTree = "<group>"; };
+		D94F3E3F0DD627E300441CD6 /* IKBrowserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKBrowserItem.m; sourceTree = "<group>"; };
+		D94F3FAE0DD6320400441CD6 /* prova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prova.png; sourceTree = "<group>"; };
+		D94F41980DD63B6700441CD6 /* SimpleMergeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMergeController.h; sourceTree = "<group>"; };
+		D94F41990DD63B6700441CD6 /* SimpleMergeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMergeController.m; sourceTree = "<group>"; };
+		D94F42070DD7083B00441CD6 /* PDFDocumentsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDocumentsController.h; sourceTree = "<group>"; };
+		D94F42080DD7083B00441CD6 /* PDFDocumentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFDocumentsController.m; sourceTree = "<group>"; };
+		D94F420A0DD708F100441CD6 /* PDFMergerDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFMergerDocument.h; sourceTree = "<group>"; };
+		D94F420B0DD708F100441CD6 /* PDFMergerDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFMergerDocument.m; sourceTree = "<group>"; };
+		D94F421F0DD7159600441CD6 /* PDFPageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPageContainer.h; sourceTree = "<group>"; };
+		D94F42200DD7159600441CD6 /* PDFPageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPageContainer.m; sourceTree = "<group>"; };
+		D94F42530DD71A4700441CD6 /* PDFMergeWorkflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFMergeWorkflow.h; sourceTree = "<group>"; };
+		D94F42540DD71A4700441CD6 /* PDFMergeWorkflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFMergeWorkflow.m; sourceTree = "<group>"; };
+		D94F42680DD71E1700441CD6 /* PDFEmptyPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFEmptyPage.h; sourceTree = "<group>"; };
+		D94F42690DD71E1700441CD6 /* PDFEmptyPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFEmptyPage.m; sourceTree = "<group>"; };
+		D94F426B0DD71EBC00441CD6 /* PDFRawPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFRawPage.h; sourceTree = "<group>"; };
+		D94F426C0DD71EBC00441CD6 /* PDFRawPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFRawPage.m; sourceTree = "<group>"; };
+		D94F45770DD7303100441CD6 /* AdvancedMergeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedMergeController.h; sourceTree = "<group>"; };
+		D94F45780DD7303100441CD6 /* AdvancedMergeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedMergeController.m; sourceTree = "<group>"; };
+		D94F4AE80DD74E5300441CD6 /* PreviewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewWindowController.h; sourceTree = "<group>"; };
+		D94F4AE90DD74E5300441CD6 /* PreviewWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewWindowController.m; sourceTree = "<group>"; };
+		D98443670DD4DF3000FAD83B /* MainWndController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWndController.h; sourceTree = "<group>"; };
+		D98443680DD4DF3000FAD83B /* MainWndController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWndController.m; sourceTree = "<group>"; };
+		D984436B0DD4DF6100FAD83B /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		D984446C0DD4F6C800FAD83B /* PDFPage_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPage_Extensions.h; sourceTree = "<group>"; };
+		D984446D0DD4F6C800FAD83B /* PDFPage_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPage_Extensions.m; sourceTree = "<group>"; };
+		D98444720DD4F76200FAD83B /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		D98445920DD4FCAB00FAD83B /* DragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropImageView.h; sourceTree = "<group>"; };
+		D98445930DD4FCAB00FAD83B /* DragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94F10C30E545C12009F6D80 /* Sparkle.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D984436C0DD4DF6100FAD83B /* PDFKit.framework in Frameworks */,
+				D98444730DD4F76200FAD83B /* Quartz.framework in Frameworks */,
+				D94F136B0E546B11009F6D80 /* SSCrypto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D98443670DD4DF3000FAD83B /* MainWndController.h */,
+				D98443680DD4DF3000FAD83B /* MainWndController.m */,
+				D94F41980DD63B6700441CD6 /* SimpleMergeController.h */,
+				D94F41990DD63B6700441CD6 /* SimpleMergeController.m */,
+				D94F45770DD7303100441CD6 /* AdvancedMergeController.h */,
+				D94F45780DD7303100441CD6 /* AdvancedMergeController.m */,
+				D94F4AE80DD74E5300441CD6 /* PreviewWindowController.h */,
+				D94F4AE90DD74E5300441CD6 /* PreviewWindowController.m */,
+				D94F0B8A0E5425F6009F6D80 /* ImportPagesController.h */,
+				D94F0B8B0E5425F6009F6D80 /* ImportPagesController.m */,
+				D94F15A20E548A64009F6D80 /* All.icns */,
+				D94F14FF0E5485C3009F6D80 /* PublicKeyPDFMerge.key */,
+				D94F3FAE0DD6320400441CD6 /* prova.png */,
+				D94F11F30E545ED4009F6D80 /* icon_send.tif */,
+				D94F0FE60E5457E2009F6D80 /* icon_downloads.tiff */,
+				D94F424C0DD717C000441CD6 /* Framework */,
+				D94F424B0DD717B800441CD6 /* GUI Elements */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94F136A0E546B11009F6D80 /* SSCrypto.framework */,
+				D94F10C20E545C12009F6D80 /* Sparkle.framework */,
+				D98444720DD4F76200FAD83B /* Quartz.framework */,
+				D984436B0DD4DF6100FAD83B /* PDFKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* PDFMergeX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PDFMergeX */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PDFMergeX;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PDFMergeX_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D94F402F0DD636F800441CD6 /* PDFPage Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D984446C0DD4F6C800FAD83B /* PDFPage_Extensions.h */,
+				D984446D0DD4F6C800FAD83B /* PDFPage_Extensions.m */,
+			);
+			name = "PDFPage Extensions";
+			sourceTree = "<group>";
+		};
+		D94F40300DD6370200441CD6 /* Page Item */ = {
+			isa = PBXGroup;
+			children = (
+				D94F3E3E0DD627E300441CD6 /* IKBrowserItem.h */,
+				D94F3E3F0DD627E300441CD6 /* IKBrowserItem.m */,
+			);
+			name = "Page Item";
+			sourceTree = "<group>";
+		};
+		D94F42290DD7171800441CD6 /* PDFPage */ = {
+			isa = PBXGroup;
+			children = (
+				D94F0BF90E542C24009F6D80 /* PDFImportedPage.h */,
+				D94F0BFA0E542C24009F6D80 /* PDFImportedPage.m */,
+				D94F421F0DD7159600441CD6 /* PDFPageContainer.h */,
+				D94F42200DD7159600441CD6 /* PDFPageContainer.m */,
+				D94F42680DD71E1700441CD6 /* PDFEmptyPage.h */,
+				D94F42690DD71E1700441CD6 /* PDFEmptyPage.m */,
+				D94F402F0DD636F800441CD6 /* PDFPage Extensions */,
+				D94F426E0DD71EFA00441CD6 /* PDFPage Raw Class */,
+			);
+			name = PDFPage;
+			sourceTree = "<group>";
+		};
+		D94F422A0DD7172500441CD6 /* Document & Pages */ = {
+			isa = PBXGroup;
+			children = (
+				D94F420A0DD708F100441CD6 /* PDFMergerDocument.h */,
+				D94F420B0DD708F100441CD6 /* PDFMergerDocument.m */,
+				D94F42290DD7171800441CD6 /* PDFPage */,
+			);
+			name = "Document & Pages";
+			sourceTree = "<group>";
+		};
+		D94F422C0DD717A100441CD6 /* Droppable ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D98445920DD4FCAB00FAD83B /* DragDropImageView.h */,
+				D98445930DD4FCAB00FAD83B /* DragDropImageView.m */,
+			);
+			name = "Droppable ImageView";
+			sourceTree = "<group>";
+		};
+		D94F424B0DD717B800441CD6 /* GUI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				D94F40300DD6370200441CD6 /* Page Item */,
+				D94F422C0DD717A100441CD6 /* Droppable ImageView */,
+			);
+			name = "GUI Elements";
+			sourceTree = "<group>";
+		};
+		D94F424C0DD717C000441CD6 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				D94F42070DD7083B00441CD6 /* PDFDocumentsController.h */,
+				D94F42080DD7083B00441CD6 /* PDFDocumentsController.m */,
+				D94F42530DD71A4700441CD6 /* PDFMergeWorkflow.h */,
+				D94F42540DD71A4700441CD6 /* PDFMergeWorkflow.m */,
+				D94F422A0DD7172500441CD6 /* Document & Pages */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		D94F426E0DD71EFA00441CD6 /* PDFPage Raw Class */ = {
+			isa = PBXGroup;
+			children = (
+				D94F426B0DD71EBC00441CD6 /* PDFRawPage.h */,
+				D94F426C0DD71EBC00441CD6 /* PDFRawPage.m */,
+			);
+			name = "PDFPage Raw Class";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* PDFMergeX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PDFMergeX" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				D94F10DE0E545C31009F6D80 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFMergeX;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PDFMergeX;
+			productReference = 8D1107320486CEB800E47090 /* PDFMergeX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PDFMergeX" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PDFMergeX */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* PDFMergeX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				D94F3FAF0DD6320400441CD6 /* prova.png in Resources */,
+				D94F0FE70E5457E2009F6D80 /* icon_downloads.tiff in Resources */,
+				D94F11F40E545ED4009F6D80 /* icon_send.tif in Resources */,
+				D94F15000E5485C3009F6D80 /* PublicKeyPDFMerge.key in Resources */,
+				D94F15A30E548A64009F6D80 /* All.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				D98443690DD4DF3000FAD83B /* MainWndController.m in Sources */,
+				D984446E0DD4F6C800FAD83B /* PDFPage_Extensions.m in Sources */,
+				D98445940DD4FCAB00FAD83B /* DragDropImageView.m in Sources */,
+				D94F3E400DD627E300441CD6 /* IKBrowserItem.m in Sources */,
+				D94F419A0DD63B6700441CD6 /* SimpleMergeController.m in Sources */,
+				D94F42090DD7083B00441CD6 /* PDFDocumentsController.m in Sources */,
+				D94F420C0DD708F100441CD6 /* PDFMergerDocument.m in Sources */,
+				D94F42210DD7159600441CD6 /* PDFPageContainer.m in Sources */,
+				D94F42550DD71A4700441CD6 /* PDFMergeWorkflow.m in Sources */,
+				D94F426A0DD71E1700441CD6 /* PDFEmptyPage.m in Sources */,
+				D94F426D0DD71EBC00441CD6 /* PDFRawPage.m in Sources */,
+				D94F45790DD7303100441CD6 /* AdvancedMergeController.m in Sources */,
+				D94F4AEA0DD74E5300441CD6 /* PreviewWindowController.m in Sources */,
+				D94F0B8C0E5425F6009F6D80 /* ImportPagesController.m in Sources */,
+				D94F0BFB0E542C24009F6D80 /* PDFImportedPage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
+					"\"$(SRCROOT)/../../../Builds/Release\"",
+					"\"$(SRCROOT)/../../../Builds/Deployment\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PDFMergeX_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = PDFMergeX;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"",
+					"\"$(SRCROOT)/../../../Builds/Release\"",
+					"\"$(SRCROOT)/../../../Builds/Deployment\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PDFMergeX_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = PDFMergeX;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PDFMergeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PDFMergeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
