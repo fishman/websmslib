@@ -1,0 +1,64 @@
+======================
+Authentication request
+======================
+
+action:
+http://wx0.callwave.com/v2w
+
+data:
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<request>
+	<type>AUTH</type>
+	<src>SX</src>
+	<ver>3.6</ver>
+	<os>MacPPC</os>
+	<phone>%USERNAME%</phone>
+	<pin>%PASSWORD%</pin>
+</request>
+
+
+=======================
+Authentication response
+=======================
+
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<response>
+    <type>AUTH</type>
+    <status>0</status>
+    <statusMsg>Authentication succeeded.</statusMsg>
+    <account>%CW_ACCOUNT_ID%</account>
+    <uString>%CW_USTRING%</uString>
+</response>
+
+================
+SMS Send request
+================
+
+action:
+http://wx0.callwave.com/v2w
+
+data:
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<request>
+	<type>SSMS</type>
+	<src>SX</src>
+	<ver>3.6</ver>
+	<os>MacPPC</os>
+	<account>%CW_ACCOUNT_ID%</account>
+	<uString>%CW_USTRING%</uString>
+	<sendToPhoneNumber>%I_TO%</sendToPhoneNumber>
+	<sendToCarrierID>-1</sendToCarrierID>
+	<sendFromPreference>0</sendFromPreference>
+	<message>as</message>
+</request>
+
+=================
+SMS Send response
+=================
+
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<response>
+    <type>SSMS</type>
+    <status>0</status>
+    <statusMsg>Message sent to %I_TO%.</statusMsg>
+</response>

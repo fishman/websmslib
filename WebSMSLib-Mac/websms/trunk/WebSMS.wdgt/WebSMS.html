@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<title>WebSMS</title>
+	<style type="text/css" media="screen">
+		@import url("WebSMS.css");
+	</style>
+	<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+	<script type="text/javascript">
+	/*<![CDATA[*/
+		google.load("language", "1");
+	/*]]>*/
+	</script>
+	<script src="lib/Additions.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="lib/Animations.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="AddressBook.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Autocompletion.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="CURLClient.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Flip.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="International.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Localization.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="LocalizedStrings.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Message.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Phone.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="PluginManager.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Preferences.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Proxy.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="SkinChooser.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="SoftwareUpdate.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="SMBClient.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Sparkle.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Utils.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="VersionChecker.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="WebSMS.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="WebSMSEngine.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="Widget.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" type="text/javascript" charset="UTF-8"></script>
+	<!-- plugins are loaded programmatically -->
+</head>
+<body onload="setup()">
+	<div id="sparklePane">
+		<iframe id="sparkleReleaseNotes"></iframe>
+	</div>
+	<div id="updateAvailable" onclick="Utils.home()">
+	</div>
+	<div id="front" onmousemove="mousemove(event);" onmouseout="mouseexit(event);">
+		<div id="top-controls">
+			<div id="dailyAvailableSMSField"></div>
+			<div id="availableCharsField"></div>
+			<img id="sending" src="img/sending.png" />
+			<div id="toLabel">&nbsp;</div>
+		</div>
+		<div id="eme-splash"></div>
+		<textarea disabled="disabled" style="opacity:0.0" name="text" id="textField"></textarea>
+		<div id="fakeTop"></div>
+		<div id="fakeBottom"></div>
+		<div id="messageConfirmLabel"></div>
+		<div id="captchaPane">
+			<div id="captchaPaneInner">
+				<div id="captchaImgBox">
+					<img id="captchaImg" />
+					<img id="captchaRefresh" src="img/refresh_captcha.png" onclick="phone.refreshCaptcha()" />
+				</div>
+				<input type="text" id="captchaTxt" />
+			</div>
+		</div>
+		<div id="textBezel"></div>
+		<div id="send" onclick="phone.action()"></div>
+		<div class="flip" id="huh" onclick="Utils.help()"></div>
+		<div class="flip" id="flip" onclick="phone.flip()"></div>
+	</div>
+	<div id="back">
+		<h2 id="version"></h2>
+		<div id="preferencesPane">
+			<!-- General (Call) Preferences pane -->
+			<div id="generalPreferences">
+				<p>
+					<label id="toFieldLabel" for="toField">A:</label>
+					<input type="text" name="to" id="toField" onkeyup="phone.update(this)" />
+					<img id="abtoggler" src="img/combotoggler.png" />
+					<select tabindex="-1" name="contacts" id="contactsList" onchange="phone.setToFromList(this)"></select>
+				</p>
+				<p>
+					<label id="fromFieldLabel" for="fromField">Firma:</label>
+					<input type="text" name="from" id="fromField" onkeyup="phone.update(this)" />
+				</p>
+				<p>
+					<label id="providersListLabel" for="providersList">Gestore:</label>
+					<select name="providers" id="providersList" onchange="phone.updateProvider(this)">
+						<!-- provider selection list is now filled programmatically -->
+					</select>
+				</p>
+				<p>
+					<label id="usernameFieldLabel" for="usernameField">Username:</label>
+					<input type="text" name="username" id="usernameField" onkeyup="phone.update(this)" />
+				</p>
+				<p>
+					<label id="passwordFieldLabel" for="passwordField">Password:</label>
+					<input type="password" name="password" id="passwordField" onkeyup="phone.update(this)" />
+				</p>
+			</div>
+			
+			<!-- Proxy (Network) Preferences pane -->
+			<div id="proxyPreferences">
+				<p>
+					<label id="proxyTypeListLabel" for="proxyTypeList">Proxy:</label>
+					<select name="proxyType" id="proxyTypeList" onchange="Proxy.enable(this.value!='none');Proxy.update(this)">
+						<option id="noProxyLabel" value="none">Nessuno</option>
+						<option value="proxy">HTTP</option>
+						<option value="socks">SOCKS5</option>
+						<!-- Curl 7.13 in OS X doesn't support `socks5' yet :( -->
+						<!-- <option value="socks5">SOCKS5</option> -->
+						<!-- Curl 7.13 in OS X doesn't support `socks4' yet :( -->
+						<!-- <option value="socks4">SOCKS4</option> --> 
+					</select>
+				</p>
+				<p>
+					<label id="proxyHostFieldLabel" for="proxyHostField">Host:</label>
+					<input type="text" name="proxyHost" id="proxyHostField" onkeyup="Proxy.update(this)" />
+					<input type="text" name="proxyPort" id="proxyPortField" onkeyup="Proxy.update(this)" value="1080" />
+				</p>
+				<p>
+					<label id="proxyUsernameFieldLabel" for="proxyUsernameField">Username:</label>
+					<input type="text" name="proxyUsername" id="proxyUsernameField" onkeyup="Proxy.update(this)" />
+				</p>
+				<p>
+					<label id="proxyPasswordFieldLabel" for="proxyPasswordField">Password:</label>
+					<input type="password" name="proxyPassword" id="proxyPasswordField" onkeyup="Proxy.update(this)" />
+				</p>
+				<p>
+					<label id="proxyAuthListLabel" for="proxyAuthList">Autenticaz.:</label>
+					<select name="proxyAuth" id="proxyAuthList" onchange="Proxy.update(this)">
+						<option value="basic">Basic</option>
+						<option value="digest">Digest</option>
+						<option value="ntlm">NTLM</option>
+						<!-- Curl 7.13 in OS X doesn't support `proxy-anyauth' yet :( -->
+						<!-- <option value="anyauth">Auto</option>-->
+					</select>
+				</p>
+			</div>
+			
+			<!-- Colors (Skin) Preferences pane -->
+			<div id="colorsPreferences">
+				<p id="skinchooser">
+					<img id="blue-skin" src="img/skin-chooser/blue-on.png" onclick="SkinChooser.setSkin(this)" />
+					<img id="red-skin" src="img/skin-chooser/red-off.png" onclick="SkinChooser.setSkin(this)" />
+					<img id="yellow-skin" src="img/skin-chooser/yellow-off.png" onclick="SkinChooser.setSkin(this)" />
+
+					<img id="green-skin" src="img/skin-chooser/green-off.png" onclick="SkinChooser.setSkin(this)" />
+					<img id="white-skin" src="img/skin-chooser/white-off.png" onclick="SkinChooser.setSkin(this)" />
+					<img id="purple-skin" src="img/skin-chooser/purple-off.png" onclick="SkinChooser.setSkin(this)" />			
+				</p>
+			</div>
+			
+			<!-- Locale (Language) Preferences pane -->
+			<div id="localePreferences">
+				<p style="margin-top:3em">
+					<label id="countryCodeListLabel" for="countryCodeList">Paese:</label>
+					<select name="countryCode" id="countryCodeList" onchange="CountrySelector.update(this)">
+					</select>
+				</p>
+			</div>
+
+			<!-- Software Update Preferences pane -->
+			<div id="softwareupdatePreferences">
+				<div id="suTableWrapper">
+					<table id="suTable" summary="List of items in Software Update">
+						<thead>
+							<tr>
+								<th>&middot;</th>
+								<th id="suTablePluginHdr">Plugin</th>
+								<th id="suTableCurrentHdr">Hai</th>
+								<th id="suTableLatestHdr">Nuovo</th>
+							</tr>
+						</thead>									
+						<tbody>
+						</tbody>									
+					</table>
+				</div>
+				
+				<div class="button" id="suUpdateButton"></div>
+				<div class="button" id="suCheckButton"></div>
+				
+			</div>
+
+			<!-- Plugin parameters Preferences pane -->
+			<div id="pluginParamsPreferences">
+			</div>
+		</div>
+
+		<div id="preferences-tabbar">
+			<div id="generalPreferencesTab" class="preference-tab-selected" onclick="phone.showPreferencePane(this)">
+				<img src="img/call.png" />
+			</div>
+			<div id="proxyPreferencesTab" class="preference-tab" onclick="phone.showPreferencePane(this)">
+				<img src="img/network.png" />
+			</div>
+			<div id="colorsPreferencesTab" class="preference-tab" onclick="phone.showPreferencePane(this)">
+				<img src="img/color.png" />
+			</div>
+			<div id="localePreferencesTab" class="preference-tab" onclick="phone.showPreferencePane(this)">
+				<img src="img/locale.png" />
+			</div>
+			<div id="softwareupdatePreferencesTab" class="preference-tab" onclick="phone.showPreferencePane(this)">
+				<img src="img/softwareupdate.png" />
+			</div>
+			<!--
+			<div id="pluginParamsPreferencesTab" class="preference-tab" onclick="phone.showPreferencePane(this)">
+				<img src="img/softwareupdate.png" />
+			</div>
+			-->
+		</div>
+		<div class="buttons">
+			<div class="button" id="doneButton"></div>
+			<div class="button" id="donateButton"></div>
+		</div>
+
+		<div id="logo" onclick="Utils.emeLodge()"></div>
+	</div>
+</body>
+</html>

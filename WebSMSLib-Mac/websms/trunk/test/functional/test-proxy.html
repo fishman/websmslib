@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>test-proxy</title>
+	
+	<script type="text/javascript" src="../../WebSMS.wdgt/Proxy.js"/>
+	<script type="text/javascript" src="../fixtures/fixtures.js"/>
+	<script type="text/javascript" src="../test.js"/>
+	<script type="text/javascript" src="test-proxy.js"/>
+	<script type="text/javascript" src="../../lib/Additions.js"/>
+	
+	<style type="text/css">
+		@import url("../test.css");
+	</style>
+</head>
+
+<body>
+
+	<h1>Proxy Functional Test</h1>
+	
+	<h2>GUI Mockup</h2>
+	<div id="gui-mockup">
+		<p>
+			<label id="proxyTypeListLabel" for="proxyTypeList">Proxy:</label>
+			<select name="proxyType" id="proxyTypeList" onchange="Proxy.enable(this.value!='none');Proxy.update(this)">
+				<option id="noProxyLabel" value="none">None</option>
+				<option value="proxy">HTTP</option>
+				<option value="socks">SOCKS5</option>
+			</select>
+		</p>
+		<p>
+			<label id="proxyHostFieldLabel" for="proxyHostField">Host:</label>
+			<input type="text" name="proxyHost" id="proxyHostField" onkeyup="Proxy.update(this)" />
+			<input type="text" name="proxyPort" id="proxyPortField" onkeyup="Proxy.update(this)" value="1080" />
+		</p>
+		<p>
+			<label id="proxyUsernameFieldLabel" for="proxyUsernameField">Username:</label>
+			<input type="text" name="proxyUsername" id="proxyUsernameField" onkeyup="Proxy.update(this)" />
+		</p>
+		<p>
+			<label id="proxyPasswordFieldLabel" for="proxyPasswordField">Password:</label>
+			<input type="password" name="proxyPassword" id="proxyPasswordField" onkeyup="Proxy.update(this)" />
+		</p>
+		<p>
+			<label id="proxyAuthListLabel" for="proxyAuthList">Auth. Type:</label>
+			<select name="proxyAuth" id="proxyAuthList" onchange="Proxy.update(this)">
+				<option value="basic">Basic</option>
+				<option value="digest">Digest</option>
+				<option value="ntlm">NTLM</option>
+			</select>
+		</p>
+	</div>
+	
+	<h2>Test results</h2>
+	<div id="test-messages">
+	</div>
+
+	<h2>Debug info</h2>
+	<div id="debug-messages">
+	</div>
+
+	<h2>View source</h2>
+	<ul id="scripts-list">
+	</ul>
+</body>
+</html>

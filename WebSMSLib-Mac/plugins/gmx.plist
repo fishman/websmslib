@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>report_contacts</key>
+	<dict>
+		<key>mail</key>
+		<string>abeier@gmx.com</string>
+		<key>name</key>
+		<string>Andrea Beier</string>
+	</dict>
+	<key>main_site</key>
+	<string>http://www.gmx.net/</string>
+	<key>update_url</key>
+	<string>http://www.malcom-mac.com/files/websmslib/plugins/gmx.plist</string>
+	<key>name</key>
+	<string>GMX</string>
+	<key>steps</key>
+	<array>
+		<dict>
+			<key>note</key>
+			<string>Preventive Logout to avoid the GMX timeout reminder. We do not logout after all.</string>
+			<key>referrer</key>
+			<string>https://www.gmx.net/de/dienst/</string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>https://service.gmx.net/de/cgi/nph-logout?CUSTOMERNO=%USERNAME%</string>
+			<key>vars</key>
+			<array>
+				<dict>
+					<key>note</key>
+					<string>Grab session ID used in the login URL</string>
+					<key>match</key>
+					<string>loginAction\.doview;EDOCSSESSIONID=([^&quot;]+)&quot;</string>
+					<key>name</key>
+					<string>ATT_US_SESSIONID</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>vars</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>GMX_SESSION_ID</string>
+					<key>match</key>
+					<string>CUSTOMERNO=\d+&amp;t=(de[a-f\.\d]+)</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>CUSTOMERNO=(\d+)&amp;t=de[a-f\.\d]+</string>
+					<key>name</key>
+					<string>GMX_CUSTOMER_NO</string>
+				</dict>
+			</array>
+			<key>note</key>
+			<string>Send login info.  AT&amp;T passwords are limited to letters and numbers.</string>
+			<key>referrer</key>
+			<string>https://www.gmx.net/de/dienst/</string>
+			<key>data</key>
+			<string>AREA=1&amp;EXT=&amp;EXT2=&amp;id=%USERNAME%&amp;p=%PASSWORD%</string>
+			<key>action</key>
+			<string>https://service.gmx.net/de/cgi/login</string>
+		</dict>
+		<dict>
+			<key>Note</key>
+			<string>availabilityCheck not implemented</string>
+			<key>referrer</key>
+			<string>http://service.gmx.net/de/cgi/g.fcgi/startpage?site=greetings&amp;CUSTOMERNO=%GMX_CUSTOMER_NO%&amp;lALIAS=&amp;lDOMAIN=&amp;lLASTLOGIN=&amp;t=%GMX_SESSION_ID%&amp;</string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>https://service.gmx.net/de/cgi/sms?CUSTOMERNO=%GMX_CUSTOMER_NO%&amp;t=%GMX_SESSION_ID%</string>
+		</dict>
+		<dict>
+			<key>note</key>
+			<string>Enter data and continue</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>Die Nummer ist ung&amp;uuml;ltig!</string>
+					<key>reason</key>
+					<string>Die Nummer ist ungültig!</string>
+				</dict>
+			</array>
+			<key>vars</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>GMX_TO</string>
+					<key>match</key>
+					<string>name=\&quot;nr\&quot;\svalue=\&quot;\+(\d+)\&quot;</string>
+				</dict>
+			</array>
+			<key>referrer</key>
+			<string>https://service.gmx.net/de/cgi/sms?CUSTOMERNO=%GMX_CUSTOMER_NO%&amp;t=%GMX_SESSION_ID%</string>
+			<key>data</key>
+			<string>CUSTOMERNO=%GMX_CUSTOMER_NO%&amp;t=%GMX_SESSION_ID%&amp;AREA=11&amp;SPONSOR=&amp;USEPRO=0&amp;nr=%TO%&amp;email=&amp;msg=%TEXT%%20%FROM%</string>
+			<key>action</key>
+			<string>https://service.gmx.net/de/cgi/sms</string>
+		</dict>
+		<dict>
+			<key>note</key>
+			<string>Confirm SMS</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>Die Nummer ist ung&amp;uuml;ltig!</string>
+					<key>reason</key>
+					<string>Die Nummer ist ungültig!</string>
+				</dict>
+			</array>
+			<key>vars</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>GMX_TO</string>
+					<key>match</key>
+					<string>name=\&quot;nr\&quot;\svalue=\&quot;\+(\d+)\&quot;</string>
+				</dict>
+			</array>
+			<key>referrer</key>
+			<string>https://service.gmx.net/de/cgi/sms?CUSTOMERNO=%GMX_CUSTOMER_NO%&amp;t=%GMX_SESSION_ID%</string>
+			<key>data</key>
+			<string>CUSTOMERNO=%GMX_CUSTOMER_NO%&amp;t=%GMX_SESSION_ID%&amp;AREA=12&amp;nr=%2B%GMX_TO%&amp;msg=%TEXT%%20%FROM%&amp;email=&amp;USEPRO=0&amp;SPONSOR=</string>
+			<key>action</key>
+			<string>https://service.gmx.net/de/cgi/sms</string>
+		</dict>
+	</array>
+	<key>charset</key>
+	<string>iso-8859-1</string>
+	<key>success_marker</key>
+	<string>SMS-Nachricht wurde an</string>
+	<key>code_name</key>
+	<string>gmx</string>
+	<key>max_message_length</key>
+	<integer>159</integer>
+	<key>version</key>
+	<string>1.2.1</string>
+</dict>
+</plist>

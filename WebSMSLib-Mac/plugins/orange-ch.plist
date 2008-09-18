@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>report_contacts</key>
+	<dict>
+		<key>mail</key>
+		<string>malcom.mac@gmail.com</string>
+		<key>name</key>
+		<string>Christoph Studer</string>
+	</dict>
+	<key>main_site</key>
+	<string>http://www.orange.ch</string>
+	<key>update_url</key>
+	<string>http://www.malcom-mac.com/files/websmslib/plugins/orange-ch.plist</string>
+	<key>name</key>
+	<string>Orange CH</string>
+	<key>steps</key>
+	<array>
+		<dict>
+			<key>referrer</key>
+			<string>http://www.orange.ch/footer/login</string>
+			<key>data</key>
+			<string>wui_target_id=loginButton&amp;wui_event_id=onclick&amp;username=%USERNAME%&amp;password=%PASSWORD%&amp;loginButton=Login</string>
+			<key>action</key>
+			<string>https://www.orange.ch/footer/login/loginForm</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>errorList</string>
+					<key>reason</key>
+					<string>Wrong username or password</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>https://www.orange.ch/footer/login/loginForm</string>
+			<key>data</key>
+			<string>wui_target_id=sendButton&amp;wui_event_id=onclick&amp;destinationNumberInput=%TO%&amp;messageInput=%TEXT%%20%FROM%&amp;charNumberLeftOutput=0&amp;signatureInput=</string>
+			<key>action</key>
+			<string>https://www.orange.ch/myorange/sms/smsForm</string>
+		</dict>
+	</array>
+	<key>charset</key>
+	<string>iso-8859-1</string>
+	<key>success_marker</key>
+	<string>successOutput</string>
+	<key>code_name</key>
+	<string>orange-ch</string>
+	<key>max_message_length</key>
+	<integer>142</integer>
+	<key>version</key>
+	<string>0.0.1</string>
+</dict>
+</plist>

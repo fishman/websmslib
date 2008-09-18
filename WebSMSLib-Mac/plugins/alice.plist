@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>report_contacts</key>
+	<dict>
+		<key>mail</key>
+		<string>malcom.mac@gmail.com</string>
+		<key>name</key>
+		<string>Daniele Margutti</string>
+	</dict>
+	<key>main_site</key>
+	<string>http://virgilio.alice.it/indexbb.html</string>
+	<key>update_url</key>
+	<string>http://www.malcom-mac.com/files/websmslib/plugins/alice.plist</string>
+	<key>name</key>
+	<string>Alice</string>
+	<key>steps</key>
+	<array>
+		<dict>
+			<key>referrer</key>
+			<string>http://pf.rossoalice.alice.it</string>
+			<key>data</key>
+			<string>usernameDisplay=%USERNAME%&amp;password=%PASSWORD%&amp;dominio=@alice.it&amp;login=%USERNAME%@alice.it&amp;pwd=%PASSWORD%&amp;channel=mail_alice&amp;URL_OK=https%3A%2F%2Fauthsrs.alice.it%2Faap%2Faap_redir.jsp%3Fentry%3Dmail_alice&amp;URL_KO=https%3A%2F%2Fauthsrs.alice.it%2Faap%2Faap_redir_ko.jsp%3Fentry%3Dmail_alice&amp;servizio=mail&amp;msisdn=%USERNAME%&amp;username=%USERNAME%@alice.it&amp;user=%USERNAME%@alice.it&amp;a3afep=http%3A%2F%2Fportale.rossoalice.alice.it%2Fps%2FManageCodError.do%3Fcode%3D470%26channel%3Dhp_alice&amp;DOMAIN=&amp;PASS=%PASSWORD%&amp;self=true&amp;a3si=none&amp;a3st=VCOMM&amp;nototop=true&amp;a3aid=na&amp;a3flag=0&amp;a3ep=http%3A%2F%2Fcommunicator.alice.it%2Fasp%2Flogin.asp&amp;a3se=http%3A%2F%2Fportale.rossoalice.alice.it%2Fps%2FManageCodError.do%3Fcode%3D470%26channel%3Dhp_alice&amp;a3dcep=http%3A%2F%2Fcommunicator.alice.it%2Fasp%2Fhomepage.asp%3Fs%3D005&amp;a3l=%USERNAME%@alice.it&amp;a3p=%PASSWORD%</string>
+			<key>action</key>
+			<string>https://authsrs.alice.it/aap/validatecredential</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://portale.rossoalice.alice.it/ps/MailServizi_WP.do</string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>http://portale.rossoalice.alice.it/ps/HomePS.do?area=welcomePage</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://portale.rossoalice.alice.it/ps/HomePS.do?area=welcomePage</string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>http://portale.rossoalice.alice.it/ps/navigazione.do?area=welcomePage&amp;areaclienti=187</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://portale.rossoalice.alice.it/ps/navigazione.do?area=welcomePage&amp;areaclienti=187</string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>http://portale.rossoalice.alice.it/ps/Posta.do</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://portale.rossoalice.alice.it/ps/Posta.do</string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>http://portale.rossoalice.alice.it/ps/menuGold.do</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://portale.rossoalice.alice.it/ps/menuGold.do</string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>http://auth.rossoalice.alice.it/aap/serviceforwarder?sf_dest=ibox_inviosms</string>
+		</dict>
+		<dict>
+			<key>availabilityCheck</key>
+			<string>Oggi hai ancora +a disposizione &lt;b&gt;\s+(\d+) SMS GRATUITI&lt;\/b&gt;</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>reason</key>
+					<string>Servizio non disponibile</string>
+					<key>match</key>
+					<string>sistemi non disponibili</string>
+				</dict>
+				<dict>
+					<key>reason</key>
+					<string>ad ogni destinatario ha un costo</string>
+					<key>match</key>
+					<string>SMS gratuiti odierni esauriti</string>
+				</dict>
+			</array>
+			<key>referrer</key>
+			<string>http://webloginmobile.rossoalice.alice.it/sunrise/loginSunriseWeb?</string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>http://webloginmobile.rossoalice.alice.it/alice/jsp/SMS/composer.jsp?ID_Field=0&amp;ID_Value=0&amp;id_clickto=0&amp;dummy=dummy</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://webloginmobile.rossoalice.alice.it/alice/jsp/SMS/composer.jsp?ID_Field=0&amp;ID_Value=0&amp;id_clickto=0&amp;dummy=dummy</string>
+			<key>data</key>
+			<string>DEST=%TO%&amp;ABGDEST=&amp;TYPE=smsp&amp;ABG_NOME_LISTA=&amp;NOME_LISTA=2800&amp;SHORT_MESSAGE2=%TEXT%%20%FROM%&amp;SHORT_MESSAGE=%E_TEXT%%2520%E_FROM%&amp;INVIA_SUBITO=true&amp;GIORNO=&amp;ORE=&amp;MINUTI=</string>
+			<key>action</key>
+			<string>http://webloginmobile.rossoalice.alice.it/alice/jsp/SMS/CheckDest.jsp</string>
+		</dict>
+		<dict>
+			<key>captcha</key>
+			<string>http://webloginmobile.rossoalice.alice.it/alice/jsp/EwsJCaptcha.jpg</string>
+			<key>referrer</key>
+			<string>http://webloginmobile.rossoalice.alice.it/alice/jsp/SMS/CheckDest.jsp</string>
+			<key>data</key>
+			<string>MINUTI=&amp;SHORT_MESSAGE=%E_TEXT%%2520%E_FROM%&amp;ABG_NOME_LISTA=&amp;TYPE=smsp&amp;ORE=&amp;GIORNO=&amp;INVIA_SUBITO=true&amp;ABGDEST=&amp;SHORT_MESSAGE2=%TEXT%%20%FROM%&amp;NOME_LISTA=&amp;DEST=%TO%&amp;nonInviati=2800&amp;nonInRubrica=%TO%</string>
+			<key>action</key>
+			<string>http://webloginmobile.rossoalice.alice.it/alice/jsp/SMS/inviaSms.jsp</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://webloginmobile.rossoalice.alice.it/alice/jsp/SMS/inviaSms.jsp</string>
+			<key>data</key>
+			<string>MINUTI=&amp;SHORT_MESSAGE=%E_TEXT%%2520%%E_FROM%&amp;NOME_LISTA=&amp;nonInviati=2800&amp;ABG_NOME_LISTA=&amp;nonInRubrica=%TO%&amp;TYPE=smsp&amp;ORE=&amp;DEST=%TO%&amp;GIORNO=&amp;INVIA_SUBITO=true&amp;ABGDEST=&amp;SHORT_MESSAGE2=%TEXT%%20%FROM%&amp;captchafield=%CAPTCHA%</string>
+			<key>action</key>
+			<string>http://webloginmobile.rossoalice.alice.it/alice/jsp/SMS/inviaSms.jsp</string>
+		</dict>
+	</array>
+	<key>charset</key>
+	<string>iso-8859-1</string>
+	<key>success_marker</key>
+	<string>Vuoi aggiungerli ora</string>
+	<key>code_name</key>
+	<string>alice</string>
+	<key>max_message_length</key>
+	<integer>150</integer>
+	<key>version</key>
+	<string>1.2.2</string>
+</dict>
+</plist>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>report_contacts</key>
+	<dict>
+		<key>mail</key>
+		<string></string>
+		<key>name</key>
+		<string>Claudio Procida</string>
+	</dict>
+	<key>main_site</key>
+	<string>https://myaccount.voipbuster.com/</string>
+	<key>update_url</key>
+	<string>http://www.malcom-mac.com/files/websmslib/plugins/o2-ie.plist</string>
+	<key>name</key>
+	<string>O2 Ireland</string>
+	<key>steps</key>
+	<array>
+		<dict>
+			<key>referrer</key>
+			<string></string>
+			<key>data</key>
+			<string>IDToken1=%USERNAME%&amp;IDToken2=%PASSWORD%&amp;Go=Go</string>
+			<key>action</key>
+			<string>https://www.o2online.ie/amserver/UI/Login?org=o2ext</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>successful due to incorrect details</string>
+					<key>reason</key>
+					<string>Wrong username or password</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string></string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>http://www.o2online.ie/NASApp/TM/O2/send.jsp?wcmArea=</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://www.o2online.ie/NASApp/TM/O2/send.jsp?wcmArea=</string>
+			<key>data</key>
+			<string>msisdn=%TO_CCODE%%TO%&amp;Msg=%TEXT%%20%FROM%&amp;Msg1=%TEXT%%20%FROM%&amp;msgcount=&amp;country=&amp;recipients=1&amp;grpSTR=&amp;ConSTR=&amp;command=send&amp;NumMessages=1</string>
+			<key>action</key>
+			<string>http://www.o2online.ie/NASApp/TM/O2/processSendMessage.jsp</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>Problem sending message</string>
+					<key>reason</key>
+					<string>Problem sending message</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>Service is currently unavailable</string>
+					<key>reason</key>
+					<string>Service is currently unavailable</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>maintenance</string>
+					<key>reason</key>
+					<string>Service under maintenance</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>charset</key>
+	<string>iso-8859-1</string>
+	<key>success_marker</key>
+	<string>Message Sent</string>
+	<key>code_name</key>
+	<string>o2-ie</string>
+	<key>max_message_length</key>
+	<integer>160</integer>
+	<key>version</key>
+	<string>0.0.1</string>
+</dict>
+</plist>
