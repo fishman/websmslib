@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>report_contacts</key>
+	<dict>
+		<key>mail</key>
+		<string>michael.pederson@gmail.com</string>
+		<key>name</key>
+		<string>Michael Pederson</string>
+	</dict>
+	<key>main_site</key>
+	<string>http://www.att.com</string>
+	<key>update_url</key>
+	<string>http://www.malcom-mac.com/files/websmslib/plugins/att-us.plist</string>
+	<key>name</key>
+	<string>AT&amp;T USA</string>
+	<key>steps</key>
+	<array>
+		<dict>
+			<key>note</key>
+			<string>Set pre-login session cookies by pulling login page. </string>
+			<key>referrer</key>
+			<string></string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>https://www.wireless.att.com/olam/loginAction.olamexecute</string>
+			<key>vars</key>
+			<array>
+				<dict>
+					<key>note</key>
+					<string>Grab session ID used in the login URL</string>
+					<key>match</key>
+					<string>EDOCSSESSIONID=([^&quot;]+)&quot;</string>
+					<key>name</key>
+					<string>ATT_US_SESSIONID</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>reason</key>
+					<string>Username/Number does not exist</string>
+					<key>match</key>
+					<string>The wireless number you entered is not found in our records</string>
+				</dict>
+				<dict>
+					<key>note</key>
+					<string>Grab session ID used in the login URL</string>
+					<key>match</key>
+					<string>he password you entered does not match the password for this wireless number</string>
+					<key>reason</key>
+					<string>Wrong Password</string>
+				</dict>
+			</array>
+			<key>note</key>
+			<string>Send login info.  AT&amp;T passwords are limited to letters and numbers.</string>
+			<key>referrer</key>
+			<string></string>
+			<key>data</key>
+			<string>pass=%PASSWORD%&amp;wireless_num=%USERNAME%&amp;actionEvent=preAuthenticate&amp;ajaxSupported=true&amp;x=0&amp;y=0&quot;</string>
+			<key>action</key>
+			<string>https://www.wireless.att.com/olam/loginAction.doview;EDOCSSESSIONID=%ATT_US_SESSIONID%</string>
+		</dict>
+		<dict>
+			<key>note</key>
+			<string>Second part of sending login info</string>
+			<key>referrer</key>
+			<string></string>
+			<key>data</key>
+			<string>IDToken1=%USERNAME%&amp;IDToken2=%PASSWORD%&amp;goto=https%3a%2f%2fwww.wireless.att.com%3a443%2folam%2floginAction.olamexecute%3factionEvent%3dlogin%26reportActionEvent%3dA_LGN_LOGIN_SUB&amp;gotoOnFail=https%3a%2f%2fwww.wireless.att.com%3a443%2folam%2fauthenticateAction.olamexecute%3factionEvent%3dauthenticateFailed%26reportActionEvent%3dA_LGN_LOGIN_SUB</string>
+			<key>action</key>
+			<string>https://idis.wireless.att.com/amserver/UI/Login?IDToken0=&amp;IDButton=Submit&amp;arg=newsession&amp;gx_charset=UTF-8</string>
+		</dict>
+		<dict>
+			<key>note</key>
+			<string>Send message</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>not a valid AT&amp;T wireless number</string>
+					<key>reason</key>
+					<string>Receiver must be an AT&amp;T wireless subscriber</string>
+				</dict>
+			</array>
+			<key>referrer</key>
+			<string></string>
+			<key>data</key>
+			<string>toCtnAreaCode=%TO_US_AREACODE%&amp;toCtnPrefix=%TO_US_PREFIX%&amp;toCtnNumber=%TO_US_NUMBER%&amp;msgBody=%TEXT%</string>
+			<key>action</key>
+			<string>https://www.wireless.att.com/olam/gotoPhone.olamexecute?event=sendTextMessage&amp;reportActionEvent=A_PHON_SEND_MSG_SUB</string>
+		</dict>
+	</array>
+	<key>charset</key>
+	<string>iso-8859-1</string>
+	<key>success_marker</key>
+	<string>Your message has been sent</string>
+	<key>code_name</key>
+	<string>att-us</string>
+	<key>max_message_length</key>
+	<integer>160</integer>
+	<key>version</key>
+	<string>0.1</string>
+</dict>
+</plist>

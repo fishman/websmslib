@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>report_contacts</key>
+	<dict>
+		<key>mail</key>
+		<string></string>
+		<key>name</key>
+		<string>Claudio Procida</string>
+	</dict>
+	<key>main_site</key>
+	<string>https://myaccount.voipstunt.com</string>
+	<key>update_url</key>
+	<string>http://www.malcom-mac.com/files/websmslib/plugins/voipstunt.plist</string>
+	<key>name</key>
+	<string>VoipStunt</string>
+	<key>steps</key>
+	<array>
+		<dict>
+			<key>referrer</key>
+			<string></string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>https://myaccount.voipstunt.com/clx/sendsms.php?username=%USERNAME%&amp;password=%PASSWORD%&amp;from=%USERNAME%&amp;to=%2B%TO_CCODE%%TO%&amp;text=%TEXT%%20%FROM%</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>do not have enough credit</string>
+					<key>reason</key>
+					<string>You have no credit left</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>4-10 digits</string>
+					<key>reason</key>
+					<string>Pin code must have 4-10 digits</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>charset</key>
+	<string>iso-8859-1</string>
+	<key>success_marker</key>
+	<string>.</string>
+	<key>code_name</key>
+	<string>voipstunt</string>
+	<key>max_message_length</key>
+	<integer>160</integer>
+	<key>version</key>
+	<string>0.1</string>
+</dict>
+</plist>

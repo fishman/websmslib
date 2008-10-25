@@ -1,0 +1,4521 @@
+2007-01-29 16:29:12.079 DashboardClient[6883] it.emeraldion.widget.websms: /usr/bin/curl -L -s -d "username=.......&password=........&login_button=" -e "http://www.190.it/190/trilogy/jsp/home.do?tabName=HOME+190&BV_UseBVCookie=No&ty_skip_md=true" -c "/var/tmp/websms.Vodafone.cookie.1.txt" -A "Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1" --proxy ...........:8080 --proxy-basic --proxy-user ....:....... "https://www.190.it/190/trilogy/jsp/login.do" | iconv -f iso-8859-1 -t utf-8
+2007-01-29 16:29:17.610 DashboardClient[6883] it.emeraldion.widget.websms: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Page Generation Date = "Mon Jan 29 16:29:00 MET 2007" -->
+<!-- TabName = "HOME 190" -->
+<!-- Host Name = "558" -->
+
+    
+    
+    
+
+
+
+
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/res/img/favicon.ico">
+    <title>Vodafone</title>
+    <script src="/res/js/style.js" language="JavaScript" type="text/javascript"></script>
+    <script src="/res/js/navigation.js" language="JavaScript" type="text/javascript"></script>
+    <script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+</head>
+<body>
+<a name="trilogy_top_header"></a>
+
+
+
+
+
+
+
+
+               
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+   if(navigator.appName == "Microsoft Internet Explorer"){
+   //Check if the browser is InternetExplorer, and if it supports the getElementById DOM method
+   var ie_vers = (document.defaultCharset && document.getElementById);
+   if(ie_vers)
+   document.write ("<style id='hideObject'> object{display:none;} </style>");
+   }
+</script>
+
+
+       
+    
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    
+    
+
+    
+
+
+
+
+
+
+    
+    <!-- NUOVO HEADER GENERATO PER IL TEMPLATE 190 -->
+<!-- Debug: header 190 EX -->
+
+
+<div style="width:760px;height:15px;">
+</div>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    <tr>
+        <td>
+           <div class="nw_header">
+               <div class="nw_header_logo">
+                   <a href="http://www.190.it" onFocus="this.blur()" target="_top"><img src="/res/img/new_header/logo_1.gif" alt="Vodafone" title="Vodafone" border="0"></a>
+               </div>
+
+               <div class="nw_header_buttons">
+
+                   <div class="nw_header_servizi">
+                       
+                       <div class="nw_header_v12space"></div>
+                       <a href="#"
+                          onClick='javascript:window.open("http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=diac&tk=9616,t")'
+                          onFocus="this.blur()">
+                                   &raquo;&nbsp;Sito accessibile
+                       </a>
+                       &nbsp;&nbsp;|&nbsp;&nbsp;
+                       
+                       
+                       <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=new_support_area&tk=9616,t" target="_top" onFocus="this.blur()">
+                       
+                                  
+                                  &raquo;&nbsp;Contattaci
+                       </a>
+
+                   </div>
+
+                   <div class="nw_header_bottoni">
+                       
+                   <a href="http://www.areaprivati.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+privati&tk=9616,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('priv','','/res/img/new_header/btn_privati_on.gif',1);"onFocus="this.blur()"><img name="priv" src="/res/img/new_header/btn_privati.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+aziende&tk=9616,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('busi','','/res/img/new_header/btn_business_on.gif',1);"onFocus="this.blur()"><img name="busi" src="/res/img/new_header/btn_business.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Fai+da+te+aziende&tk=9616,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('fdte','','/res/img/new_header/btn_fai_da_te_on.gif',1);"onFocus="this.blur()"><img name="fdte" src="/res/img/new_header/btn_fai_da_te.gif" border="0" ></a><a href="http://www.190.it/190/trilogy/jsp/home.do?tabName=VLive&tk=9616,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vliv','','/res/img/new_header/btn_vodafone_live_on.gif',1);"onFocus="this.blur()"><img name="vliv" src="/res/img/new_header/btn_vodafone_live.gif" border="0" ></a><a href="http://www.shop.190.it/190/trilogy/jsp/home.do?tabName=SHOP&tk=9616,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vshp','','/res/img/new_header/btn_shop_on.gif',1);"onFocus="this.blur()"><img name="vshp" src="/res/img/new_header/btn_shop.gif" border="0" ></a><a href="http://www.vodafone.it/vodafone/trilogy/jsp/home.do?tabName=HOME+VODAFONE&tk=9616,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('azie','','/res/img/new_header/btn_azienda_on.gif',1);"onFocus="this.blur()"><img name="azie" src="/res/img/new_header/btn_azienda.gif" border="0" ></a>
+                   </div>
+                   <div class="nw_header_barra">
+                   </div>
+               </div>
+           </div>
+        </td>
+    </tr>
+</table>
+<!-- Debug: EX ----------------------------------->
+
+    
+
+
+
+
+
+
+
+
+
+													<!-- Blocco di controllo per la nuova versione EX-->
+
+<script src="/res/js/navigation.js" language="JavaScript" type="text/javascript"></script>
+<script src="/res/js/search.js" language="JavaScript" type="text/javascript"></script>
+<center>
+  <table border="0" cellpadding="0" cellspacing="0" width="760" class="new_login">
+    <tr>
+      <td height="35">
+        <table border="0" cellpadding="0" cellspacing="0" width="325" background="/res/img/new_header/login_left_ground.gif">
+          <tr valign="top">
+            <td width="11" height="35"></td>
+            <td width="38" ><img src="/res/img/new_header/login_ciao.gif" alt="Benvenuto!" title="Benvenuto!"></td>
+            <td width="175" style="font-weight:bold;" valign="middle"><span><!-- TY_NAME -->………………………<!-- TY_END --></span></td>
+            <td width="101"><a href="http://www.190.it/190/lsch/regu/ty_l_reguUPDATE.jsp" target="_parent"><img src="/res/img/new_header/btn_login_modifica_dati.gif" alt="Modifica dati" border="0"></a></td>
+          </tr>
+        </table>
+      </td>
+      <td valign="top" width="435">
+        <div id="hdOuterRicerca">
+          <div id="hdInnerRicercaOn">
+            <script language="javascript">drawSearchBox('searchForm','/190/trilogy/jsp/search.do');</script>
+          </div>
+
+<!-- HOME 190 o Vodafone -->
+
+         <div id="hdInnerRicercaOff">
+           <table border="0" cellpadding="0" cellspacing="0" width="435" background="/res/img/new_header/login_right_ground_b.gif">
+             <tr valign="top">
+               <td width="20" height="35"></td>
+               <td width="49">
+                 <img class="h_ten" src="/res/img/new_header/login_logout.gif" alt="Logout" title="Logout" border="0">
+               </td>
+               <td width="149">
+                 <a href='http://www.190.it/190/trilogy/jsp/logout.do?tk=9616,t' target="_parent">
+                   <img src="/res/img/new_header/btn_login_w_freccie.gif" alt="Invia" border="0" align="middle" title="Invia">
+                 </a>
+               </td>
+               <td width="146"></td>
+               <td width="72">
+                 <a href="javascript:showSearchBox();" >
+                   <img src="/res/img/new_header/btn_login_cerca.gif" alt="Ricerca qui" border="0" title="Ricerca qui">
+                 </a>
+               </td>
+             </tr>
+           </table>
+         </div>
+
+         </div>
+       </td>
+     </tr>
+   </table>
+</center>
+
+
+
+
+
+
+
+<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr>
+        <td width="*" valign="top">
+            
+
+    
+
+
+
+
+
+
+
+
+<script language="javascript">
+  var shop_fatto = false;
+
+  function openRecharges(){
+    if (document.hp190_form_ricariche.pfid[document.hp190_form_ricariche.pfid.selectedIndex].value != 0 && shop_fatto == false){
+      if(document.hp190_form_ricariche.pfid.selectedIndex == 1){
+    	  document.hp190_form_ricariche.action="http://www.shop.190.it/190/trilogy/jsp/dispatcher.do?ty_key=shop_TRpiu_informativa&tk=9893,3";
+    	  document.hp190_form_ricariche.pfid[document.hp190_form_ricariche.pfid.selectedIndex].value ="";
+      }else{
+        document.hp190_form_ricariche.action="http://www.shop.190.it/190/trilogy/jsp/home.do?shop_forward=%2FsingolaRicarica.do&tk=9893,3&tabName=SHOP&ty_logged=yes&ty_key=&shop_forward=/singolaRicarica.do";
+      }
+      document.hp190_form_ricariche.contID.value=document.hp190_form_ricariche.pfid[document.hp190_form_ricariche.pfid.selectedIndex].value;
+      document.hp190_form_ricariche.method="post";
+      document.hp190_form_ricariche.pfid.blur();
+      shop_fatto = true;
+      document.hp190_form_ricariche.submit();
+    }
+  }
+</script>
+
+
+
+  
+      
+          
+          
+      
+
+      
+  
+
+
+
+
+  
+      
+          
+          
+      
+
+      
+  
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+	  <tr>
+     <td height="6" colspan="3"><img height="6" src="/res/img/nada.gif"></td>
+    </tr>
+
+		<tr>
+			<td valign="top">
+				<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td>
+
+<script>
+		<!--
+			function openWindowPopup(strurl, w, h, scrollbars, tk, area, popupName, check) {			
+			      strurl = strurl + '&tk=' + tk + ',' + area;
+			      if (scrollbars=='') {
+			      	scrollbars='no';
+			      }
+			      if (check == 0) {
+			      		var c = 'no';
+			      		 strurl = strurl + '&popup=true';
+			      } else {
+			      		var c = 'yes';
+			      }
+			      tools = 'width='+w+','+'height='+h+','+'toolbar='+c+',location='+c+',directories='+c+',status='+c+',menubar='+c+',scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+			      window.open(strurl, popupName, tools);
+		}
+		function openLinkPopupPrivati(index, area, check, w, h, s) {
+	        	var tk='';
+	        	var str = strurlPr[index] + '&tk=' + tk + ',' + area;
+	        	
+				if (pPr[index]!="")
+					str = str +'&'+unescape(pPr[index]);
+
+				if (check==0) {
+					str = str + '&popup=true';
+					var c = "no";
+				} else if (check==1) {
+					var c = "yes";
+				} else {
+					window.location = str;
+					return true;
+				}
+				tools = 'width='+w+',height='+h+',toolbar='+c+',location='+c+',directories='+c+',status='+c+',menubar='+c+',scrollbars='+s+',resizable=yes,top=5,left=5';
+				window.open(str,"", tools);
+		}
+		//-->
+	</script>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td valign="top" bgcolor="#ffffff" width="502">
+<table width="502" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="502" height="188"><script>
+					if ( flashDetected() )
+					{
+					
+	document.write(
+		'<object height="188" width="502" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" id="flash" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">' +
+		'<param value="/res/attachments/images/2007_01_18_vod_one_polinesia.swf" name="movie">' +
+		'<embed height="188" width="502" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" src="/res/attachments/images/2007_01_18_vod_one_polinesia.swf">' +
+		'<param value="high" name="quality">' +
+		'</embed>' +
+		'</object>'
+	);
+
+					}
+					else
+					{
+					
+	var strurlPr = new Array(1);
+	strurlPr[0] = '';
+	
+	var pPr = new Array(1);
+	pPr[0] = '';
+
+	document.write(
+		'<map id="mappa_consumer" name="mappa_consumer">' +
+		'<area target="_blank" href="http://www.macromedia.com/go/getflashplayer" title="Scarica gratis Flash Player" alt="Scarica gratis Flash Player" coords="242,1,501,25">' +
+		'<area coords="6,34,495,180" onclick="openLinkPopupPrivati(0,1,2,0,0,0);" href="#" alt="Vodafone live!">' +
+		'</map>' +
+		'<IMG src="/res/attachments/images/no_flash_consumer.gif" width="502" height="188" border="0" usemap="#mappa_consumer">'
+	);
+
+					}
+				</script></td>
+</tr>
+</table>
+<table width="502" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td colspan="6" height="5"><img src="/res/img/nada.gif"></td>
+</tr>
+<tr align="left">
+<td height="30"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=regu_reg&tk=9616,2" onFocus="this.blur();"><img title="Scegli username e password per utilizzare i servizi online" alt="Scegli username e password per utilizzare i servizi online" border="0" src="/res/attachments/images/btn_hp_registrati0.gif"></a><img width="2" src="/res/img/nada.gif"></td><td height="30"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=mmlsendmms&tk=9616,2" onFocus="this.blur();"><img title="Immagini e suoni per comunicare in modo divertente" alt="Immagini e suoni per comunicare in modo divertente" border="0" src="/res/attachments/images/mms3.gif"></a><img width="2" src="/res/img/nada.gif"></td><td height="30"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_invia_sms&tk=9616,2" onFocus="this.blur();"><img title="Tutti i servizi SMS" alt="Tutti i servizi SMS" border="0" src="/res/attachments/images/sms5.gif"></a><img width="2" src="/res/img/nada.gif"></td><td height="30"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=VL_HP_SUONERIE&tk=9616,2" onFocus="this.blur();"><img title="Scarica online le tue suonerie preferite" alt="Scarica online le tue suonerie preferite" border="0" src="/res/attachments/images/btn_hp_suonerie.gif"></a><img width="2" src="/res/img/nada.gif"></td><td height="30"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=config_phone&tk=9616,2" onFocus="this.blur();"><img title="Configura online il tuo cellulare" alt="Configura online il tuo cellulare" border="0" src="/res/attachments/images/configurazioni2.gif"></a><img width="2" src="/res/img/nada.gif"></td><td height="30"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=one_hp&tk=9616,2" onFocus="this.blur();"><img title="Il programma che premia la tua fedelt&agrave;" alt="Il programma che premia la tua fedelt&agrave;" border="0" src="/res/attachments/images/vodafoneone2.gif"></a><img width="2" src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td colspan="6" height="9"><img src="/res/img/nada.gif"></td>
+</tr>
+</table>
+<table height="251" width="502" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td valign="top" align="left" height="251" width="107">
+<table height="251" align="left" width="100" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td height="4"><img src="/res/img/box_sx_open.gif"></td>
+</tr>
+<tr valign="top">
+<td style="padding-right:5px;" align="right" background="/res/img/box_sx_back.gif" height="95">
+<form name="hp190_form_ricariche">
+<table valign="top" width="92" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td height="1"><img height="1" src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td valign="top" style="padding-left:2px;" align="left" width="90" height="16"><img title="Ricarica qui" alt="Ricarica qui" src="/res/img/tit_hp_ricarica_qui.gif"></td>
+</tr>
+<tr>
+<td valign="middle" height="18" align="right"><select onClick="shop_fatto=false;this.blur();" onChange="openRecharges();this.blur();" style="width:90px;" name="pfid">
+
+<option value="" class="optionTextColor">Scegli</option><option value="TelericaricaPiu" class="optionTextColor">TelericaricaPi&ugrave;</option><option value="990105" class="optionTextColor" >Ricarica 250  &#8364;</option><option value="990086" class="optionTextColor" >Ricarica 150  &#8364;</option><option value="990070" class="optionTextColor" >Ricarica 100  &#8364;</option><option value="900080E" class="optionTextColor" >Ricarica 80  &#8364;</option><option value="990085" class="optionTextColor" >Ricarica 50  &#8364;</option><option value="990063" class="optionTextColor" >Ricarica 25  &#8364;</option><option value="900040" class="optionTextColor" >Ricarica 10  &#8364;</option><option value="990092" class="optionTextColor" >Ricarica 3  &#8364;</option>
+</select></td>
+</tr>
+<tr>
+<td height="3"><img height="3" src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td align="right"><img src="/res/attachments/images/HP_ricarica03.gif"></td>
+</tr>
+</table>
+<input value="" name="contID" type="hidden">
+</form>
+</td>
+</tr>
+<tr>
+<td height="4"><img src="/res/img/box_sx_close.gif"></td>
+</tr>
+<tr>
+<td height="7"><img src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td height="4"><img src="/res/img/box_sx_open.gif"></td>
+</tr>
+<tr>
+<td height="1"><img src="/res/img/box_sx_back.gif"></td>
+</tr>
+<tr valign="top">
+<td background="/res/img/box_sx_gray_back.gif" align="left" class="cont" height="131"><img title="" alt="" src="/res/attachments/images/tit_hp_azienda4pixel.gif" style="margin-top:1px;"><table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td valign="top" height="3" colspan="2"><img height="3" src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td valign="top" width="7"><img src="/res/img/red_point.gif"></td><td width="93"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=ist_chi_siamo&tk=9616,4" onFocus="this.blur();">Chi siamo</a></td>
+</tr>
+<tr>
+<td height="6" colspan="2"><img height="6" src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td valign="top" width="7"><img src="/res/img/red_point.gif"></td><td width="93"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=ist_per_la_stampa&tk=9616,4" onFocus="this.blur();">Per la stampa</a></td>
+</tr>
+<tr>
+<td height="6" colspan="2"><img height="6" src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td valign="top" width="7"><img src="/res/img/red_point.gif"></td><td width="93"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=ist_corporate_responsibility&tk=9616,4" onFocus="this.blur();">Responsabilit&agrave; d'Impresa</a></td>
+</tr>
+<tr>
+<td height="6" colspan="2"><img height="6" src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td valign="top" width="7"><img src="/res/img/red_point.gif"></td><td width="93"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=ist_lavora_con_noi&tk=9616,4" onFocus="this.blur();">Lavora con noi</a></td>
+</tr>
+<tr>
+<td height="6" colspan="2"><img height="6" src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td valign="top" width="7"><img src="/res/img/red_point.gif"></td><td width="93"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=ist_corporate_info&tk=9616,4" onFocus="this.blur();">About us</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="1"><img src="/res/img/box_sx_back.gif"></td>
+</tr>
+<tr>
+<td height="4"><img src="/res/img/box_sx_close.gif"></td>
+</tr>
+</table>
+</td><td bgcolor="#ffffff" width="395">
+<table class="box_privati" height="251" width="395" cellspacing="0" cellpadding="0" border="0"><tr><td height="122" width="194">
+<table height="122" width="194" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td background="/res/img/4celle_open.gif" height="5"></td>
+</tr>
+<tr>
+<td background="/res/img/4celle_back.gif" height="112">
+<table class="box_centr" height="112" width="194" cellspacing="0" cellpadding="0" border="0">
+<tr valign="top">
+<td height="11"><img title="" alt="" src="/res/attachments/images/tit_hp_noproblem.gif"></td>
+</tr>
+<tr>
+<td height="3"></td>
+</tr>
+<tr valign="top">
+<td class="privati_txt_4celle" height="45"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_pri_tm488_No_Problem_1000&tk=9616,B1" onFocus="this.blur();"><strong>Piani Abbonamento</strong></a>
+<br>
+Con No Problem 1000 il videotelefono UMTS &egrave; incluso.&nbsp;</td>
+</tr>
+<tr valign="bottom">
+<td height="50"><img src="/res/attachments/images/HPpremi_noproblem.jpg"></td>
+</tr>
+<tr>
+<td height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td background="/res/img/4celle_close.gif" height="5"></td>
+</tr>
+</table>
+</td><td width="7"></td><td width="194">
+<table height="122" width="194" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td background="/res/img/4celle_open.gif" height="5"></td>
+</tr>
+<tr>
+<td background="/res/img/4celle_back.gif" height="112">
+<table height="112" width="194" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="left" width="123" valign="top" height="111">
+<table class="box_centr" height="111" width="123" cellspacing="0" cellpadding="0" border="0">
+<tr valign="top">
+<td height="11"><img title="" alt="" src="/res/attachments/images/tit_SKYTV.gif"></td>
+</tr>
+<tr>
+<td height="3"></td>
+</tr>
+<tr valign="top">
+<td class="privati_txt_4celle_v" height="97"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=pri_DVBH&tk=9616,B2" onFocus="this.blur();"><strong>Pronto al grande schermo?</strong></a>
+<br>
+Segui il meglio dei programmi SKY sul nuovo cellulare LG KU950.</td>
+</tr>
+</table>
+</td><td align="left" width="71" valign="bottom"><img src="/res/attachments/images/img_4g_vlgdvbh.jpg"></td>
+</tr>
+<tr>
+<td height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td background="/res/img/4celle_close.gif" height="5"></td>
+</tr>
+</table>
+</td></tr><tr>
+<td height="7" width="395" colspan="3"></td>
+</tr><tr><td height="122" width="194">
+<table height="122" width="194" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td background="/res/img/4celle_open.gif" height="5"></td>
+</tr>
+<tr>
+<td background="/res/img/4celle_back.gif" height="112">
+<table height="112" width="194" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="left" width="123" valign="top" height="111">
+<table class="box_centr" height="111" width="123" cellspacing="0" cellpadding="0" border="0">
+<tr valign="top">
+<td height="11"><img title="" alt="" src="/res/attachments/images/tit_speciale_shop.gif"></td>
+</tr>
+<tr>
+<td height="3"></td>
+</tr>
+<tr valign="top">
+<td class="privati_txt_4celle_v" height="97"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=sh_hp_cellulari&tk=9616,B3" onFocus="this.blur();"><strong>Cellulari a -30 euro</strong></a>
+<br>
+Scopri i telefoni Vodafone ad un prezzo straordinario!</td>
+</tr>
+</table>
+</td><td align="left" width="71" valign="bottom"><img src="/res/attachments/images/meno_30_euro.jpg"></td>
+</tr>
+<tr>
+<td height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td background="/res/img/4celle_close.gif" height="5"></td>
+</tr>
+</table>
+</td><td width="7"></td><td width="194">
+<table height="122" width="194" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td background="/res/img/4celle_open.gif" height="5"></td>
+</tr>
+<tr>
+<td background="/res/img/4celle_back.gif" height="112">
+<table class="box_centr" height="112" width="194" cellspacing="0" cellpadding="0" border="0">
+<tr valign="top">
+<td height="11"><img title="" alt="" src="/res/attachments/images/tit_vodafoneone.gif"></td>
+</tr>
+<tr>
+<td height="3"></td>
+</tr>
+<tr valign="top">
+<td class="privati_txt_4celle" height="45"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=one_saldo_punti&tk=9616,B4" onFocus="this.blur();"><strong>Hai punti in scadenza?</strong></a>
+<br>
+Verifica il tuo saldo punti. Richiedi subito il tuo premio <br>
+e partecipa al concorso!</td>
+</tr>
+<tr valign="bottom">
+<td height="50"><img src="/res/attachments/images/scadenza_premi_vod_one.jpg"></td>
+</tr>
+<tr>
+<td height="1"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td background="/res/img/4celle_close.gif" height="5"></td>
+</tr>
+</table>
+</td></tr></table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+					</td>
+					</tr>
+				</table>
+
+      <td width="9"> <img width="9" src="/res/img/nada.gif"></td>
+
+			<td width="245"  bgcolor="#ffffff" valign="top">
+
+<script>
+		<!--
+			function openWindowPopupBusiness(strurl,w,h,scrollbars,tk,area,popupName,check) {
+			      strurl = strurl + '&tk=' + tk + ',' + area;
+			      if (scrollbars=='') {
+			      	scrollbars='no';
+			      }
+			      if (check == 0) {
+			      		var c = 'no';
+			      		 strurl = strurl + '&popup=true';
+			      } else {
+			      		var c = 'yes';
+			      }
+			      tools = 'width='+w+','+'height='+h+','+'toolbar='+c+',location='+c+',directories='+c+',status='+c+',menubar='+c+',scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+			      window.open(strurl, popupName, tools);
+		}
+		function openLinkPopupAziende(index, area, check, w, h, s) {
+	        	var tk='';
+	        	var str = strurlAz[index] + '&tk=' + tk + ',' + area;
+
+				if (pAz[index]!="")
+					str = str +'&'+unescape(pAz[index]);
+
+				if (check==0) {
+					str = str + '&popup=true';
+					var c = "no";
+				} else if (check==1) {
+					var c = "yes";
+				} else {
+					window.location = str;
+					return true;
+				}
+				tools = 'width='+w+',height='+h+',toolbar='+c+',location='+c+',directories='+c+',status='+c+',menubar='+c+',scrollbars='+s+',resizable=yes,top=5,left=5';
+				window.open(str,"", tools);
+		}
+		//-->
+	</script>
+<table class="box_business" height="483" width="245" cellspacing="0" cellpadding="0" border="0">
+<tr valign="top">
+<td height="232" width="245"><script>
+		   	if ( flashDetected() ){
+		   		
+	document.write(
+		'<object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" id="flash2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="245" height="232">' +
+		'<param value="/res/attachments/images/Kora_VOD_Hp_business_xl_20061115.swf" name="movie">' +
+		'<param value="A0=/res/attachments/images/Kora_VOD_Hp_business_xl_20061115.swf&amp;U0=http%3A//www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do%3Fty_key%3Daz_vodafone_fiveXL_main%26hp190%3Dy&amp;G0=http%3A//www.190.it/res/trace/trace.html%3Fbutton%3Daz_vodafone_fiveXL_main&amp;T1=Fattura%3Cbr/%3Evia%20e-mail&amp;A1=/res/attachments/images/fattura_via_mail0.swf&amp;U1=http%3A//www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do%3Fty_key%3Daz_fatturaviaemail%26hp190%3Dy&amp;O1=&amp;G1=http%3A//www.190.it/res/trace/trace.html%3Fbutton%3Dfattura_email&amp;T2=Dettaglio%3Cbr/%3EChiamate&amp;A2=/res/attachments/images/dett_chiamate1.swf&amp;U2=http%3A//www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do%3Fty_key%3Daz_dettaglio_chiamate%26hp190%3Dy&amp;O2=&amp;G2=http%3A//www.190.it/res/trace/trace.html%3Fbutton%3Ddettaglio_chiamate&amp;T3=MMS%3Cbr/%3Evia%20e-mail&amp;A3=/res/attachments/images/mms_business.swf&amp;U3=http%3A//www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do%3Fty_key%3Daz_mms_viaemail%26hp190%3Dy&amp;O3=&amp;G3=http%3A//www.190.it/res/trace/trace.html%3Fbutton%3Dmms_email" name="flashVars">' +
+		'<embed flashVars="A0=/res/attachments/images/Kora_VOD_Hp_business_xl_20061115.swf&amp;U0=http%3A//www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do%3Fty_key%3Daz_vodafone_fiveXL_main%26hp190%3Dy&amp;G0=http%3A//www.190.it/res/trace/trace.html%3Fbutton%3Daz_vodafone_fiveXL_main&amp;T1=Fattura%3Cbr/%3Evia%20e-mail&amp;A1=/res/attachments/images/fattura_via_mail0.swf&amp;U1=http%3A//www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do%3Fty_key%3Daz_fatturaviaemail%26hp190%3Dy&amp;O1=&amp;G1=http%3A//www.190.it/res/trace/trace.html%3Fbutton%3Dfattura_email&amp;T2=Dettaglio%3Cbr/%3EChiamate&amp;A2=/res/attachments/images/dett_chiamate1.swf&amp;U2=http%3A//www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do%3Fty_key%3Daz_dettaglio_chiamate%26hp190%3Dy&amp;O2=&amp;G2=http%3A//www.190.it/res/trace/trace.html%3Fbutton%3Ddettaglio_chiamate&amp;T3=MMS%3Cbr/%3Evia%20e-mail&amp;A3=/res/attachments/images/mms_business.swf&amp;U3=http%3A//www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do%3Fty_key%3Daz_mms_viaemail%26hp190%3Dy&amp;O3=&amp;G3=http%3A//www.190.it/res/trace/trace.html%3Fbutton%3Dmms_email" width="245" height="232" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" src="/res/attachments/images/Kora_VOD_Hp_business_xl_20061115.swf">' +
+		'<param value="high" name="quality">' +
+		'</embed>' +
+		'</object>'
+	);
+
+
+		   	} else {
+
+		   		
+		var strurlAz = new Array(3);
+		strurlAz[0] = '/190/trilogy/jsp/dispatcher.do?ty_key=az_fatturaviaemail';
+		strurlAz[1] = '/190/trilogy/jsp/dispatcher.do?ty_key=az_dettaglio_chiamate';
+		strurlAz[2] = '/190/trilogy/jsp/dispatcher.do?ty_key=az_vodafone_fiveXL_main';
+		
+
+		var pAz = new Array(3);
+		pAz[0] = '';
+		pAz[1] = '';
+		pAz[2] = '';
+
+		var businessStr = '';
+		
+
+		var areaMap = '';
+		
+		         	areaMap = '<map id="mappa_business" name="mappa_business">'
+	        		+ '<area coords="7,193,78,222" onclick="openLinkPopupAziende(0,7,2,0,0,0);" href="#" alt="">'
+					+ '<area coords="86,193,157,222" onclick="openLinkPopupAziende(1,7,2,0,0,0);" href="#" alt="">'
+					+ '<area coords="165,193,236,222" onclick="openLinkPopupAziende(2,7,2,0,0,0);" href="#" alt="">'
+					+ businessStr
+	        		+ '</map>'
+	         		+ '<IMG src="/res/attachments/images/no_flash_business24012007.gif" width="245" height="232" border="0" usemap="#mappa_business">';
+			
+		document.write(areaMap);
+
+		   	}
+		</script></td>
+</tr>
+<tr valign="top">
+<td background="/res/img/column_dx_ground.gif" align="center" height="251">
+<table width="225" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td height="5" colspan="3"></td>
+</tr>
+<tr valign="top">
+<td align="left" width="225" height="13" colspan="3"><img title="" alt="" src="/res/attachments/images/tit_telefono_piu0.gif"></td>
+</tr>
+<tr>
+<td width="93">
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td background="/res/img/box_dx_open.gif" width="93" height="4"></td>
+</tr>
+<tr>
+<td background="/res/img/box_dx_back.gif" height="54" align="center"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=az_telefonoplus&tk=9616,8" onFocus="this.blur();"><img title="Telefono +" alt="Telefono +" border="0" src="/res/attachments/images/hp_telpiu.gif"></a></td>
+</tr>
+<tr>
+<td background="/res/img/box_dx_close.gif" height="4"></td>
+</tr>
+</table>
+</td><td width="6"></td><td style="padding-top:1px;" class="privati_txt" valign="top" align="left" width="126"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=az_telefonoplus&tk=9616,8" onFocus="this.blur();">Cellulare gratis</a>
+<br>Scopri come avere un cellulare UMTS o GPRS gratuito.<br>
+&nbsp; <br>
+</td>
+</tr>
+</table>
+<table width="225" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="left" width="225" height="6" colspan="3"><img src="/res/img/nada.gif"></td>
+</tr>
+<tr valign="top">
+<td align="left" width="225" height="13" colspan="3"><img title="" alt="" src="/res/attachments/images/tit_hp_vodfivebroadb.gif"></td>
+</tr>
+<tr>
+<td width="93">
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td background="/res/img/box_dx_open.gif" width="93" height="4"></td>
+</tr>
+<tr>
+<td background="/res/img/box_dx_back.gif" height="54" align="center"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=az_superUMTS_broadband&tk=9616,8" onFocus="this.blur();"><img title="Super UMTS broadband" alt="Super UMTS broadband" border="0" src="/res/attachments/images/HP_business_85x54box_intern.gif"></a></td>
+</tr>
+<tr>
+<td background="/res/img/box_dx_close.gif" height="4"></td>
+</tr>
+</table>
+</td><td width="6"></td><td style="padding-top:1px;" class="privati_txt" valign="top" align="left" width="126"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=az_superUMTS_broadband&tk=9616,8" onFocus="this.blur();">La banda larga diventa mobile</a>
+<br>Internet superveloce con te ovunque. Senza rete fissa!</td>
+</tr>
+</table>
+<table width="225" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="left" width="225" height="6" colspan="3"><img src="/res/img/nada.gif"></td>
+</tr>
+<tr valign="top">
+<td align="left" width="225" height="13" colspan="3"><img title="" alt="" src="/res/attachments/images/tit_palmtreo.gif"></td>
+</tr>
+<tr>
+<td width="93">
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td background="/res/img/box_dx_open.gif" width="93" height="4"></td>
+</tr>
+<tr>
+<td background="/res/img/box_dx_back.gif" height="54" align="center"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=az_PalmTreo_750v&tk=9616,8" onFocus="this.blur();"><img title="Palm Treo 750v" alt="Palm Treo 750v" border="0" src="/res/attachments/images/HP_business_85x54_palmT.gif"></a></td>
+</tr>
+<tr>
+<td background="/res/img/box_dx_close.gif" height="4"></td>
+</tr>
+</table>
+</td><td width="6"></td><td style="padding-top:1px;" class="privati_txt" valign="top" align="left" width="126"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=az_PalmTreo_750v&tk=9616,8" onFocus="this.blur();">L'innovazione</a>
+<br>Regalati la sintesi migliore tra cellulare e palmare.</td>
+</tr>
+<tr>
+<td align="left" width="225" height="6" colspan="3"><img src="/res/img/nada.gif"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+
+			</td>
+		</tr>
+
+		<tr>
+     <td height="6" colspan="3"><img height="6" src="/res/img/nada.gif"></td>
+    </tr>
+
+</table>
+
+
+
+
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+<script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+
+
+
+<script language="JavaScript" type="text/javascript" src="/res/js/flashActivator.js"></script>
+  
+
+
+
+
+
+<!-- Footer 190 -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    
+    <div class="new_footer">
+		<div class="new_footer_190_left"><img src="/res/img/new_header/bandierina_ing.gif" alt="English version" hspace="3" align="absmiddle">&nbsp; <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=190english&tk=9616,f" target="_blank">English Version</a></div>
+		<div class="new_footer_190_right">Copyright &copy; 2006 Vodafone Group &nbsp; | &nbsp; <a href="#" onFocus="if(this.blur)this.blur()"
+                                                      onClick="javascript:window.open('http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=ty_privacy_policy_190&popup=true&ty_nocache=true', '', 'width=488,height=600,scrollbars=yes');">Privacy &amp; P.IVA</a></div>
+	</div>
+    <tr><!-- sostituisce css margin-->
+        <td height="15"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+	    function setUtCookie() {
+	        // cookie per tracciamento browser, flash, risoluzione 
+	        var Value = escape(1);
+	        var day = new Date();
+	        day.setDate(day.getDate() + 1);
+	        var Expire = day.toGMTString();
+	        var cName = "UserTracer=";
+	        var cExpire = "; expires=";
+	        document.cookie = cName + Value + cExpire + Expire;
+	    }
+
+
+		    function getUtCookie() {
+		        // cookie: se presente, recupero
+		        var read = document.cookie;
+		        var cook = read.indexOf("UserTracer=");
+		        if(cook != -1) {
+		            var cStart = cook + 11;
+		            var cEnd = read.indexOf(";", cook);
+		            if(cEnd == -1) cEnd = read.length;
+		            var value = read.substring(cStart, cEnd);
+		            value = unescape(value);
+		            return value;
+		        }
+		        else {
+		            return null;
+		        }
+		    }
+
+
+    	var UtCookie = getUtCookie();
+	    if(UtCookie != "1") {
+	        setUtCookie();
+	        var color = screen.colorDepth;
+	        var URL = "/res/trace/trace_additional_parameter.html" + "?vf=" + actualVersion + "&sw=" + screen.width + "&sh=" + screen.height + "&color=" + color;
+	        document.write("<IFRAME SRC=\"" + URL + "\" TITOLO=\"User Tracing\" WIDTH=\"0\" HEIGHT=\"0\" FRAMEBORDER=\"0\" MARGINWIDTH=\"0\" MARGINHEIGHT=\"0\">");
+	        document.write("</IFRAME>");
+	    }
+    
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+2007-01-29 16:29:17.615 DashboardClient[6883] it.emeraldion.widget.websms: /usr/bin/curl -L -s -e "http://www.190.it/190/trilogy/jsp/home.do?tabName=HOME+190&BV_UseBVCookie=No&ty_skip_md=true" -b "/var/tmp/websms.Vodafone.cookie.1.txt" -c "/var/tmp/websms.Vodafone.cookie.2.txt" -A "Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1" --proxy 192.168.2.208:8080 --proxy-basic --proxy-user ….:……. "http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=fdt_invia_sms&tk=9616,2" | iconv -f iso-8859-1 -t utf-8
+2007-01-29 16:29:20.436 DashboardClient[6883] it.emeraldion.widget.websms: 
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>Vodafone</title>
+<script language="JavaScript1.2" src="/res/js/navigation.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="/res/js/style.js" type="text/javascript"></script>
+<style>
+body{margin: 10px 0px 0px 0px;}
+td.log{padding-left:11px;width:222px;background-color:#CBC9C9;height:30px;}
+.img_middle{margin-right:7px;vertical-align:middle;}
+.text12{font-size: 12px;color: #000000;font-weight: normal;}
+.bold12{font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;font-size: 12px;color: #000000;font-weight: bold;}
+</style>
+
+<script>
+function openPopup(strurl,w,h,scrollbars,tk,popupName, param) {
+    strurl = strurl + '&tk='+ tk +',c';
+    if (param!='')
+        strurl = strurl + '&ipage=' + param;
+    strurl = strurl + '&popup=true';
+    if (scrollbars=='') {
+        scrollbars='no';
+    }
+    tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+    window.open(strurl, popupName, tools);
+    // alert('strurl = ' + strurl);
+}
+</script>
+
+</head>
+<body leftmargin="0" topmargin="10" marginwidth="0" marginheight="0">
+
+
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+
+
+
+
+
+
+
+
+<!--
+pers = false
+-->
+
+<table width="760" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#FFFFFF">
+	<tr>
+		<td width="760">
+			<table width="760" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+			        <td class="logo"><a href="http://www.190.it/190/trilogy/jsp/home.do?tabName=HOME+190&tk=9606,t" target="_top"><img src="/res/img/logo_vodafone.gif" alt="www.190.it" border="0" title="www.190.it"  onfocus="if(this.blur)this.blur()"></a></td>
+					<!-- td><a href="#"><img src="/res/img/logo_vodafone.gif" alt="www.190.it" title="www.190.it" border="0" onfocus="if(this.blur)this.blur()" /></a></td-->
+					<td><img src="/res/img/hd_claim.gif"/></td>
+					<td><img src="/res/img/hd_claim2.jpg"/></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="760" background="/res/img/back_login.gif"  valign="middle" height="38" class="log"><img src="/res/img/bal_ciao.gif" alt="Ciao" class="img_middle"/><span class="bold">……………….. </span></td>
+	</tr>
+	<tr>
+		<td width="760" height="36">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="760">
+			<table width="760" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="79"><img src="/res/img/nada.gif" width="79" height="1" /></td>
+
+						<!-- banner 1-sinistra editabile -->
+						<!--a href="#"><img src="/res/img/img_banner1.jpg" border="0" onfocus="if(this.blur)this.blur()" /></a>
+
+					<!-- INIZIO banner 1 -->
+                    
+					<td width="184">
+                        
+
+                        
+                            <!-- banner 1 non PERSONALIZZATO-->
+                            
+                                
+                                
+                                    
+                                            
+                                            
+                                    
+<script>
+		  function openPopup(strurl,w,h,scrollbars,tk,popupName, param) {		  	
+		      strurl = strurl + '&tk='+ tk +',c';
+		      if (param!='')
+		      		strurl = strurl + '&ipage="' + param + '"';
+		      strurl = strurl + '&popup=true';
+		      if (scrollbars=='') {
+		      	scrollbars='no';
+		      }
+		      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+		      window.open(strurl, popupName, tools);
+		  }
+		  
+		</script><a href="/190/trilogy/jsp/dispatcher.do?ty_key=pri_concorso_premi_vodafone_one&tk=9606,c&ipage=banner1"><img title="" alt="" border="0" src="/res/attachments/images/sms_epage_polinesiaok.jpg"></a>
+
+                                    
+                                
+		                    
+
+                        
+
+					</td>
+					<!-- FINE banner 1 -->
+
+
+					<td width="25"><img src="/res/img/nada.gif" width="25" height="1" /></td>
+
+					<!-- INIZIO banner 2 -->
+                    
+					<td width="184">
+                        
+                        
+                            <!-- banner 2 non PERSONALIZZATO-->
+                            <!-- a href="#"><img src="/res/img/img_banner2.jpg" border="0" onfocus="if(this.blur)this.blur()" /></a-->
+                            
+                                
+                                
+                                    
+                                            
+                                            
+                                    
+<script>
+		  function openPopup(strurl,w,h,scrollbars,tk,popupName, param) {		  	
+		      strurl = strurl + '&tk='+ tk +',c';
+		      if (param!='')
+		      		strurl = strurl + '&ipage="' + param + '"';
+		      strurl = strurl + '&popup=true';
+		      if (scrollbars=='') {
+		      	scrollbars='no';
+		      }
+		      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+		      window.open(strurl, popupName, tools);
+		  }
+		  
+		</script><a href="/190/trilogy/jsp/dispatcher.do?ty_key=pri_piani_hp_abb&tk=9606,c&ipage=banner2"><img title="" alt="" border="0" src="/res/attachments/images/sms_epage_last1.jpg"></a>
+
+                                    
+                                
+                            
+                        
+
+					</td>
+					<!-- FINE banner 2 -->
+
+
+					<td width="25"><img src="/res/img/nada.gif" width="25" height="1" /></td>
+
+					<td width="184">
+						<!-- a href="#"><img src="/res/img/img_banner3.jpg" border="0" onfocus="if(this.blur)this.blur()" /></a>
+
+						<!-- INIZIO banner 3 -->
+                        
+                        
+
+                        
+                            <!-- banner 3 non PERSONALIZZATO-->
+                            
+                                
+                                
+                                    
+                                            
+                                            
+                                    
+<script>
+		  function openPopup(strurl,w,h,scrollbars,tk,popupName, param) {		  	
+		      strurl = strurl + '&tk='+ tk +',c';
+		      if (param!='')
+		      		strurl = strurl + '&ipage="' + param + '"';
+		      strurl = strurl + '&popup=true';
+		      if (scrollbars=='') {
+		      	scrollbars='no';
+		      }
+		      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+		      window.open(strurl, popupName, tools);
+		  }
+		  
+		</script><a href="/190/trilogy/jsp/dispatcher.do?ty_key=az_info_conto&tk=9606,c&ipage=banner3"><img title="" alt="" border="0" src="/res/attachments/images/sms_epage_infoconto.jpg"></a>
+
+                                    
+                                
+                            
+                        
+
+					</td>
+					<!-- FINE banner 3 -->
+
+
+					<td width="79"><img src="/res/img/nada.gif" width="79" height="1" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="760" height="25">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="760" align="center" valign="top">
+			<table width="760" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="79"><img src="/res/img/nada.gif" width="79" height="1" /></td>
+					<td>
+
+						<!-- area teaser -->
+                        
+                        
+                        
+                            <!-- Area Teaser non PERSONALIZZATA-->
+                            
+                                
+                                
+                                    
+                                            
+                                            
+                                    
+<script>
+		  function openPopup(strurl,w,h,scrollbars,tk,popupName, param) {		  	
+		      strurl = strurl + '&tk='+ tk +',c';
+		      if (param!='')
+		      		strurl = strurl + '&ipage="' + param + '"';
+		      strurl = strurl + '&popup=true';
+		      if (scrollbars=='') {
+		      	scrollbars='no';
+		      }
+		      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+		      window.open(strurl, popupName, tools);
+		  }
+		  
+		</script>
+<table cellpadding="0" cellspacing="0" border="0" width="602">
+<tr>
+<td valign="top"><img height="18" width="602" src="/res/img/img_table_top.gif"></td>
+</tr>
+<tr>
+<td valign="top"><img height="31" width="602" src="/res/img/img_table_title.gif"></td>
+</tr>
+<tr>
+<td background="/res/img/img_table_background.gif">
+<table background="/res/img/nada.gif" cellpadding="0" cellspacing="0" border="0" width="602">
+<tr>
+<td width="27">&nbsp;</td><td width="548">
+<br>
+<br>
+<span class="text12">... nella sezione 190 Fai da te di www.vodafone.it puoi accedere al tuo <b>Dettaglio Chiamate?</b></span>
+<br>
+<br>
+<br>
+</td><td width="27">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td valign="top" height="30" align="right"><a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_dettaglio_chiamate&tk=9606,c&ipage=teaser"><img title="" alt="" border="0" src="/res/attachments/images/btn_dett_chiamate.gif"></a></td><td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><img height="13" width="602" src="/res/img/img_table_bottom.gif"></td>
+</tr>
+</table>
+
+                                    
+                                
+                            
+                         
+					</td>
+					<td width="79"><img src="/res/img/nada.gif" width="79" height="1" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<!-- bottone di ritorno -->
+		<td width="760" height="90" align="center" valign="middle">
+			<a href="http://www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do?ty_key=fsms_hp&ipage=next"><img src="/res/img/btn_continua.gif" border="0" alt="Continua" title="Continua" onfocus="if(this.blur)this.blur()" />
+			</a>
+		</td>
+
+	</tr>
+	<tr>
+		<td width="760"><img src="/res/img/back_footer.gif" width="760" height="22" /></td>
+	</tr>
+</table>
+</body>
+</html>
+
+
+2007-01-29 16:29:20.441 DashboardClient[6883] it.emeraldion.widget.websms: /usr/bin/curl -L -s -e "http://www.190.it/190/trilogy/jsp/common/ty_iPage.jsp?retURL=http%3A%2F%2Fwww.areaprivati.190.it%2F190%2Ftrilogy%2Fjsp%2Fdispatcher.do%3Fty_key%3Dfsms_hp" -b "/var/tmp/websms.Vodafone.cookie.2.txt" -c "/var/tmp/websms.Vodafone.cookie.3.txt" -A "Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1" --proxy …………..:8080 --proxy-basic --proxy-user ….:……….. "http://www.areaprivati.190.it/190/trilogy/jsp/dispatcher.do?ty_key=fsms_hp&ipage=next" | iconv -f iso-8859-1 -t utf-8
+2007-01-29 16:29:24.136 DashboardClient[6883] it.emeraldion.widget.websms: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+<html>
+	<head>
+		<title>Vodafone</title>
+		<link rel="stylesheet" href="/res/css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="/fsms/css/fsms.css" type="text/css"/>
+		<script src="/res/js/navigation.js"></script>
+		<script language="JavaScript1.2" src="/res/js/style.js" type="text/javascript"></script>
+		<script language="JavaScript1.2">
+		<!--
+
+		// Number of characters allowed for a message
+		var msgMaxLength = 360;
+
+		// Checks if data inserted by user are valid
+		function validateForm() {
+
+			var validationMessage_1 = "Attenzione, per proseguire devi inserire un numero di telefono cellulare.";
+			var validationMessage_2 = "Attenzione, nel numero telefonico hai inserito caratteri non numerici.";
+			var validationMessage_3 = "Attenzione, il numero di cellulare non puo' iniziare con 0.";
+			var validationMessage_4 = "Attenzione, il numero di cellulare deve essere di nove o dieci cifre.";
+			var validationMessage_5 = "Attenzione, il numero inserito non e' un cellulare";
+			var validationMessage_6 = "Attenzione, per proseguire devi scrivere il tuo messaggio.";
+			var validationMessage_7 = "Attenzione, il messaggio deve contenere almeno un carattere.";
+			var validationMessage_8 = "Attenzione, il messaggio puo' contenere al massimo " + msgMaxLength + " caratteri.";
+
+			var receiverField = document.fsmsMessageForm.receiverNumber;
+			var messageField = document.fsmsMessageForm.message;
+			var receiverNumber = receiverField.value;
+			var message = messageField.value;
+			var currentPrefix = receiverNumber.substr(0,3);
+		  var mobilePrefixs = "380,383,388,389,391,392,393,373,340,343,346,347,348,349,331,333,334,335,338,339,363,330,336,337,360,368,320,323,327,328,329";
+
+			if (receiverNumber == "") { // does we have a receiver number?
+				alert(validationMessage_1);
+				receiverField.focus();
+				return false;
+			}
+			else { // we have a receiver number
+
+				// Contains some letter?
+				var re = new RegExp("[^0-9]");
+				if (receiverNumber.match(re)) {
+					alert(validationMessage_2);
+					receiverField.focus();
+					return false;
+				}
+
+				// Begins with 0?
+				if (receiverNumber.charAt(0) == 0) {
+					alert(validationMessage_3);
+					receiverField.focus();
+					return false;
+				}
+
+				// Is length 9 or 10?
+				if (receiverNumber.length < 9 || receiverNumber.length > 10) {
+					alert(validationMessage_4);
+					receiverField.focus();
+					return false;
+				}
+
+				// Is prefix valid
+				if(mobilePrefixs.indexOf(currentPrefix) == -1){
+					alert(validationMessage_5);
+					receiverField.focus();
+					return false;
+				}
+			}
+
+			// Does we have a message?
+			if (message == "") {
+				alert(validationMessage_6);
+				messageField.focus();
+				return false;
+			}
+			
+			// Contains only spaces?
+			if (!containsOnlySpaces(message)) {
+				alert(validationMessage_7);
+				messageField.focus();
+				return false;
+			}
+
+			// Is message length ok?
+			if (message.length > msgMaxLength) {
+				alert(validationMessage_8);
+				messageField.focus();
+				return false;
+			}
+
+			// data was ok
+			return true;
+		}
+
+	 	// While user write the message checks used chars and updates available chars field
+		function charsCount() {
+			var messageField = document.fsmsMessageForm.message;
+			var message = messageField.value;
+			var availableChars;
+
+			if (message.length > msgMaxLength ) {
+				messageField.value = message.substring(0, msgMaxLength);
+				availableChars = 0;
+			}
+			else {
+				availableChars = msgMaxLength - message.length;
+			}
+			document.fsmsMessageForm.availableChars.value = availableChars;
+		}
+		
+				// Checks if given string contains only spaces
+		function containsOnlySpaces(strValue) {
+			var strTemp = strValue;
+			strTemp = trimAll(strTemp);
+			if(strTemp.length > 0){
+				return true;
+			}
+			return false;
+		}
+
+		// Removes leading and trailing spaces from the given string.
+		function trimAll(strValue) {
+			var objRegExp = /^(\s*)$/;
+			//check for all spaces
+			if(objRegExp.test(strValue)) {
+				strValue = strValue.replace(objRegExp, '');
+				if( strValue.length == 0)
+				return strValue;
+			}
+			//check for leading & trailing spaces
+			objRegExp = /^(\s*)([\W\w]*)(\b\s*$)/;
+			if(objRegExp.test(strValue)) {
+				//remove leading and trailing whitespace characters
+				strValue = strValue.replace(objRegExp, '$2');
+			}
+			return strValue;
+		}
+
+		//-->
+		</script>
+	</head>
+	<body>
+		<table  align="center" border="0" cellpadding="0" cellspacing="0" >
+			<tr>
+				<td colspan="3" height="30">
+					
+
+
+
+
+
+
+
+               
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+   if(navigator.appName == "Microsoft Internet Explorer"){
+   //Check if the browser is InternetExplorer, and if it supports the getElementById DOM method
+   var ie_vers = (document.defaultCharset && document.getElementById);
+   if(ie_vers)
+   document.write ("<style id='hideObject'> object{display:none;} </style>");
+   }
+</script>
+
+
+       
+    
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    
+    
+
+    
+
+
+
+
+
+
+    
+    <!-- NUOVO HEADER GENERATO PER IL TEMPLATE 190 -->
+<!-- Debug: header 190 EX -->
+
+
+<div style="width:760px;height:15px;">
+</div>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    <tr>
+        <td>
+           <div class="nw_header">
+               <div class="nw_header_logo">
+                   <a href="http://www.190.it" onFocus="this.blur()" target="_top"><img src="/res/img/new_header/logo_1.gif" alt="Vodafone" title="Vodafone" border="0"></a>
+               </div>
+
+               <div class="nw_header_buttons">
+
+                   <div class="nw_header_servizi">
+                       
+                       <div class="nw_header_v12space"></div>
+                       <a href="#"
+                          onClick='javascript:window.open("http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=diac&tk=9616,t")'
+                          onFocus="this.blur()">
+                                   &raquo;&nbsp;Sito accessibile
+                       </a>
+                       &nbsp;&nbsp;|&nbsp;&nbsp;
+                       
+                       
+                       <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=new_support_area&tk=9616,t" target="_top" onFocus="this.blur()">
+                       
+                                  
+                                  &raquo;&nbsp;Contattaci
+                       </a>
+
+                   </div>
+
+                   <div class="nw_header_bottoni">
+                       
+                   <a href="http://www.areaprivati.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+privati&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('priv','','/res/img/new_header/btn_privati_on.gif',1);"onFocus="this.blur()"><img name="priv" src="/res/img/new_header/btn_privati.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+aziende&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('busi','','/res/img/new_header/btn_business_on.gif',1);"onFocus="this.blur()"><img name="busi" src="/res/img/new_header/btn_business.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Fai+da+te+aziende&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('fdte','','/res/img/new_header/btn_fai_da_te_on.gif',1);"onFocus="this.blur()"><img name="fdte" src="/res/img/new_header/btn_fai_da_te_on.gif" border="0" ></a><a href="http://www.190.it/190/trilogy/jsp/home.do?tabName=VLive&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vliv','','/res/img/new_header/btn_vodafone_live_on.gif',1);"onFocus="this.blur()"><img name="vliv" src="/res/img/new_header/btn_vodafone_live.gif" border="0" ></a><a href="http://www.shop.190.it/190/trilogy/jsp/home.do?tabName=SHOP&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vshp','','/res/img/new_header/btn_shop_on.gif',1);"onFocus="this.blur()"><img name="vshp" src="/res/img/new_header/btn_shop.gif" border="0" ></a><a href="http://www.vodafone.it/vodafone/trilogy/jsp/home.do?tabName=HOME+VODAFONE&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('azie','','/res/img/new_header/btn_azienda_on.gif',1);"onFocus="this.blur()"><img name="azie" src="/res/img/new_header/btn_azienda.gif" border="0" ></a>
+                   </div>
+                   <div class="nw_header_barra">
+                   </div>
+               </div>
+           </div>
+        </td>
+    </tr>
+</table>
+<!-- Debug: EX ----------------------------------->
+
+    
+
+
+
+
+
+
+
+
+
+<!-- Login Bar Fdt Business-->
+
+<script language="JavaScript" src="/res/js/search.js"></script>
+
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center" class="new_login">
+  <tr>
+<!-- TY_LBSB -->
+
+   
+
+
+
+
+
+
+    <td height="35" width="621">
+      <table border="0" cellpadding="0" cellspacing="0" width="621" background="/res/img/new_header/new_loginbar/login_sx_621_back.gif">
+        <tr valign="top">
+          <td width="11" height="35"></td>
+          <td width="37"><img src="/res/img/new_header/new_loginbar/login_ciao.gif" alt="Benvenuto!" title="Benvenuto!"></td>
+          <td width="92" style="font-weight:bold;" valign="middle"><span>Riccardo</span></td>
+          <td width="46">
+            <a href="http://www.areaaziende.190.it/190/trilogy/jsp/logout.do?tk=9606,t" target="_parent" onfocus="this.blur();">
+              <img src="/res/img/new_header/new_loginbar/btn_logout_44.gif" alt="Logout" border="0">
+           </a>
+          </td>
+          <td width="5"></td>
+          <td width="430" valign="top" align="left" style="padding:1px 0 0 0;">
+
+
+
+    &nbsp;
+
+
+
+          </td>
+        </tr>
+      </table>
+    </td>
+
+    <td valign="top" width="139">
+      <div id="position:relative;">
+        <div id="hdInnerRicercaOn">
+          <script language="javascript">draw_139_SearchBox('searchForm','/190/trilogy/jsp/search.do');</script>
+        </div>
+        <div id="hdInnerRicercaOff">
+          <table border="0" cellpadding="0" cellspacing="0" width="139" background="/res/img/new_header/new_loginbar/ricerca_139_back.gif">
+            <tr valign="top">
+              <td width="139" height="35" colspan="2" align="right" style="padding-right:6px;">
+                <a href="javascript:showSearchBox();" onfocus="this.blur();">
+                  <img src="/res/img/new_header/new_loginbar/btn_login_cerca_40.gif" alt="Ricerca qui" border="0" title="Ricerca qui">
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </td>
+
+
+
+
+<!-- TY_END -->
+  </tr>
+</table>
+</center>
+<!-- /Login Bar Business--->
+
+
+
+
+
+
+<table width="760" bgcolor="#FFFFFF" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr>
+        <td height="3"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+				</td>
+			</tr>
+			<tr>
+				<td width="164" valign="top">
+					
+
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+
+<script>
+function popupSetHomePage(width,height) {
+        window.open("/190/trilogy/jsp/common/ty_set_home_page.jsp","","toolbar:no,location:no,menubar:no,resizable:no,scrollbars:no,height=" + height + ",width=" + width);
+}
+function addBookmark() {
+        var bookmarkurl="http://www.190.it/";
+        var bookmarktitle="190 Home Page";
+        netscape="Questa funzionalita' non e' supportata da Netscape";
+        generic="Il browser non supporta questa funzionalita'";
+        if (navigator.appName=='Microsoft Internet Explorer') {
+            window.external.AddFavorite(bookmarkurl,bookmarktitle);
+        }
+        else if (navigator.appName=='Netscape') {
+                alert(netscape);
+        }
+        else {
+                alert(generic);
+        }
+}
+function replaceAll(oldStr,findStr,repStr) {
+  var srchNdx = 0;  // srchNdx will keep track of where in the whole line
+                    // of oldStr are we searching.
+  var newStr = "";  // newStr will hold the altered version of oldStr.
+  while (oldStr.indexOf(findStr,srchNdx) != -1)
+                    // As long as there are strings to replace, this loop
+                    // will run.
+  {
+    newStr += oldStr.substring(srchNdx,oldStr.indexOf(findStr,srchNdx));
+                    // Put it all the unaltered text from one findStr to
+                    // the next findStr into newStr.
+    newStr += repStr;
+                    // Instead of putting the old string, put in the
+                    // new string instead.
+    srchNdx = (oldStr.indexOf(findStr,srchNdx) + findStr.length);
+                    // Now jump to the next chunk of text till the next findStr.
+  }
+  newStr += oldStr.substring(srchNdx,oldStr.length);
+                    // Put whatever's left into newStr.
+  return newStr;
+}
+function unWebify(webcode) {
+  var workStr = replaceAll(webcode,"&","%0D");
+  workStr = replaceAll(workStr,"+","%20");
+  return(unescape(workStr));
+}
+function showFlashMenu(swfUrl,swfVars) {
+
+    document.write('<br><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0">'
+    + '<tr><td>'
+    + '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="164" height="520" id="menutest" align="middle">'
+    + '<param name="allowScriptAccess" value="sameDomain" />'
+    + '<param name="movie" value="' + swfUrl + '" />'
+    + '<param name="quality" value="high" />'
+    + '<param name="flashVars"  value="' + swfVars + '" />'
+    + '<embed src="' + swfUrl + '" flashVars="' + swfVars + '" quality="high"  width="164" height="520" name="menutest" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="https://www.macromedia.com/go/getflashplayer" />'
+    + '</object>'
+    + '</td></tr>'
+    + '</table>');
+}
+function showHtmlMenu(topImg,menuTree,mk) {
+  document.write('<br><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0"><tr><td>'
+    + '<table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0"><tr>'
+    + '<td width="14" height="1"><img src="/res/img/nada.gif" width="14" height="1"></td>'
+    + '<td width="150"><img src="/res/img/nada.gif" width="150" height="1"></td>'
+    + '</tr><tr>'
+    + '<td width="14" height="20"><img width="14" src="/res/img/nada.gif"></td>'
+    + '<td width="150"><img src="/res/img/' + topImg + '" hspace="0"  border="0"></td>'
+    + '</tr></table></td></tr><tr><td><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0" valign="top">'
+    + '<tr><td bgcolor="#ffffff" width="14"><img src="/res/img/nada.gif"></td>'
+    + '<td>' + menuTree
+    + '<!--mk#' + mk + '#-->'
+    + '</td></tr></table></td></tr>');
+
+  document.write('<tr><td><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0">'
+	+ '<tr><td width="164" colspan="2"><img hspace="0" border="0" src="/res/img/menusx_close.gif"></td></tr>'
+    + '</table></td></tr></table>');
+}
+
+if (!useRedirect) {
+// if dynamic embedding is turned on
+    if(hasRightVersion) {  // if we've detected an acceptable version
+        showFlashMenu('/res/swf/vodMenu.swf','ty=1&pageTypeId=9606&programId=10976&channelId=-18106&cgiScriptName=/190');
+
+    } else {  // flash is too old or we can't detect the plugin
+        showHtmlMenu('menusx_tit_fdt.gif',unWebify('%3Ctable+bgcolor%3D%22%23ffffff%22+width%3D%22150%22+border%3D%220%22+cellspacing%3D%220%22+cellpadding%3D%220%22%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22130%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18201%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ECONTO+TELEFONICO+E+FATTURE%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18082%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ECONTROLLO+COSTI+IN+TEMPO+REALE%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18105%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ECONFIGURAZIONE+RAM%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-8646%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3EASSISTENZA+CARTA+SIM%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18661%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3EASSISTENZA+TELEFONI+CELLULARI%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18584%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ESERVIZI+AZIENDALI%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_red_down.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22+width%3D%22100%25%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18106%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ESERVIZI+PERSONALI%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%22150%22+colspan%3D%223%22%3E%3Ctable+width%3D%22100%25%22++background%3D%22%2Fres%2Fimg%2Fmenusx_back.gif%22++border%3D%220%22+cellspacing%3D%220%22+cellpadding%3D%220%22%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22100%25%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menulight%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D10644%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulight%22%3EMy+Vodafone.it%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menulight%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D11084%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulight%22%3EAggiornamento+dati+username%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menulight%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D11149%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulight%22%3EServizi+e+opzioni+per+la+tua+SIM%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd++width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_red.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd++class%3D%22menulightred%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D10976%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulightred%22%3EServizi+per+comunicare%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22130%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22100%25%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E'),'-1304810980');
+
+    }
+
+}
+</script>
+
+
+
+
+
+				</td>
+				<td valign="top" class="centralBg">
+					<table width="445" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td valign="top" colspan="3">
+								
+
+
+<br>
+
+
+							</td>
+						</tr>
+						<!-- Inizio sezione content -->
+						<tr>
+							<td colspan="3">
+								
+								
+									
+									
+										
+										
+									
+
+									
+								
+								
+								<script>
+    function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+        strurl = strurl + '&tk='+ tk +',c' + '&popup=true';
+        if (scrollbars==''){
+          scrollbars='no';
+        }
+        tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+        window.open(strurl, popupName, tools);
+    }
+  </script>
+<table bgcolor="#FFFFFF" width="445" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td><td align="center" valign="top" width="417">
+<table width="417" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="left"><img border="0" title="" alt="" src="/res/attachments/images/TIT_sms_via web.gif"><br>
+<br>
+</td>
+</tr>
+<tr>
+<td height="20" align="left" class="">
+<div align="left">
+<strong>Speciale per te: oggi</strong> puoi inviare fino a <strong>100 SMS gratis</strong> via web verso i tuoi amici Vodafone. Approfittane subito!<br>
+
+<br>
+Potrai scrivere messaggi concatenati utilizzando al massimo <b>360 caratteri<sup>1</sup></b>, il sistema provveder&agrave; in automatico a suddividere il testo da te inserito in pi&ugrave; SMS di al massimo 160 caratteri ciascuno.<br>
+
+<br>
+In aggiunta, quando il <b>destinatario</b> riceve l'SMS <b>visualizzer&agrave; come mittente il tuo numero di cellulare registrato</b> su vodafone.it, per cui riceverai la risposta al messaggio direttamente sul tuo numero di cellulare.</div>
+<br>
+<br>
+</td>
+</tr></table></td><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td></tr></table>
+							</td>
+						</tr>
+						<!-- Fine sezione content -->
+						<!-- Inizio sezione applicativa -->
+						<tr>
+							<td width="14"><img src="/res/img/nada.gif" width="14"/></td>
+							<td width="417">
+							<!-- Inizio form invio msg -->
+							<form name="fsmsMessageForm" method="post" action="/190/fsms/prepare.do" onsubmit="return validateForm()">
+							  <input type="hidden" name="pageTypeId" value="9606"><input type="hidden" name="programId" value="10976"><input type="hidden" name="channelId" value="-18106">
+								<table width="417" border="0" cellspacing="0" cellpadding="0" bgcolor="eaeaea">
+									<tr bgcolor="#FFFFFF">
+									  <td><img src="/res/img/nada.gif" width="13" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="80" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="136" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="169" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="19" height="1"/></td>
+									</tr>
+									<tr>
+										<td colspan="5"><img src="/fsms/img/img_box_open.gif" width="417" height="21" /></td>
+									</tr>
+									<tr>
+										<td colspan="5"><img src="/fsms/img/label_invia_sms.gif" alt="Invia il tuo SMS" title="Invia il tuo SMS" width="417" height="31" /></td>
+									</tr>
+									
+								
+                
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="50" /></td>
+										<td class="bold" valign="bottom">Mittente:</td>
+										<td valign="bottom">
+											<select name="senderNumber" style="width:130px" class="text"><option value="3XXXXXXXXX">3XXXXXXXXX</option></select>
+										</td>
+										<td valign="bottom" class="italic"></td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+                
+
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="50" /></td>
+										<td class="bold" valign="bottom">Destinatario:</td>
+										<td valign="bottom">
+											<input type="text" name="receiverNumber" maxlength="10" size="20" value="" style="width:130px" class="text">
+										</td>
+										<td valign="bottom" class="italic">&nbsp;Inserisci un numero Vodafone</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="30" /></td>
+										<td>&nbsp;</td>
+										<td colspan="2">&nbsp;</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+										<td class="bold" valign="middle">Messaggio:</td>
+										<td colspan="2">
+											<textarea name="message" cols="30" rows="11" onkeyup="charsCount()" onchange="charsCount()" style="width:300px; overflow:auto;"></textarea>
+										</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="50" /></td>
+										<td class="bold" valign="bottom">Caratteri disponibili:</td>
+										<td valign="bottom">
+											<input type="text" name="availableChars" size="20" value="360" readonly="readonly" style="width:130px;">
+										</td>
+										<td valign="bottom" align="right">
+											<input type="image" src="/res/img/btn_prosegui.gif" alt="Prosegui" title="Prosegui">
+										</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="30" /></td>
+										<td>&nbsp;</td>
+										<td colspan="2">&nbsp;</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td colspan="5"><img src="/fsms/img/img_box_close.gif" width="417" height="17" /></td>
+									</tr>
+								</table>
+							</form>
+							<!-- Fine form invio msg -->
+							</td>
+							<td width="14"><img src="/res/img/nada.gif" width="14"/></td>
+						</tr>
+						<!-- Fine sezione applicativa -->
+						<tr>
+							<td colspan="3"><img src="/res/img/nada.gif" height="14"/></td>
+						</tr>
+						<!-- Inizio sezione content -->
+						<tr>
+							<td colspan="3">
+								
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF"><tr><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td><td width="100%" valign="top" align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+<td height="20" align="left" class="">
+<div align="left">
+<i>NOTE:<br>
+1. Alcune lettere occupano lo spazio di 3 caratteri anzich&egrave; 1. I caratteri speciali potrebbero non essere visualizzati correttamente dal destinatario&nbsp;(tra i principali: &pound;, &egrave;, &eacute;, &ugrave;, &igrave;, &ograve;, &Ccedil;, _, &Eacute; e le lettere con le dieresi).</i>
+</div>
+<br>
+<br>
+</td>
+</tr>
+</table>
+</td><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td>
+</tr>
+</table>
+
+							</td>
+						</tr>
+						<!-- Fine sezione content -->
+						<tr>
+							<td colspan="3"><img src="/res/img/nada.gif" height="14"/></td>
+						</tr>
+				</table>				</td>
+				<td width="151" valign="top" height="30">
+					
+
+
+
+
+
+
+
+
+
+<!-- colonnaDestraRuleSetName = null-->
+
+
+    
+
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="151" bgcolor="#FFFFFF">
+
+<!--Menu Ricariche-->
+
+<!--Menu Ricariche-->
+<tr>
+    <td colspan="2"><img src="/res/img/nada.gif" height="10"/></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+ <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="137">
+        
+                
+                                
+                
+                
+
+                                 <tr>
+                                  <td>
+                
+                        
+                        
+                
+<script>
+  function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+      strurl = strurl + '&tk='+ tk +',r' + '&popup=true';
+      if (scrollbars=='') {
+      	scrollbars='no';
+      }
+      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+      window.open(strurl, popupName, tools);
+  }
+</script>
+<table width="137" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<br>
+<a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_inserimento_dati&tk=9606,r"><img title="" alt="" border="0" src="/res/attachments/images/coldx_nome_utilizzatore2.gif"></a>
+<br>
+</td>
+</tr>
+</table>
+
+                                  </td>
+                                 </tr>
+
+         </table>
+ </td>
+ <td><img src="/res/img/nada.gif"/></td>
+</tr>
+
+
+
+<tr>
+ <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="137">
+        
+                
+                
+                                 <tr>
+                                         <td background="/res/img/coldx_sep.gif"><img src="/res/img/nada.gif" width="137" height="1"/></td>
+                                         <td><img src="/res/img/nada.gif"/></td>
+                                 </tr>
+                
+
+                                 <tr>
+                                  <td>
+                
+                        
+                        
+                
+<script>
+  function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+      strurl = strurl + '&tk='+ tk +',r' + '&popup=true';
+      if (scrollbars=='') {
+      	scrollbars='no';
+      }
+      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+      window.open(strurl, popupName, tools);
+  }
+</script>
+<table width="137" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<br>
+<a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_dettaglio_chiamate_corp_ref_abb&tk=9606,r"><img title="" alt="" border="0" src="/res/attachments/images/coldx1_dett_chiamate1.gif"></a>
+<br>
+</td>
+</tr>
+</table>
+
+                                  </td>
+                                 </tr>
+
+         </table>
+ </td>
+ <td><img src="/res/img/nada.gif"/></td>
+</tr>
+
+
+
+<tr>
+ <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="137">
+        
+                
+                
+                                 <tr>
+                                         <td background="/res/img/coldx_sep.gif"><img src="/res/img/nada.gif" width="137" height="1"/></td>
+                                         <td><img src="/res/img/nada.gif"/></td>
+                                 </tr>
+                
+
+                                 <tr>
+                                  <td>
+                
+                        
+                        
+                
+<script>
+  function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+      strurl = strurl + '&tk='+ tk +',r' + '&popup=true';
+      if (scrollbars=='') {
+      	scrollbars='no';
+      }
+      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+      window.open(strurl, popupName, tools);
+  }
+</script>
+<table width="137" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<br>
+<a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_sostituzione_sim_128k&tk=9606,r"><img title="" alt="" border="0" src="/res/attachments/images/coldx_sim_128k.gif"></a>
+<br>
+</td>
+</tr>
+</table>
+
+                                  </td>
+                                 </tr>
+
+         </table>
+ </td>
+ <td><img src="/res/img/nada.gif"/></td>
+</tr>
+
+
+
+
+
+    <tr>
+        <td height="17" colspan="2"><img src="/res/img/coldx_close.gif"/></td>
+    </tr>
+    <tr>
+        <td height="20" colspan="2"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+
+
+				</td>
+			</tr>
+			<tr>
+				<td  colspan="3" height="30">
+					
+
+
+
+
+
+<script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+
+
+
+<script language="JavaScript" type="text/javascript" src="/res/js/flashActivator.js"></script>
+  
+
+
+
+
+
+<!-- Footer 190 -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    
+    <div class="new_footer">
+		<div class="new_footer_190_left"><img src="/res/img/new_header/bandierina_ing.gif" alt="English version" hspace="3" align="absmiddle">&nbsp; <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=190english&tk=9616,f" target="_blank">English Version</a></div>
+		<div class="new_footer_190_right">Copyright &copy; 2006 Vodafone Group &nbsp; | &nbsp; <a href="#" onFocus="if(this.blur)this.blur()"
+                                                      onClick="javascript:window.open('http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=ty_privacy_policy_190&popup=true&ty_nocache=true', '', 'width=488,height=600,scrollbars=yes');">Privacy &amp; P.IVA</a></div>
+	</div>
+    <tr><!-- sostituisce css margin-->
+        <td height="15"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+	    function setUtCookie() {
+	        // cookie per tracciamento browser, flash, risoluzione 
+	        var Value = escape(1);
+	        var day = new Date();
+	        day.setDate(day.getDate() + 1);
+	        var Expire = day.toGMTString();
+	        var cName = "UserTracer=";
+	        var cExpire = "; expires=";
+	        document.cookie = cName + Value + cExpire + Expire;
+	    }
+
+
+		    function getUtCookie() {
+		        // cookie: se presente, recupero
+		        var read = document.cookie;
+		        var cook = read.indexOf("UserTracer=");
+		        if(cook != -1) {
+		            var cStart = cook + 11;
+		            var cEnd = read.indexOf(";", cook);
+		            if(cEnd == -1) cEnd = read.length;
+		            var value = read.substring(cStart, cEnd);
+		            value = unescape(value);
+		            return value;
+		        }
+		        else {
+		            return null;
+		        }
+		    }
+
+
+    	var UtCookie = getUtCookie();
+	    if(UtCookie != "1") {
+	        setUtCookie();
+	        var color = screen.colorDepth;
+	        var URL = "/res/trace/trace_additional_parameter.html" + "?vf=" + actualVersion + "&sw=" + screen.width + "&sh=" + screen.height + "&color=" + color;
+	        document.write("<IFRAME SRC=\"" + URL + "\" TITOLO=\"User Tracing\" WIDTH=\"0\" HEIGHT=\"0\" FRAMEBORDER=\"0\" MARGINWIDTH=\"0\" MARGINHEIGHT=\"0\">");
+	        document.write("</IFRAME>");
+	    }
+    
+</script>
+
+
+
+
+
+
+
+
+
+				</td>
+			</tr>
+	</table>
+	</body>
+</html>
+
+2007-01-29 16:29:24.143 DashboardClient[6883] it.emeraldion.widget.websms: /usr/bin/curl -L -s -e "" -b "/var/tmp/websms.Vodafone.cookie.3.txt" -c "/var/tmp/websms.Vodafone.cookie.4.txt" -A "Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1" --proxy 192.168.2.208:8080 --proxy-basic --proxy-user….:……..
+"http://www.areaprivati.190.it/190/trilogy/jsp/dispatcher.do?ty_key=fsms_hp&ipage=next" | iconv -f iso-8859-1 -t utf-8
+2007-01-29 16:29:27.868 DashboardClient[6883] it.emeraldion.widget.websms: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+<html>
+	<head>
+		<title>Vodafone</title>
+		<link rel="stylesheet" href="/res/css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="/fsms/css/fsms.css" type="text/css"/>
+		<script src="/res/js/navigation.js"></script>
+		<script language="JavaScript1.2" src="/res/js/style.js" type="text/javascript"></script>
+		<script language="JavaScript1.2">
+		<!--
+
+		// Number of characters allowed for a message
+		var msgMaxLength = 360;
+
+		// Checks if data inserted by user are valid
+		function validateForm() {
+
+			var validationMessage_1 = "Attenzione, per proseguire devi inserire un numero di telefono cellulare.";
+			var validationMessage_2 = "Attenzione, nel numero telefonico hai inserito caratteri non numerici.";
+			var validationMessage_3 = "Attenzione, il numero di cellulare non puo' iniziare con 0.";
+			var validationMessage_4 = "Attenzione, il numero di cellulare deve essere di nove o dieci cifre.";
+			var validationMessage_5 = "Attenzione, il numero inserito non e' un cellulare";
+			var validationMessage_6 = "Attenzione, per proseguire devi scrivere il tuo messaggio.";
+			var validationMessage_7 = "Attenzione, il messaggio deve contenere almeno un carattere.";
+			var validationMessage_8 = "Attenzione, il messaggio puo' contenere al massimo " + msgMaxLength + " caratteri.";
+
+			var receiverField = document.fsmsMessageForm.receiverNumber;
+			var messageField = document.fsmsMessageForm.message;
+			var receiverNumber = receiverField.value;
+			var message = messageField.value;
+			var currentPrefix = receiverNumber.substr(0,3);
+		  var mobilePrefixs = "380,383,388,389,391,392,393,373,340,343,346,347,348,349,331,333,334,335,338,339,363,330,336,337,360,368,320,323,327,328,329";
+
+			if (receiverNumber == "") { // does we have a receiver number?
+				alert(validationMessage_1);
+				receiverField.focus();
+				return false;
+			}
+			else { // we have a receiver number
+
+				// Contains some letter?
+				var re = new RegExp("[^0-9]");
+				if (receiverNumber.match(re)) {
+					alert(validationMessage_2);
+					receiverField.focus();
+					return false;
+				}
+
+				// Begins with 0?
+				if (receiverNumber.charAt(0) == 0) {
+					alert(validationMessage_3);
+					receiverField.focus();
+					return false;
+				}
+
+				// Is length 9 or 10?
+				if (receiverNumber.length < 9 || receiverNumber.length > 10) {
+					alert(validationMessage_4);
+					receiverField.focus();
+					return false;
+				}
+
+				// Is prefix valid
+				if(mobilePrefixs.indexOf(currentPrefix) == -1){
+					alert(validationMessage_5);
+					receiverField.focus();
+					return false;
+				}
+			}
+
+			// Does we have a message?
+			if (message == "") {
+				alert(validationMessage_6);
+				messageField.focus();
+				return false;
+			}
+			
+			// Contains only spaces?
+			if (!containsOnlySpaces(message)) {
+				alert(validationMessage_7);
+				messageField.focus();
+				return false;
+			}
+
+			// Is message length ok?
+			if (message.length > msgMaxLength) {
+				alert(validationMessage_8);
+				messageField.focus();
+				return false;
+			}
+
+			// data was ok
+			return true;
+		}
+
+	 	// While user write the message checks used chars and updates available chars field
+		function charsCount() {
+			var messageField = document.fsmsMessageForm.message;
+			var message = messageField.value;
+			var availableChars;
+
+			if (message.length > msgMaxLength ) {
+				messageField.value = message.substring(0, msgMaxLength);
+				availableChars = 0;
+			}
+			else {
+				availableChars = msgMaxLength - message.length;
+			}
+			document.fsmsMessageForm.availableChars.value = availableChars;
+		}
+		
+				// Checks if given string contains only spaces
+		function containsOnlySpaces(strValue) {
+			var strTemp = strValue;
+			strTemp = trimAll(strTemp);
+			if(strTemp.length > 0){
+				return true;
+			}
+			return false;
+		}
+
+		// Removes leading and trailing spaces from the given string.
+		function trimAll(strValue) {
+			var objRegExp = /^(\s*)$/;
+			//check for all spaces
+			if(objRegExp.test(strValue)) {
+				strValue = strValue.replace(objRegExp, '');
+				if( strValue.length == 0)
+				return strValue;
+			}
+			//check for leading & trailing spaces
+			objRegExp = /^(\s*)([\W\w]*)(\b\s*$)/;
+			if(objRegExp.test(strValue)) {
+				//remove leading and trailing whitespace characters
+				strValue = strValue.replace(objRegExp, '$2');
+			}
+			return strValue;
+		}
+
+		//-->
+		</script>
+	</head>
+	<body>
+		<table  align="center" border="0" cellpadding="0" cellspacing="0" >
+			<tr>
+				<td colspan="3" height="30">
+					
+
+
+
+
+
+
+
+               
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+   if(navigator.appName == "Microsoft Internet Explorer"){
+   //Check if the browser is InternetExplorer, and if it supports the getElementById DOM method
+   var ie_vers = (document.defaultCharset && document.getElementById);
+   if(ie_vers)
+   document.write ("<style id='hideObject'> object{display:none;} </style>");
+   }
+</script>
+
+
+       
+    
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    
+    
+
+    
+
+
+
+
+
+
+    
+    <!-- NUOVO HEADER GENERATO PER IL TEMPLATE 190 -->
+<!-- Debug: header 190 EX -->
+
+
+<div style="width:760px;height:15px;">
+</div>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    <tr>
+        <td>
+           <div class="nw_header">
+               <div class="nw_header_logo">
+                   <a href="http://www.190.it" onFocus="this.blur()" target="_top"><img src="/res/img/new_header/logo_1.gif" alt="Vodafone" title="Vodafone" border="0"></a>
+               </div>
+
+               <div class="nw_header_buttons">
+
+                   <div class="nw_header_servizi">
+                       
+                       <div class="nw_header_v12space"></div>
+                       <a href="#"
+                          onClick='javascript:window.open("http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=diac&tk=9616,t")'
+                          onFocus="this.blur()">
+                                   &raquo;&nbsp;Sito accessibile
+                       </a>
+                       &nbsp;&nbsp;|&nbsp;&nbsp;
+                       
+                       
+                       <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=new_support_area&tk=9616,t" target="_top" onFocus="this.blur()">
+                       
+                                  
+                                  &raquo;&nbsp;Contattaci
+                       </a>
+
+                   </div>
+
+                   <div class="nw_header_bottoni">
+                       
+                   <a href="http://www.areaprivati.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+privati&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('priv','','/res/img/new_header/btn_privati_on.gif',1);"onFocus="this.blur()"><img name="priv" src="/res/img/new_header/btn_privati.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+aziende&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('busi','','/res/img/new_header/btn_business_on.gif',1);"onFocus="this.blur()"><img name="busi" src="/res/img/new_header/btn_business.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Fai+da+te+aziende&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('fdte','','/res/img/new_header/btn_fai_da_te_on.gif',1);"onFocus="this.blur()"><img name="fdte" src="/res/img/new_header/btn_fai_da_te_on.gif" border="0" ></a><a href="http://www.190.it/190/trilogy/jsp/home.do?tabName=VLive&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vliv','','/res/img/new_header/btn_vodafone_live_on.gif',1);"onFocus="this.blur()"><img name="vliv" src="/res/img/new_header/btn_vodafone_live.gif" border="0" ></a><a href="http://www.shop.190.it/190/trilogy/jsp/home.do?tabName=SHOP&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vshp','','/res/img/new_header/btn_shop_on.gif',1);"onFocus="this.blur()"><img name="vshp" src="/res/img/new_header/btn_shop.gif" border="0" ></a><a href="http://www.vodafone.it/vodafone/trilogy/jsp/home.do?tabName=HOME+VODAFONE&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('azie','','/res/img/new_header/btn_azienda_on.gif',1);"onFocus="this.blur()"><img name="azie" src="/res/img/new_header/btn_azienda.gif" border="0" ></a>
+                   </div>
+                   <div class="nw_header_barra">
+                   </div>
+               </div>
+           </div>
+        </td>
+    </tr>
+</table>
+<!-- Debug: EX ----------------------------------->
+
+    
+
+
+
+
+
+
+
+
+
+<!-- Login Bar Fdt Business-->
+
+<script language="JavaScript" src="/res/js/search.js"></script>
+
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center" class="new_login">
+  <tr>
+<!-- TY_LBSB -->
+
+   
+
+
+
+
+
+
+    <td height="35" width="621">
+      <table border="0" cellpadding="0" cellspacing="0" width="621" background="/res/img/new_header/new_loginbar/login_sx_621_back.gif">
+        <tr valign="top">
+          <td width="11" height="35"></td>
+          <td width="37"><img src="/res/img/new_header/new_loginbar/login_ciao.gif" alt="Benvenuto!" title="Benvenuto!"></td>
+          <td width="92" style="font-weight:bold;" valign="middle"><span>Riccardo</span></td>
+          <td width="46">
+            <a href="http://www.areaaziende.190.it/190/trilogy/jsp/logout.do?tk=9606,t" target="_parent" onfocus="this.blur();">
+              <img src="/res/img/new_header/new_loginbar/btn_logout_44.gif" alt="Logout" border="0">
+           </a>
+          </td>
+          <td width="5"></td>
+          <td width="430" valign="top" align="left" style="padding:1px 0 0 0;">
+
+
+
+    &nbsp;
+
+
+
+          </td>
+        </tr>
+      </table>
+    </td>
+
+    <td valign="top" width="139">
+      <div id="position:relative;">
+        <div id="hdInnerRicercaOn">
+          <script language="javascript">draw_139_SearchBox('searchForm','/190/trilogy/jsp/search.do');</script>
+        </div>
+        <div id="hdInnerRicercaOff">
+          <table border="0" cellpadding="0" cellspacing="0" width="139" background="/res/img/new_header/new_loginbar/ricerca_139_back.gif">
+            <tr valign="top">
+              <td width="139" height="35" colspan="2" align="right" style="padding-right:6px;">
+                <a href="javascript:showSearchBox();" onfocus="this.blur();">
+                  <img src="/res/img/new_header/new_loginbar/btn_login_cerca_40.gif" alt="Ricerca qui" border="0" title="Ricerca qui">
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </td>
+
+
+
+
+<!-- TY_END -->
+  </tr>
+</table>
+</center>
+<!-- /Login Bar Business--->
+
+
+
+
+
+
+<table width="760" bgcolor="#FFFFFF" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr>
+        <td height="3"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+				</td>
+			</tr>
+			<tr>
+				<td width="164" valign="top">
+					
+
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+
+<script>
+function popupSetHomePage(width,height) {
+        window.open("/190/trilogy/jsp/common/ty_set_home_page.jsp","","toolbar:no,location:no,menubar:no,resizable:no,scrollbars:no,height=" + height + ",width=" + width);
+}
+function addBookmark() {
+        var bookmarkurl="http://www.190.it/";
+        var bookmarktitle="190 Home Page";
+        netscape="Questa funzionalita' non e' supportata da Netscape";
+        generic="Il browser non supporta questa funzionalita'";
+        if (navigator.appName=='Microsoft Internet Explorer') {
+            window.external.AddFavorite(bookmarkurl,bookmarktitle);
+        }
+        else if (navigator.appName=='Netscape') {
+                alert(netscape);
+        }
+        else {
+                alert(generic);
+        }
+}
+function replaceAll(oldStr,findStr,repStr) {
+  var srchNdx = 0;  // srchNdx will keep track of where in the whole line
+                    // of oldStr are we searching.
+  var newStr = "";  // newStr will hold the altered version of oldStr.
+  while (oldStr.indexOf(findStr,srchNdx) != -1)
+                    // As long as there are strings to replace, this loop
+                    // will run.
+  {
+    newStr += oldStr.substring(srchNdx,oldStr.indexOf(findStr,srchNdx));
+                    // Put it all the unaltered text from one findStr to
+                    // the next findStr into newStr.
+    newStr += repStr;
+                    // Instead of putting the old string, put in the
+                    // new string instead.
+    srchNdx = (oldStr.indexOf(findStr,srchNdx) + findStr.length);
+                    // Now jump to the next chunk of text till the next findStr.
+  }
+  newStr += oldStr.substring(srchNdx,oldStr.length);
+                    // Put whatever's left into newStr.
+  return newStr;
+}
+function unWebify(webcode) {
+  var workStr = replaceAll(webcode,"&","%0D");
+  workStr = replaceAll(workStr,"+","%20");
+  return(unescape(workStr));
+}
+function showFlashMenu(swfUrl,swfVars) {
+
+    document.write('<br><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0">'
+    + '<tr><td>'
+    + '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="164" height="520" id="menutest" align="middle">'
+    + '<param name="allowScriptAccess" value="sameDomain" />'
+    + '<param name="movie" value="' + swfUrl + '" />'
+    + '<param name="quality" value="high" />'
+    + '<param name="flashVars"  value="' + swfVars + '" />'
+    + '<embed src="' + swfUrl + '" flashVars="' + swfVars + '" quality="high"  width="164" height="520" name="menutest" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="https://www.macromedia.com/go/getflashplayer" />'
+    + '</object>'
+    + '</td></tr>'
+    + '</table>');
+}
+function showHtmlMenu(topImg,menuTree,mk) {
+  document.write('<br><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0"><tr><td>'
+    + '<table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0"><tr>'
+    + '<td width="14" height="1"><img src="/res/img/nada.gif" width="14" height="1"></td>'
+    + '<td width="150"><img src="/res/img/nada.gif" width="150" height="1"></td>'
+    + '</tr><tr>'
+    + '<td width="14" height="20"><img width="14" src="/res/img/nada.gif"></td>'
+    + '<td width="150"><img src="/res/img/' + topImg + '" hspace="0"  border="0"></td>'
+    + '</tr></table></td></tr><tr><td><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0" valign="top">'
+    + '<tr><td bgcolor="#ffffff" width="14"><img src="/res/img/nada.gif"></td>'
+    + '<td>' + menuTree
+    + '<!--mk#' + mk + '#-->'
+    + '</td></tr></table></td></tr>');
+
+  document.write('<tr><td><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0">'
+	+ '<tr><td width="164" colspan="2"><img hspace="0" border="0" src="/res/img/menusx_close.gif"></td></tr>'
+    + '</table></td></tr></table>');
+}
+
+if (!useRedirect) {
+// if dynamic embedding is turned on
+    if(hasRightVersion) {  // if we've detected an acceptable version
+        showFlashMenu('/res/swf/vodMenu.swf','ty=1&pageTypeId=9606&programId=10976&channelId=-18106&cgiScriptName=/190');
+
+    } else {  // flash is too old or we can't detect the plugin
+        showHtmlMenu('menusx_tit_fdt.gif',unWebify('%3Ctable+bgcolor%3D%22%23ffffff%22+width%3D%22150%22+border%3D%220%22+cellspacing%3D%220%22+cellpadding%3D%220%22%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22130%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18201%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ECONTO+TELEFONICO+E+FATTURE%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18082%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ECONTROLLO+COSTI+IN+TEMPO+REALE%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18105%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ECONFIGURAZIONE+RAM%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-8646%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3EASSISTENZA+CARTA+SIM%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18661%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3EASSISTENZA+TELEFONI+CELLULARI%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18584%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ESERVIZI+AZIENDALI%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_red_down.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22+width%3D%22100%25%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18106%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ESERVIZI+PERSONALI%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%22150%22+colspan%3D%223%22%3E%3Ctable+width%3D%22100%25%22++background%3D%22%2Fres%2Fimg%2Fmenusx_back.gif%22++border%3D%220%22+cellspacing%3D%220%22+cellpadding%3D%220%22%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22100%25%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menulight%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D10644%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulight%22%3EMy+Vodafone.it%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menulight%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D11084%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulight%22%3EAggiornamento+dati+username%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menulight%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D11149%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulight%22%3EServizi+e+opzioni+per+la+tua+SIM%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd++width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_red.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd++class%3D%22menulightred%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D10976%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulightred%22%3EServizi+per+comunicare%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22130%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22100%25%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E'),'-1304810980');
+
+    }
+
+}
+</script>
+
+
+
+
+
+				</td>
+				<td valign="top" class="centralBg">
+					<table width="445" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td valign="top" colspan="3">
+								
+
+
+<br>
+
+
+							</td>
+						</tr>
+						<!-- Inizio sezione content -->
+						<tr>
+							<td colspan="3">
+								
+								
+									
+									
+										
+										
+									
+
+									
+								
+								
+								<script>
+    function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+        strurl = strurl + '&tk='+ tk +',c' + '&popup=true';
+        if (scrollbars==''){
+          scrollbars='no';
+        }
+        tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+        window.open(strurl, popupName, tools);
+    }
+  </script>
+<table bgcolor="#FFFFFF" width="445" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td><td align="center" valign="top" width="417">
+<table width="417" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="left"><img border="0" title="" alt="" src="/res/attachments/images/TIT_sms_via web.gif"><br>
+<br>
+</td>
+</tr>
+<tr>
+<td height="20" align="left" class="">
+<div align="left">
+<strong>Speciale per te: oggi</strong> puoi inviare fino a <strong>100 SMS gratis</strong> via web verso i tuoi amici Vodafone. Approfittane subito!<br>
+
+<br>
+Potrai scrivere messaggi concatenati utilizzando al massimo <b>360 caratteri<sup>1</sup></b>, il sistema provveder&agrave; in automatico a suddividere il testo da te inserito in pi&ugrave; SMS di al massimo 160 caratteri ciascuno.<br>
+
+<br>
+In aggiunta, quando il <b>destinatario</b> riceve l'SMS <b>visualizzer&agrave; come mittente il tuo numero di cellulare registrato</b> su vodafone.it, per cui riceverai la risposta al messaggio direttamente sul tuo numero di cellulare.</div>
+<br>
+<br>
+</td>
+</tr></table></td><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td></tr></table>
+							</td>
+						</tr>
+						<!-- Fine sezione content -->
+						<!-- Inizio sezione applicativa -->
+						<tr>
+							<td width="14"><img src="/res/img/nada.gif" width="14"/></td>
+							<td width="417">
+							<!-- Inizio form invio msg -->
+							<form name="fsmsMessageForm" method="post" action="/190/fsms/prepare.do" onsubmit="return validateForm()">
+							  <input type="hidden" name="pageTypeId" value="9606"><input type="hidden" name="programId" value="10976"><input type="hidden" name="channelId" value="-18106">
+								<table width="417" border="0" cellspacing="0" cellpadding="0" bgcolor="eaeaea">
+									<tr bgcolor="#FFFFFF">
+									  <td><img src="/res/img/nada.gif" width="13" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="80" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="136" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="169" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="19" height="1"/></td>
+									</tr>
+									<tr>
+										<td colspan="5"><img src="/fsms/img/img_box_open.gif" width="417" height="21" /></td>
+									</tr>
+									<tr>
+										<td colspan="5"><img src="/fsms/img/label_invia_sms.gif" alt="Invia il tuo SMS" title="Invia il tuo SMS" width="417" height="31" /></td>
+									</tr>
+									
+								
+                
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="50" /></td>
+										<td class="bold" valign="bottom">Mittente:</td>
+										<td valign="bottom">
+											<select name="senderNumber" style="width:130px" class="text"><option value="3XXXXXXXXX">3XXXXXXXXX</option></select>
+										</td>
+										<td valign="bottom" class="italic"></td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+                
+
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="50" /></td>
+										<td class="bold" valign="bottom">Destinatario:</td>
+										<td valign="bottom">
+											<input type="text" name="receiverNumber" maxlength="10" size="20" value="" style="width:130px" class="text">
+										</td>
+										<td valign="bottom" class="italic">&nbsp;Inserisci un numero Vodafone</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="30" /></td>
+										<td>&nbsp;</td>
+										<td colspan="2">&nbsp;</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+										<td class="bold" valign="middle">Messaggio:</td>
+										<td colspan="2">
+											<textarea name="message" cols="30" rows="11" onkeyup="charsCount()" onchange="charsCount()" style="width:300px; overflow:auto;"></textarea>
+										</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="50" /></td>
+										<td class="bold" valign="bottom">Caratteri disponibili:</td>
+										<td valign="bottom">
+											<input type="text" name="availableChars" size="20" value="360" readonly="readonly" style="width:130px;">
+										</td>
+										<td valign="bottom" align="right">
+											<input type="image" src="/res/img/btn_prosegui.gif" alt="Prosegui" title="Prosegui">
+										</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="30" /></td>
+										<td>&nbsp;</td>
+										<td colspan="2">&nbsp;</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td colspan="5"><img src="/fsms/img/img_box_close.gif" width="417" height="17" /></td>
+									</tr>
+								</table>
+							</form>
+							<!-- Fine form invio msg -->
+							</td>
+							<td width="14"><img src="/res/img/nada.gif" width="14"/></td>
+						</tr>
+						<!-- Fine sezione applicativa -->
+						<tr>
+							<td colspan="3"><img src="/res/img/nada.gif" height="14"/></td>
+						</tr>
+						<!-- Inizio sezione content -->
+						<tr>
+							<td colspan="3">
+								
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF"><tr><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td><td width="100%" valign="top" align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+<td height="20" align="left" class="">
+<div align="left">
+<i>NOTE:<br>
+1. Alcune lettere occupano lo spazio di 3 caratteri anzich&egrave; 1. I caratteri speciali potrebbero non essere visualizzati correttamente dal destinatario&nbsp;(tra i principali: &pound;, &egrave;, &eacute;, &ugrave;, &igrave;, &ograve;, &Ccedil;, _, &Eacute; e le lettere con le dieresi).</i>
+</div>
+<br>
+<br>
+</td>
+</tr>
+</table>
+</td><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td>
+</tr>
+</table>
+
+							</td>
+						</tr>
+						<!-- Fine sezione content -->
+						<tr>
+							<td colspan="3"><img src="/res/img/nada.gif" height="14"/></td>
+						</tr>
+				</table>				</td>
+				<td width="151" valign="top" height="30">
+					
+
+
+
+
+
+
+
+
+
+<!-- colonnaDestraRuleSetName = null-->
+
+
+    
+
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="151" bgcolor="#FFFFFF">
+
+<!--Menu Ricariche-->
+
+<!--Menu Ricariche-->
+<tr>
+    <td colspan="2"><img src="/res/img/nada.gif" height="10"/></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+ <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="137">
+        
+                
+                                
+                
+                
+
+                                 <tr>
+                                  <td>
+                
+                        
+                        
+                
+<script>
+  function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+      strurl = strurl + '&tk='+ tk +',r' + '&popup=true';
+      if (scrollbars=='') {
+      	scrollbars='no';
+      }
+      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+      window.open(strurl, popupName, tools);
+  }
+</script>
+<table width="137" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<br>
+<a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_inserimento_dati&tk=9606,r"><img title="" alt="" border="0" src="/res/attachments/images/coldx_nome_utilizzatore2.gif"></a>
+<br>
+</td>
+</tr>
+</table>
+
+                                  </td>
+                                 </tr>
+
+         </table>
+ </td>
+ <td><img src="/res/img/nada.gif"/></td>
+</tr>
+
+
+
+<tr>
+ <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="137">
+        
+                
+                
+                                 <tr>
+                                         <td background="/res/img/coldx_sep.gif"><img src="/res/img/nada.gif" width="137" height="1"/></td>
+                                         <td><img src="/res/img/nada.gif"/></td>
+                                 </tr>
+                
+
+                                 <tr>
+                                  <td>
+                
+                        
+                        
+                
+<script>
+  function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+      strurl = strurl + '&tk='+ tk +',r' + '&popup=true';
+      if (scrollbars=='') {
+      	scrollbars='no';
+      }
+      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+      window.open(strurl, popupName, tools);
+  }
+</script>
+<table width="137" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<br>
+<a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_dettaglio_chiamate_corp_ref_abb&tk=9606,r"><img title="" alt="" border="0" src="/res/attachments/images/coldx1_dett_chiamate1.gif"></a>
+<br>
+</td>
+</tr>
+</table>
+
+                                  </td>
+                                 </tr>
+
+         </table>
+ </td>
+ <td><img src="/res/img/nada.gif"/></td>
+</tr>
+
+
+
+<tr>
+ <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="137">
+        
+                
+                
+                                 <tr>
+                                         <td background="/res/img/coldx_sep.gif"><img src="/res/img/nada.gif" width="137" height="1"/></td>
+                                         <td><img src="/res/img/nada.gif"/></td>
+                                 </tr>
+                
+
+                                 <tr>
+                                  <td>
+                
+                        
+                        
+                
+<script>
+  function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+      strurl = strurl + '&tk='+ tk +',r' + '&popup=true';
+      if (scrollbars=='') {
+      	scrollbars='no';
+      }
+      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+      window.open(strurl, popupName, tools);
+  }
+</script>
+<table width="137" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<br>
+<a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_sostituzione_sim_128k&tk=9606,r"><img title="" alt="" border="0" src="/res/attachments/images/coldx_sim_128k.gif"></a>
+<br>
+</td>
+</tr>
+</table>
+
+                                  </td>
+                                 </tr>
+
+         </table>
+ </td>
+ <td><img src="/res/img/nada.gif"/></td>
+</tr>
+
+
+
+
+
+    <tr>
+        <td height="17" colspan="2"><img src="/res/img/coldx_close.gif"/></td>
+    </tr>
+    <tr>
+        <td height="20" colspan="2"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+
+
+				</td>
+			</tr>
+			<tr>
+				<td  colspan="3" height="30">
+					
+
+
+
+
+
+<script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+
+
+
+<script language="JavaScript" type="text/javascript" src="/res/js/flashActivator.js"></script>
+  
+
+
+
+
+
+<!-- Footer 190 -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    
+    <div class="new_footer">
+		<div class="new_footer_190_left"><img src="/res/img/new_header/bandierina_ing.gif" alt="English version" hspace="3" align="absmiddle">&nbsp; <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=190english&tk=9616,f" target="_blank">English Version</a></div>
+		<div class="new_footer_190_right">Copyright &copy; 2006 Vodafone Group &nbsp; | &nbsp; <a href="#" onFocus="if(this.blur)this.blur()"
+                                                      onClick="javascript:window.open('http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=ty_privacy_policy_190&popup=true&ty_nocache=true', '', 'width=488,height=600,scrollbars=yes');">Privacy &amp; P.IVA</a></div>
+	</div>
+    <tr><!-- sostituisce css margin-->
+        <td height="15"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+	    function setUtCookie() {
+	        // cookie per tracciamento browser, flash, risoluzione 
+	        var Value = escape(1);
+	        var day = new Date();
+	        day.setDate(day.getDate() + 1);
+	        var Expire = day.toGMTString();
+	        var cName = "UserTracer=";
+	        var cExpire = "; expires=";
+	        document.cookie = cName + Value + cExpire + Expire;
+	    }
+
+
+		    function getUtCookie() {
+		        // cookie: se presente, recupero
+		        var read = document.cookie;
+		        var cook = read.indexOf("UserTracer=");
+		        if(cook != -1) {
+		            var cStart = cook + 11;
+		            var cEnd = read.indexOf(";", cook);
+		            if(cEnd == -1) cEnd = read.length;
+		            var value = read.substring(cStart, cEnd);
+		            value = unescape(value);
+		            return value;
+		        }
+		        else {
+		            return null;
+		        }
+		    }
+
+
+    	var UtCookie = getUtCookie();
+	    if(UtCookie != "1") {
+	        setUtCookie();
+	        var color = screen.colorDepth;
+	        var URL = "/res/trace/trace_additional_parameter.html" + "?vf=" + actualVersion + "&sw=" + screen.width + "&sh=" + screen.height + "&color=" + color;
+	        document.write("<IFRAME SRC=\"" + URL + "\" TITOLO=\"User Tracing\" WIDTH=\"0\" HEIGHT=\"0\" FRAMEBORDER=\"0\" MARGINWIDTH=\"0\" MARGINHEIGHT=\"0\">");
+	        document.write("</IFRAME>");
+	    }
+    
+</script>
+
+
+
+
+
+
+
+
+
+				</td>
+			</tr>
+	</table>
+	</body>
+</html>
+
+2007-01-29 16:29:27.874 DashboardClient[6883] it.emeraldion.widget.websms: /usr/bin/curl -L -s -d "pageTypeId=9604&programId=10384&channelId=-18126&receiverNumber=3XXXXXXXXX&message=voda%20test%20Rick" -e "http://www.areaprivati.190.it/190/trilogy/jsp/dispatcher.do?ty_key=fsms_hp&ipage=next" -b "/var/tmp/websms.Vodafone.cookie.4.txt" -c "/var/tmp/websms.Vodafone.cookie.5.txt" -A "Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1" --proxy 192.168.2.208:8080 --proxy-basic --proxy-user ……:……….. "http://www.areaprivati.190.it/190/fsms/prepare.do" | iconv -f iso-8859-1 -t utf-8
+2007-01-29 16:29:31.744 DashboardClient[6883] it.emeraldion.widget.websms: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+	<head>
+		<title>Vodafone</title>
+		<link rel="stylesheet" href="/res/css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="/fsms/css/fsms.css" type="text/css"/>
+		<script src="/res/js/navigation.js"></script>
+		<script language="JavaScript1.2" src="/res/js/style.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<table  align="center" border="0" cellpadding="0" cellspacing="0" >
+			<tr>
+				<td colspan="3" height="30">
+					
+
+
+
+
+
+
+
+               
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+   if(navigator.appName == "Microsoft Internet Explorer"){
+   //Check if the browser is InternetExplorer, and if it supports the getElementById DOM method
+   var ie_vers = (document.defaultCharset && document.getElementById);
+   if(ie_vers)
+   document.write ("<style id='hideObject'> object{display:none;} </style>");
+   }
+</script>
+
+
+       
+    
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    
+    
+
+    
+
+
+
+
+
+
+    
+    <!-- NUOVO HEADER GENERATO PER IL TEMPLATE 190 -->
+<!-- Debug: header 190 EX -->
+
+
+<div style="width:760px;height:15px;">
+</div>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    <tr>
+        <td>
+           <div class="nw_header">
+               <div class="nw_header_logo">
+                   <a href="http://www.190.it" onFocus="this.blur()" target="_top"><img src="/res/img/new_header/logo_1.gif" alt="Vodafone" title="Vodafone" border="0"></a>
+               </div>
+
+               <div class="nw_header_buttons">
+
+                   <div class="nw_header_servizi">
+                       
+                       <div class="nw_header_v12space"></div>
+                       <a href="#"
+                          onClick='javascript:window.open("http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=diac&tk=9616,t")'
+                          onFocus="this.blur()">
+                                   &raquo;&nbsp;Sito accessibile
+                       </a>
+                       &nbsp;&nbsp;|&nbsp;&nbsp;
+                       
+                       
+                       <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=new_support_area&tk=9616,t" target="_top" onFocus="this.blur()">
+                       
+                                  
+                                  &raquo;&nbsp;Contattaci
+                       </a>
+
+                   </div>
+
+                   <div class="nw_header_bottoni">
+                       
+                   <a href="http://www.areaprivati.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+privati&tk=9604,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('priv','','/res/img/new_header/btn_privati_on.gif',1);"onFocus="this.blur()"><img name="priv" src="/res/img/new_header/btn_privati.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+aziende&tk=9604,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('busi','','/res/img/new_header/btn_business_on.gif',1);"onFocus="this.blur()"><img name="busi" src="/res/img/new_header/btn_business.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Fai+da+te+aziende&tk=9604,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('fdte','','/res/img/new_header/btn_fai_da_te_on.gif',1);"onFocus="this.blur()"><img name="fdte" src="/res/img/new_header/btn_fai_da_te_on.gif" border="0" ></a><a href="http://www.190.it/190/trilogy/jsp/home.do?tabName=VLive&tk=9604,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vliv','','/res/img/new_header/btn_vodafone_live_on.gif',1);"onFocus="this.blur()"><img name="vliv" src="/res/img/new_header/btn_vodafone_live.gif" border="0" ></a><a href="http://www.shop.190.it/190/trilogy/jsp/home.do?tabName=SHOP&tk=9604,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vshp','','/res/img/new_header/btn_shop_on.gif',1);"onFocus="this.blur()"><img name="vshp" src="/res/img/new_header/btn_shop.gif" border="0" ></a><a href="http://www.vodafone.it/vodafone/trilogy/jsp/home.do?tabName=HOME+VODAFONE&tk=9604,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('azie','','/res/img/new_header/btn_azienda_on.gif',1);"onFocus="this.blur()"><img name="azie" src="/res/img/new_header/btn_azienda.gif" border="0" ></a>
+                   </div>
+                   <div class="nw_header_barra">
+                   </div>
+               </div>
+           </div>
+        </td>
+    </tr>
+</table>
+<!-- Debug: EX ----------------------------------->
+
+    
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript" src="/res/js/search.js"></script>
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="760" height="35" align="center" class="new_login">
+  <tr>
+    <td height="35" width="592">
+      <table border="0" cellpadding="0" cellspacing="0" width="592" background="/res/img/new_header/new_loginbar/login_sx_592_back.gif">
+        <tr valign="top">
+          <td width="11" height="35"></td>
+          <td width="37">
+            <img src="/res/img/new_header/new_loginbar/login_ciao.gif" alt="Benvenuto!" title="Benvenuto!">
+          </td>
+          <td width="93" style="font-weight:bold;" valign="middle">
+            <span><!-- TY_DISP -->Riccardo<!-- TY_END --></span>
+          </td>
+          <td width="53">
+            <a href="http://www.areaprivati.190.it/190/trilogy/jsp/logout.do?tk=9604,t" target="_parent" onfocus="this.blur();">
+              <img src="/res/img/new_header/new_loginbar/btn_logout_50.gif" alt="Logout" border="0">
+            </a>
+          </td>
+          <td width="57">
+            <a href="http://www.190.it/190/lsch/regu/ty_l_reguUPDATE.jsp" target="_parent" onfocus="this.blur();">
+              <img style="margin-top:3px;" src="/res/img/new_header/new_loginbar/btn_modifica_dati_54.gif" alt="Modifica dati" border="0">
+            </a>
+          </td>
+          <td width="241" background="/res/img/new_header/new_loginbar/consumer_form_back.gif" align="right" style="padding-top:7px;">
+            
+
+<script>
+ var sim_fatto = false;
+function submitChangeSim() {
+    if(sim_fatto == false) {
+       sim_fatto = true;
+       document.change_sim.ty_sim.blur();
+        if(document.change_sim.ty_sim.value=="AddSim") {
+           
+           top.location.href='http://www.190.it/190/lsch/regu/ty_l_reguAddSim.jsp';
+           
+        } else {
+            
+            document.change_sim.submit();
+        }
+    }
+    
+}
+</script>
+
+
+		
+
+          </td>
+          <td width="50">
+            <a href="http://www.areaaziende.190.it/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_sms1&ty_op=-3,-1,-1,9604,-18126,10384,-1&tk=9604,t" target="_parent" onfocus="this.blur();">
+              <img style="margin-left:4px;" src="/res/img/new_header/new_loginbar/btn_login_sms.gif" alt="SMS" border="0"/>
+            </a>
+          </td>
+          <td width="50">
+            <a href="#1" target="_parent" onfocus="this.blur();" onClick="javascript:var a=window.open('http://www.190.it/190/trilogy/jsp/dispatcher.do?tk=9604,t&ty_key=ty_l_popup_mms&ty_op=-4,-1,-1,9604,-18126,10384,-1', '', 'width=445,height=280');">
+              <img style="margin-left:4px;" src="/res/img/new_header/new_loginbar/btn_login_mms.gif" alt="MMS" border="0"/>
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+
+      <td valign="top" width="168">
+        <div style="position:relative;">
+          <div id="hdInnerRicercaOn">
+            <script language="javascript">draw_168_SearchBox('searchForm','/190/trilogy/jsp/search.do');</script>
+          </div>
+          <div id="hdInnerRicercaOff">
+            <table border="0" cellpadding="0" cellspacing="0" width="168" background="/res/img/new_header/new_loginbar/ricerca_168_back.gif">
+              <tr valign="top">
+                <td width="168" colspan="2" height="35" align="right" style="padding-right:6px;">
+                  <a href="javascript:showSearchBox();" onfocus="this.blur();">
+                    <img src="/res/img/new_header/new_loginbar/btn_login_cerca.gif" alt="Ricerca qui" border="0" title="Ricerca qui">
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </td>
+
+  </tr>
+</table>
+</center>
+
+
+
+
+
+
+
+<table width="760" bgcolor="#FFFFFF" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr>
+        <td height="3"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+				
+				</td>
+			</tr>
+			<tr>
+				<td width="164" valign="top">
+					
+
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+
+<script>
+function popupSetHomePage(width,height) {
+        window.open("/190/trilogy/jsp/common/ty_set_home_page.jsp","","toolbar:no,location:no,menubar:no,resizable:no,scrollbars:no,height=" + height + ",width=" + width);
+}
+function addBookmark() {
+        var bookmarkurl="http://www.190.it/";
+        var bookmarktitle="190 Home Page";
+        netscape="Questa funzionalita' non e' supportata da Netscape";
+        generic="Il browser non supporta questa funzionalita'";
+        if (navigator.appName=='Microsoft Internet Explorer') {
+            window.external.AddFavorite(bookmarkurl,bookmarktitle);
+        }
+        else if (navigator.appName=='Netscape') {
+                alert(netscape);
+        }
+        else {
+                alert(generic);
+        }
+}
+function replaceAll(oldStr,findStr,repStr) {
+  var srchNdx = 0;  // srchNdx will keep track of where in the whole line
+                    // of oldStr are we searching.
+  var newStr = "";  // newStr will hold the altered version of oldStr.
+  while (oldStr.indexOf(findStr,srchNdx) != -1)
+                    // As long as there are strings to replace, this loop
+                    // will run.
+  {
+    newStr += oldStr.substring(srchNdx,oldStr.indexOf(findStr,srchNdx));
+                    // Put it all the unaltered text from one findStr to
+                    // the next findStr into newStr.
+    newStr += repStr;
+                    // Instead of putting the old string, put in the
+                    // new string instead.
+    srchNdx = (oldStr.indexOf(findStr,srchNdx) + findStr.length);
+                    // Now jump to the next chunk of text till the next findStr.
+  }
+  newStr += oldStr.substring(srchNdx,oldStr.length);
+                    // Put whatever's left into newStr.
+  return newStr;
+}
+function unWebify(webcode) {
+  var workStr = replaceAll(webcode,"&","%0D");
+  workStr = replaceAll(workStr,"+","%20");
+  return(unescape(workStr));
+}
+function showFlashMenu(swfUrl,swfVars) {
+
+    document.write('<br><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0">'
+    + '<tr><td>'
+    + '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="164" height="520" id="menutest" align="middle">'
+    + '<param name="allowScriptAccess" value="sameDomain" />'
+    + '<param name="movie" value="' + swfUrl + '" />'
+    + '<param name="quality" value="high" />'
+    + '<param name="flashVars"  value="' + swfVars + '" />'
+    + '<embed src="' + swfUrl + '" flashVars="' + swfVars + '" quality="high"  width="164" height="520" name="menutest" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="https://www.macromedia.com/go/getflashplayer" />'
+    + '</object>'
+    + '</td></tr>'
+    + '</table>');
+}
+function showHtmlMenu(topImg,menuTree,mk) {
+  document.write('<br><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0"><tr><td>'
+    + '<table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0"><tr>'
+    + '<td width="14" height="1"><img src="/res/img/nada.gif" width="14" height="1"></td>'
+    + '<td width="150"><img src="/res/img/nada.gif" width="150" height="1"></td>'
+    + '</tr><tr>'
+    + '<td width="14" height="20"><img width="14" src="/res/img/nada.gif"></td>'
+    + '<td width="150"><img src="/res/img/' + topImg + '" hspace="0"  border="0"></td>'
+    + '</tr></table></td></tr><tr><td><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0" valign="top">'
+    + '<tr><td bgcolor="#ffffff" width="14"><img src="/res/img/nada.gif"></td>'
+    + '<td>' + menuTree
+    + '<!--mk#' + mk + '#-->'
+    + '</td></tr></table></td></tr>');
+
+  document.write('<tr><td><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0">'
+	+ '<tr><td width="164" colspan="2"><img hspace="0" border="0" src="/res/img/menusx_close.gif"></td></tr>'
+    + '</table></td></tr></table>');
+}
+
+if (!useRedirect) {
+// if dynamic embedding is turned on
+    if(hasRightVersion) {  // if we've detected an acceptable version
+        showFlashMenu('/res/swf/vodMenu.swf','ty=1&pageTypeId=9604&programId=10384&channelId=-18126&cgiScriptName=/190');
+
+    } else {  // flash is too old or we can't detect the plugin
+        showHtmlMenu('menusx_tit_fdt.gif',unWebify('%3Ctable+bgcolor%3D%22%23ffffff%22+width%3D%22150%22+border%3D%220%22+cellspacing%3D%220%22+cellpadding%3D%220%22%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22130%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22100%25%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E'),'-1780513913');
+
+    }
+
+}
+</script>
+
+
+
+
+				
+				</td>
+				<td valign="top" class="centralBg">
+					<table width="445" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td valign="top" colspan="3">
+								
+
+
+<br>
+
+
+							</td>
+						</tr>
+						<!-- Inizio sezione content -->
+						<tr>
+							<td colspan="3">
+								
+									
+									
+										
+										
+									
+<script>
+    function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+        strurl = strurl + '&tk='+ tk +',c' + '&popup=true';
+        if (scrollbars==''){
+          scrollbars='no';
+        }
+        tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+        window.open(strurl, popupName, tools);
+    }
+  </script>
+<table bgcolor="#FFFFFF" width="445" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td><td align="center" valign="top" width="417">
+<table width="417" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="left"><img border="0" title="" alt="" src="/res/attachments/images/TIT_sms_via web.gif"><br>
+<br>
+</td>
+</tr>
+<tr>
+<td>
+<table width="417" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td colspan="5"><img src="/res/img/box_str_open2.gif"></td>
+</tr>
+<tr>
+<td background="/res/img/box_str_back.gif" width="8"><img width="8" src="/res/img/nada.gif"></td><td width="15"><img width="15" src="/res/img/nada.gif"></td><td valign="top" align="left" class="" width="378"><img height="4" width="378" src="/res/img/nada.gif"><br>
+<span class="bold12"></span>
+<br>
+<div align="left">Il numero di telefono del mittente del messaggio non e' valido. Ti preghiamo di verificare che il numero inserito sia corretto.</div>
+<br>
+<br>
+</td><td width="15"><img width="15" src="/res/img/nada.gif"></td><td bgcolor="#A9A8A9" width="1"><img src="/res/img/nada.gif"></td>
+</tr>
+<tr>
+<td colspan="5" height="24"><img src="/res/img/box_str_close2.gif"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td>
+</tr>
+</table>
+
+								
+							</td>
+						</tr>
+						<!-- Fine sezione content -->
+						<tr>
+							<td colspan="3"><img src="/res/img/nada.gif" height="14"/></td>
+						</tr>
+						<!-- Inizio sezione applicativa -->
+            
+								<tr>
+									<td width="14"><img src="/res/img/nada.gif" width="14"/></td>
+									<td width="417">
+									  <a href="/190/trilogy/jsp/dispatcher.do?ty_key=az_fsms_hp_jsp">
+									    <img src="/res/img/btn_indietro1.gif" width="68" height="19" border="0">
+									  </a>
+									</td>
+									<td width="14"><img src="/res/img/nada.gif" width="14"/></td>
+								</tr>
+            	
+						<!-- Fine sezione applicativa -->
+						<tr>
+							<td colspan="3"><img src="/res/img/nada.gif" height="14"/></td>
+						</tr>
+					</table>				
+				</td>
+				<td width="151" valign="top" height="30">
+					
+
+
+
+
+
+
+
+
+
+<!-- colonnaDestraRuleSetName = null-->
+
+
+    
+
+
+
+
+				
+				</td>
+			</tr>
+			<tr>
+				<td  colspan="3" height="30">
+					
+
+
+
+
+
+<script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+
+
+
+<script language="JavaScript" type="text/javascript" src="/res/js/flashActivator.js"></script>
+  
+
+
+
+
+
+<!-- Footer 190 -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    
+    <div class="new_footer">
+		<div class="new_footer_190_left"><img src="/res/img/new_header/bandierina_ing.gif" alt="English version" hspace="3" align="absmiddle">&nbsp; <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=190english&tk=9616,f" target="_blank">English Version</a></div>
+		<div class="new_footer_190_right">Copyright &copy; 2006 Vodafone Group &nbsp; | &nbsp; <a href="#" onFocus="if(this.blur)this.blur()"
+                                                      onClick="javascript:window.open('http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=ty_privacy_policy_190&popup=true&ty_nocache=true', '', 'width=488,height=600,scrollbars=yes');">Privacy &amp; P.IVA</a></div>
+	</div>
+    <tr><!-- sostituisce css margin-->
+        <td height="15"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+	    function setUtCookie() {
+	        // cookie per tracciamento browser, flash, risoluzione 
+	        var Value = escape(1);
+	        var day = new Date();
+	        day.setDate(day.getDate() + 1);
+	        var Expire = day.toGMTString();
+	        var cName = "UserTracer=";
+	        var cExpire = "; expires=";
+	        document.cookie = cName + Value + cExpire + Expire;
+	    }
+
+
+		    function getUtCookie() {
+		        // cookie: se presente, recupero
+		        var read = document.cookie;
+		        var cook = read.indexOf("UserTracer=");
+		        if(cook != -1) {
+		            var cStart = cook + 11;
+		            var cEnd = read.indexOf(";", cook);
+		            if(cEnd == -1) cEnd = read.length;
+		            var value = read.substring(cStart, cEnd);
+		            value = unescape(value);
+		            return value;
+		        }
+		        else {
+		            return null;
+		        }
+		    }
+
+
+    	var UtCookie = getUtCookie();
+	    if(UtCookie != "1") {
+	        setUtCookie();
+	        var color = screen.colorDepth;
+	        var URL = "/res/trace/trace_additional_parameter.html" + "?vf=" + actualVersion + "&sw=" + screen.width + "&sh=" + screen.height + "&color=" + color;
+	        document.write("<IFRAME SRC=\"" + URL + "\" TITOLO=\"User Tracing\" WIDTH=\"0\" HEIGHT=\"0\" FRAMEBORDER=\"0\" MARGINWIDTH=\"0\" MARGINHEIGHT=\"0\">");
+	        document.write("</IFRAME>");
+	    }
+    
+</script>
+
+
+
+
+
+
+
+
+	
+				</td>
+			</tr>
+	</table>
+	</body>
+</html>
+
+2007-01-29 16:29:31.751 DashboardClient[6883] it.emeraldion.widget.websms: /usr/bin/curl -L -s -e "http://www.areaprivati.190.it/190/fsms/prepare.do" -b "/var/tmp/websms.Vodafone.cookie.5.txt" -c "/var/tmp/websms.Vodafone.cookie.5.txt" -A "Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1" "http://www.areaprivati.190.it%VODAFONE_CAPTCHA_URL%" -o "/var/tmp/websms.Vodafone.captcha.1170084552119"
+2007-01-29 16:29:31.987 DashboardClient[6883] it.emeraldion.widget.websms: undefined
+2007-01-29 16:29:32.001 DashboardClient[6883] it.emeraldion.widget.websms: Showing captcha: file:///var/tmp/websms.Vodafone.captcha.1170084552119
+2007-01-29 16:29:37.780 DashboardClient[6883] it.emeraldion.widget.websms: /usr/bin/curl -L -s -d "verifyCode=&pageTypeId=9604&programId=10384&channelId=-18126&receiverNumber=3XXXXXXXXX&message=voda%20test%20Rick" -e "http://www.areaprivati.190.it/190/fsms/prepare.do" -b "/var/tmp/websms.Vodafone.cookie.5.txt" -c "/var/tmp/websms.Vodafone.cookie.6.txt" -A "Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; it; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1" --proxy 192.168.2.208:8080 --proxy-basic --proxy-user …….:………. "http://www.areaprivati.190.it/190/fsms/send.do" | iconv -f iso-8859-1 -t utf-8
+2007-01-29 16:29:41.173 DashboardClient[4745] com.guy-smiley.widget.Ebay: Updating Item Status
+2007-01-29 16:29:41.173 DashboardClient[4745] com.guy-smiley.widget.Ebay: Requesting Id 260078119990
+2007-01-29 16:29:41.174 DashboardClient[4745] com.guy-smiley.widget.Ebay: Getting http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=260078119990
+2007-01-29 16:29:41.178 DashboardClient[4745] com.guy-smiley.widget.Ebay: Requesting Id 260078936067
+2007-01-29 16:29:41.179 DashboardClient[4745] com.guy-smiley.widget.Ebay: Getting http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=260078936067
+2007-01-29 16:29:42.957 DashboardClient[6883] it.emeraldion.widget.websms: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+<html>
+	<head>
+		<title>Vodafone</title>
+		<link rel="stylesheet" href="/res/css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="/fsms/css/fsms.css" type="text/css"/>
+		<script src="/res/js/navigation.js"></script>
+		<script language="JavaScript1.2" src="/res/js/style.js" type="text/javascript"></script>
+		<script language="JavaScript1.2">
+		<!--
+
+		// Number of characters allowed for a message
+		var msgMaxLength = 360;
+
+		// Checks if data inserted by user are valid
+		function validateForm() {
+
+			var validationMessage_1 = "Attenzione, per proseguire devi inserire un numero di telefono cellulare.";
+			var validationMessage_2 = "Attenzione, nel numero telefonico hai inserito caratteri non numerici.";
+			var validationMessage_3 = "Attenzione, il numero di cellulare non puo' iniziare con 0.";
+			var validationMessage_4 = "Attenzione, il numero di cellulare deve essere di nove o dieci cifre.";
+			var validationMessage_5 = "Attenzione, il numero inserito non e' un cellulare";
+			var validationMessage_6 = "Attenzione, per proseguire devi scrivere il tuo messaggio.";
+			var validationMessage_7 = "Attenzione, il messaggio deve contenere almeno un carattere.";
+			var validationMessage_8 = "Attenzione, il messaggio puo' contenere al massimo " + msgMaxLength + " caratteri.";
+
+			var receiverField = document.fsmsMessageForm.receiverNumber;
+			var messageField = document.fsmsMessageForm.message;
+			var receiverNumber = receiverField.value;
+			var message = messageField.value;
+			var currentPrefix = receiverNumber.substr(0,3);
+		  var mobilePrefixs = "380,383,388,389,391,392,393,373,340,343,346,347,348,349,331,333,334,335,338,339,363,330,336,337,360,368,320,323,327,328,329";
+
+			if (receiverNumber == "") { // does we have a receiver number?
+				alert(validationMessage_1);
+				receiverField.focus();
+				return false;
+			}
+			else { // we have a receiver number
+
+				// Contains some letter?
+				var re = new RegExp("[^0-9]");
+				if (receiverNumber.match(re)) {
+					alert(validationMessage_2);
+					receiverField.focus();
+					return false;
+				}
+
+				// Begins with 0?
+				if (receiverNumber.charAt(0) == 0) {
+					alert(validationMessage_3);
+					receiverField.focus();
+					return false;
+				}
+
+				// Is length 9 or 10?
+				if (receiverNumber.length < 9 || receiverNumber.length > 10) {
+					alert(validationMessage_4);
+					receiverField.focus();
+					return false;
+				}
+
+				// Is prefix valid
+				if(mobilePrefixs.indexOf(currentPrefix) == -1){
+					alert(validationMessage_5);
+					receiverField.focus();
+					return false;
+				}
+			}
+
+			// Does we have a message?
+			if (message == "") {
+				alert(validationMessage_6);
+				messageField.focus();
+				return false;
+			}
+			
+			// Contains only spaces?
+			if (!containsOnlySpaces(message)) {
+				alert(validationMessage_7);
+				messageField.focus();
+				return false;
+			}
+
+			// Is message length ok?
+			if (message.length > msgMaxLength) {
+				alert(validationMessage_8);
+				messageField.focus();
+				return false;
+			}
+
+			// data was ok
+			return true;
+		}
+
+	 	// While user write the message checks used chars and updates available chars field
+		function charsCount() {
+			var messageField = document.fsmsMessageForm.message;
+			var message = messageField.value;
+			var availableChars;
+
+			if (message.length > msgMaxLength ) {
+				messageField.value = message.substring(0, msgMaxLength);
+				availableChars = 0;
+			}
+			else {
+				availableChars = msgMaxLength - message.length;
+			}
+			document.fsmsMessageForm.availableChars.value = availableChars;
+		}
+		
+				// Checks if given string contains only spaces
+		function containsOnlySpaces(strValue) {
+			var strTemp = strValue;
+			strTemp = trimAll(strTemp);
+			if(strTemp.length > 0){
+				return true;
+			}
+			return false;
+		}
+
+		// Removes leading and trailing spaces from the given string.
+		function trimAll(strValue) {
+			var objRegExp = /^(\s*)$/;
+			//check for all spaces
+			if(objRegExp.test(strValue)) {
+				strValue = strValue.replace(objRegExp, '');
+				if( strValue.length == 0)
+				return strValue;
+			}
+			//check for leading & trailing spaces
+			objRegExp = /^(\s*)([\W\w]*)(\b\s*$)/;
+			if(objRegExp.test(strValue)) {
+				//remove leading and trailing whitespace characters
+				strValue = strValue.replace(objRegExp, '$2');
+			}
+			return strValue;
+		}
+
+		//-->
+		</script>
+	</head>
+	<body>
+		<table  align="center" border="0" cellpadding="0" cellspacing="0" >
+			<tr>
+				<td colspan="3" height="30">
+					
+
+
+
+
+
+
+
+               
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+   if(navigator.appName == "Microsoft Internet Explorer"){
+   //Check if the browser is InternetExplorer, and if it supports the getElementById DOM method
+   var ie_vers = (document.defaultCharset && document.getElementById);
+   if(ie_vers)
+   document.write ("<style id='hideObject'> object{display:none;} </style>");
+   }
+</script>
+
+
+       
+    
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    
+    
+
+    
+
+
+
+
+
+
+    
+    <!-- NUOVO HEADER GENERATO PER IL TEMPLATE 190 -->
+<!-- Debug: header 190 EX -->
+
+
+<div style="width:760px;height:15px;">
+</div>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    <tr>
+        <td>
+           <div class="nw_header">
+               <div class="nw_header_logo">
+                   <a href="http://www.190.it" onFocus="this.blur()" target="_top"><img src="/res/img/new_header/logo_1.gif" alt="Vodafone" title="Vodafone" border="0"></a>
+               </div>
+
+               <div class="nw_header_buttons">
+
+                   <div class="nw_header_servizi">
+                       
+                       <div class="nw_header_v12space"></div>
+                       <a href="#"
+                          onClick='javascript:window.open("http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=diac&tk=9616,t")'
+                          onFocus="this.blur()">
+                                   &raquo;&nbsp;Sito accessibile
+                       </a>
+                       &nbsp;&nbsp;|&nbsp;&nbsp;
+                       
+                       
+                       <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=new_support_area&tk=9616,t" target="_top" onFocus="this.blur()">
+                       
+                                  
+                                  &raquo;&nbsp;Contattaci
+                       </a>
+
+                   </div>
+
+                   <div class="nw_header_bottoni">
+                       
+                   <a href="http://www.areaprivati.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+privati&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('priv','','/res/img/new_header/btn_privati_on.gif',1);"onFocus="this.blur()"><img name="priv" src="/res/img/new_header/btn_privati.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Piani%2C+Tariffe+e+Promozioni+aziende&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('busi','','/res/img/new_header/btn_business_on.gif',1);"onFocus="this.blur()"><img name="busi" src="/res/img/new_header/btn_business.gif" border="0" ></a><a href="http://www.areaaziende.190.it/190/trilogy/jsp/home.do?tabName=Fai+da+te+aziende&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('fdte','','/res/img/new_header/btn_fai_da_te_on.gif',1);"onFocus="this.blur()"><img name="fdte" src="/res/img/new_header/btn_fai_da_te_on.gif" border="0" ></a><a href="http://www.190.it/190/trilogy/jsp/home.do?tabName=VLive&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vliv','','/res/img/new_header/btn_vodafone_live_on.gif',1);"onFocus="this.blur()"><img name="vliv" src="/res/img/new_header/btn_vodafone_live.gif" border="0" ></a><a href="http://www.shop.190.it/190/trilogy/jsp/home.do?tabName=SHOP&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('vshp','','/res/img/new_header/btn_shop_on.gif',1);"onFocus="this.blur()"><img name="vshp" src="/res/img/new_header/btn_shop.gif" border="0" ></a><a href="http://www.vodafone.it/vodafone/trilogy/jsp/home.do?tabName=HOME+VODAFONE&tk=9606,t"target="_top"onMouseOut="MM_swapImgRestore();"onMouseOver="MM_swapImage('azie','','/res/img/new_header/btn_azienda_on.gif',1);"onFocus="this.blur()"><img name="azie" src="/res/img/new_header/btn_azienda.gif" border="0" ></a>
+                   </div>
+                   <div class="nw_header_barra">
+                   </div>
+               </div>
+           </div>
+        </td>
+    </tr>
+</table>
+<!-- Debug: EX ----------------------------------->
+
+    
+
+
+
+
+
+
+
+
+
+<!-- Login Bar Fdt Business-->
+
+<script language="JavaScript" src="/res/js/search.js"></script>
+
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center" class="new_login">
+  <tr>
+<!-- TY_LBSB -->
+
+   
+
+
+
+
+
+
+    <td height="35" width="621">
+      <table border="0" cellpadding="0" cellspacing="0" width="621" background="/res/img/new_header/new_loginbar/login_sx_621_back.gif">
+        <tr valign="top">
+          <td width="11" height="35"></td>
+          <td width="37"><img src="/res/img/new_header/new_loginbar/login_ciao.gif" alt="Benvenuto!" title="Benvenuto!"></td>
+          <td width="92" style="font-weight:bold;" valign="middle"><span>Riccardo</span></td>
+          <td width="46">
+            <a href="http://www.areaaziende.190.it/190/trilogy/jsp/logout.do?tk=9606,t" target="_parent" onfocus="this.blur();">
+              <img src="/res/img/new_header/new_loginbar/btn_logout_44.gif" alt="Logout" border="0">
+           </a>
+          </td>
+          <td width="5"></td>
+          <td width="430" valign="top" align="left" style="padding:1px 0 0 0;">
+
+
+
+    &nbsp;
+
+
+
+          </td>
+        </tr>
+      </table>
+    </td>
+
+    <td valign="top" width="139">
+      <div id="position:relative;">
+        <div id="hdInnerRicercaOn">
+          <script language="javascript">draw_139_SearchBox('searchForm','/190/trilogy/jsp/search.do');</script>
+        </div>
+        <div id="hdInnerRicercaOff">
+          <table border="0" cellpadding="0" cellspacing="0" width="139" background="/res/img/new_header/new_loginbar/ricerca_139_back.gif">
+            <tr valign="top">
+              <td width="139" height="35" colspan="2" align="right" style="padding-right:6px;">
+                <a href="javascript:showSearchBox();" onfocus="this.blur();">
+                  <img src="/res/img/new_header/new_loginbar/btn_login_cerca_40.gif" alt="Ricerca qui" border="0" title="Ricerca qui">
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </td>
+
+
+
+
+<!-- TY_END -->
+  </tr>
+</table>
+</center>
+<!-- /Login Bar Business--->
+
+
+
+
+
+
+<table width="760" bgcolor="#FFFFFF" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr>
+        <td height="3"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+				</td>
+			</tr>
+			<tr>
+				<td width="164" valign="top">
+					
+
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+
+<script>
+function popupSetHomePage(width,height) {
+        window.open("/190/trilogy/jsp/common/ty_set_home_page.jsp","","toolbar:no,location:no,menubar:no,resizable:no,scrollbars:no,height=" + height + ",width=" + width);
+}
+function addBookmark() {
+        var bookmarkurl="http://www.190.it/";
+        var bookmarktitle="190 Home Page";
+        netscape="Questa funzionalita' non e' supportata da Netscape";
+        generic="Il browser non supporta questa funzionalita'";
+        if (navigator.appName=='Microsoft Internet Explorer') {
+            window.external.AddFavorite(bookmarkurl,bookmarktitle);
+        }
+        else if (navigator.appName=='Netscape') {
+                alert(netscape);
+        }
+        else {
+                alert(generic);
+        }
+}
+function replaceAll(oldStr,findStr,repStr) {
+  var srchNdx = 0;  // srchNdx will keep track of where in the whole line
+                    // of oldStr are we searching.
+  var newStr = "";  // newStr will hold the altered version of oldStr.
+  while (oldStr.indexOf(findStr,srchNdx) != -1)
+                    // As long as there are strings to replace, this loop
+                    // will run.
+  {
+    newStr += oldStr.substring(srchNdx,oldStr.indexOf(findStr,srchNdx));
+                    // Put it all the unaltered text from one findStr to
+                    // the next findStr into newStr.
+    newStr += repStr;
+                    // Instead of putting the old string, put in the
+                    // new string instead.
+    srchNdx = (oldStr.indexOf(findStr,srchNdx) + findStr.length);
+                    // Now jump to the next chunk of text till the next findStr.
+  }
+  newStr += oldStr.substring(srchNdx,oldStr.length);
+                    // Put whatever's left into newStr.
+  return newStr;
+}
+function unWebify(webcode) {
+  var workStr = replaceAll(webcode,"&","%0D");
+  workStr = replaceAll(workStr,"+","%20");
+  return(unescape(workStr));
+}
+function showFlashMenu(swfUrl,swfVars) {
+
+    document.write('<br><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0">'
+    + '<tr><td>'
+    + '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="164" height="520" id="menutest" align="middle">'
+    + '<param name="allowScriptAccess" value="sameDomain" />'
+    + '<param name="movie" value="' + swfUrl + '" />'
+    + '<param name="quality" value="high" />'
+    + '<param name="flashVars"  value="' + swfVars + '" />'
+    + '<embed src="' + swfUrl + '" flashVars="' + swfVars + '" quality="high"  width="164" height="520" name="menutest" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="https://www.macromedia.com/go/getflashplayer" />'
+    + '</object>'
+    + '</td></tr>'
+    + '</table>');
+}
+function showHtmlMenu(topImg,menuTree,mk) {
+  document.write('<br><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0"><tr><td>'
+    + '<table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0"><tr>'
+    + '<td width="14" height="1"><img src="/res/img/nada.gif" width="14" height="1"></td>'
+    + '<td width="150"><img src="/res/img/nada.gif" width="150" height="1"></td>'
+    + '</tr><tr>'
+    + '<td width="14" height="20"><img width="14" src="/res/img/nada.gif"></td>'
+    + '<td width="150"><img src="/res/img/' + topImg + '" hspace="0"  border="0"></td>'
+    + '</tr></table></td></tr><tr><td><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0" valign="top">'
+    + '<tr><td bgcolor="#ffffff" width="14"><img src="/res/img/nada.gif"></td>'
+    + '<td>' + menuTree
+    + '<!--mk#' + mk + '#-->'
+    + '</td></tr></table></td></tr>');
+
+  document.write('<tr><td><table bgcolor="#ffffff" width="164" border="0" cellspacing="0" cellpadding="0">'
+	+ '<tr><td width="164" colspan="2"><img hspace="0" border="0" src="/res/img/menusx_close.gif"></td></tr>'
+    + '</table></td></tr></table>');
+}
+
+if (!useRedirect) {
+// if dynamic embedding is turned on
+    if(hasRightVersion) {  // if we've detected an acceptable version
+        showFlashMenu('/res/swf/vodMenu.swf','ty=1&pageTypeId=9606&programId=10976&channelId=-18106&cgiScriptName=/190');
+
+    } else {  // flash is too old or we can't detect the plugin
+        showHtmlMenu('menusx_tit_fdt.gif',unWebify('%3Ctable+bgcolor%3D%22%23ffffff%22+width%3D%22150%22+border%3D%220%22+cellspacing%3D%220%22+cellpadding%3D%220%22%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22130%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18201%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ECONTO+TELEFONICO+E+FATTURE%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18082%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ECONTROLLO+COSTI+IN+TEMPO+REALE%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18105%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ECONFIGURAZIONE+RAM%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-8646%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3EASSISTENZA+CARTA+SIM%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18661%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3EASSISTENZA+TELEFONI+CELLULARI%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18584%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ESERVIZI+AZIENDALI%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_red_down.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menu%22+colspan%3D%222%22+width%3D%22100%25%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FchannelView.do%3FchannelId%3D-18106%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menu%22%3ESERVIZI+PERSONALI%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+width%3D%22150%22+colspan%3D%223%22%3E%3Ctable+width%3D%22100%25%22++background%3D%22%2Fres%2Fimg%2Fmenusx_back.gif%22++border%3D%220%22+cellspacing%3D%220%22+cellpadding%3D%220%22%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22100%25%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menulight%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D10644%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulight%22%3EMy+Vodafone.it%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menulight%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D11084%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulight%22%3EAggiornamento+dati+username%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_black.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd+class%3D%22menulight%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D11149%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulight%22%3EServizi+e+opzioni+per+la+tua+SIM%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd++width%3D%2210%22+height%3D%220%22%3E%3Cimg+align%3D%22left%22+src%3D%22%2Fres%2Fimg%2Fmenusx_arrow_red.gif%22+border%3D%220%22%3E%3C%2Ftd%3E%3Ctd++class%3D%22menulightred%22+colspan%3D%221%22%3E%3Ca+target%3D%22_parent%22+href%3D%22http%3A%2F%2Fwww.areaaziende.190.it%2F190%2Ftrilogy%2Fjsp%2FprogramView.do%3FchannelId%3D-18106%26programId%3D10976%26pageTypeId%3D9606%26tk%3D9606%2Cl%26precPage%3DServizi%2Bper%2Bcomunicare%22+class%3D%22menulightred%22%3EServizi+per+comunicare%3C%2Fa%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22130%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+align%3D%22center%22+width%3D%22150%22+height%3D%222%22+colspan%3D%223%22+background%3D%22%2Fres%2Fimg%2Fmenusx_sep.gif%22%3E%3Cimg+src%3D%22%2Fres%2Fimg%2Fnada.gif%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+height%3D%221%22+width%3D%2210%22%3E%3C%2Ftd%3E%3Ctd+width%3D%22100%25%22+height%3D%221%22%3E%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftable%3E'),'-1304810980');
+
+    }
+
+}
+</script>
+
+
+
+
+
+				</td>
+				<td valign="top" class="centralBg">
+					<table width="445" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td valign="top" colspan="3">
+								
+
+
+<br>
+
+
+							</td>
+						</tr>
+						<!-- Inizio sezione content -->
+						<tr>
+							<td colspan="3">
+								
+								
+									
+									
+										
+										
+									
+
+									
+								
+								
+								<script>
+    function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+        strurl = strurl + '&tk='+ tk +',c' + '&popup=true';
+        if (scrollbars==''){
+          scrollbars='no';
+        }
+        tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+        window.open(strurl, popupName, tools);
+    }
+  </script>
+<table bgcolor="#FFFFFF" width="445" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td><td align="center" valign="top" width="417">
+<table width="417" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="left"><img border="0" title="" alt="" src="/res/attachments/images/TIT_sms_via web.gif"><br>
+<br>
+</td>
+</tr>
+<tr>
+<td height="20" align="left" class="">
+<div align="left">
+<strong>Speciale per te: oggi</strong> puoi inviare fino a <strong>100 SMS gratis</strong> via web verso i tuoi amici Vodafone. Approfittane subito!<br>
+
+<br>
+Potrai scrivere messaggi concatenati utilizzando al massimo <b>360 caratteri<sup>1</sup></b>, il sistema provveder&agrave; in automatico a suddividere il testo da te inserito in pi&ugrave; SMS di al massimo 160 caratteri ciascuno.<br>
+
+<br>
+In aggiunta, quando il <b>destinatario</b> riceve l'SMS <b>visualizzer&agrave; come mittente il tuo numero di cellulare registrato</b> su vodafone.it, per cui riceverai la risposta al messaggio direttamente sul tuo numero di cellulare.</div>
+<br>
+<br>
+</td>
+</tr></table></td><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td></tr></table>
+							</td>
+						</tr>
+						<!-- Fine sezione content -->
+						<!-- Inizio sezione applicativa -->
+						<tr>
+							<td width="14"><img src="/res/img/nada.gif" width="14"/></td>
+							<td width="417">
+							<!-- Inizio form invio msg -->
+							<form name="fsmsMessageForm" method="post" action="/190/fsms/prepare.do" onsubmit="return validateForm()">
+							  <input type="hidden" name="pageTypeId" value="9606"><input type="hidden" name="programId" value="10976"><input type="hidden" name="channelId" value="-18106">
+								<table width="417" border="0" cellspacing="0" cellpadding="0" bgcolor="eaeaea">
+									<tr bgcolor="#FFFFFF">
+									  <td><img src="/res/img/nada.gif" width="13" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="80" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="136" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="169" height="1"/></td>
+										<td><img src="/res/img/nada.gif" width="19" height="1"/></td>
+									</tr>
+									<tr>
+										<td colspan="5"><img src="/fsms/img/img_box_open.gif" width="417" height="21" /></td>
+									</tr>
+									<tr>
+										<td colspan="5"><img src="/fsms/img/label_invia_sms.gif" alt="Invia il tuo SMS" title="Invia il tuo SMS" width="417" height="31" /></td>
+									</tr>
+									
+								
+                
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="50" /></td>
+										<td class="bold" valign="bottom">Mittente:</td>
+										<td valign="bottom">
+											<select name="senderNumber" style="width:130px" class="text"><option value="3XXXXXXXXX">3XXXXXXXXX</option></select>
+										</td>
+										<td valign="bottom" class="italic"></td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+                
+
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="50" /></td>
+										<td class="bold" valign="bottom">Destinatario:</td>
+										<td valign="bottom">
+											<input type="text" name="receiverNumber" maxlength="10" size="20" value="" style="width:130px" class="text">
+										</td>
+										<td valign="bottom" class="italic">&nbsp;Inserisci un numero Vodafone</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="30" /></td>
+										<td>&nbsp;</td>
+										<td colspan="2">&nbsp;</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+										<td class="bold" valign="middle">Messaggio:</td>
+										<td colspan="2">
+											<textarea name="message" cols="30" rows="11" onkeyup="charsCount()" onchange="charsCount()" style="width:300px; overflow:auto;"></textarea>
+										</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="50" /></td>
+										<td class="bold" valign="bottom">Caratteri disponibili:</td>
+										<td valign="bottom">
+											<input type="text" name="availableChars" size="20" value="360" readonly="readonly" style="width:130px;">
+										</td>
+										<td valign="bottom" align="right">
+											<input type="image" src="/res/img/btn_prosegui.gif" alt="Prosegui" title="Prosegui">
+										</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td background="/fsms/img/img_box_backg_sx.gif"><img src="/res/img/nada.gif" width="1" height="30" /></td>
+										<td>&nbsp;</td>
+										<td colspan="2">&nbsp;</td>
+										<td background="/fsms/img/img_box_backg_dx.gif"><img src="/res/img/nada.gif" width="1" height="1" /></td>
+									</tr>
+									<tr>
+										<td colspan="5"><img src="/fsms/img/img_box_close.gif" width="417" height="17" /></td>
+									</tr>
+								</table>
+							</form>
+							<!-- Fine form invio msg -->
+							</td>
+							<td width="14"><img src="/res/img/nada.gif" width="14"/></td>
+						</tr>
+						<!-- Fine sezione applicativa -->
+						<tr>
+							<td colspan="3"><img src="/res/img/nada.gif" height="14"/></td>
+						</tr>
+						<!-- Inizio sezione content -->
+						<tr>
+							<td colspan="3">
+								
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF"><tr><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td><td width="100%" valign="top" align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+<td height="20" align="left" class="">
+<div align="left">
+<i>NOTE:<br>
+1. Alcune lettere occupano lo spazio di 3 caratteri anzich&egrave; 1. I caratteri speciali potrebbero non essere visualizzati correttamente dal destinatario&nbsp;(tra i principali: &pound;, &egrave;, &eacute;, &ugrave;, &igrave;, &ograve;, &Ccedil;, _, &Eacute; e le lettere con le dieresi).</i>
+</div>
+<br>
+<br>
+</td>
+</tr>
+</table>
+</td><td width="14"><img height="1" width="14" src="/res/img/nada.gif"></td>
+</tr>
+</table>
+
+							</td>
+						</tr>
+						<!-- Fine sezione content -->
+						<tr>
+							<td colspan="3"><img src="/res/img/nada.gif" height="14"/></td>
+						</tr>
+				</table>				</td>
+				<td width="151" valign="top" height="30">
+					
+
+
+
+
+
+
+
+
+
+<!-- colonnaDestraRuleSetName = null-->
+
+
+    
+
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="151" bgcolor="#FFFFFF">
+
+<!--Menu Ricariche-->
+
+<!--Menu Ricariche-->
+<tr>
+    <td colspan="2"><img src="/res/img/nada.gif" height="10"/></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+ <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="137">
+        
+                
+                                
+                
+                
+
+                                 <tr>
+                                  <td>
+                
+                        
+                        
+                
+<script>
+  function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+      strurl = strurl + '&tk='+ tk +',r' + '&popup=true';
+      if (scrollbars=='') {
+      	scrollbars='no';
+      }
+      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+      window.open(strurl, popupName, tools);
+  }
+</script>
+<table width="137" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<br>
+<a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_inserimento_dati&tk=9606,r"><img title="" alt="" border="0" src="/res/attachments/images/coldx_nome_utilizzatore2.gif"></a>
+<br>
+</td>
+</tr>
+</table>
+
+                                  </td>
+                                 </tr>
+
+         </table>
+ </td>
+ <td><img src="/res/img/nada.gif"/></td>
+</tr>
+
+
+
+<tr>
+ <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="137">
+        
+                
+                
+                                 <tr>
+                                         <td background="/res/img/coldx_sep.gif"><img src="/res/img/nada.gif" width="137" height="1"/></td>
+                                         <td><img src="/res/img/nada.gif"/></td>
+                                 </tr>
+                
+
+                                 <tr>
+                                  <td>
+                
+                        
+                        
+                
+<script>
+  function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+      strurl = strurl + '&tk='+ tk +',r' + '&popup=true';
+      if (scrollbars=='') {
+      	scrollbars='no';
+      }
+      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+      window.open(strurl, popupName, tools);
+  }
+</script>
+<table width="137" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<br>
+<a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_dettaglio_chiamate_corp_ref_abb&tk=9606,r"><img title="" alt="" border="0" src="/res/attachments/images/coldx1_dett_chiamate1.gif"></a>
+<br>
+</td>
+</tr>
+</table>
+
+                                  </td>
+                                 </tr>
+
+         </table>
+ </td>
+ <td><img src="/res/img/nada.gif"/></td>
+</tr>
+
+
+
+<tr>
+ <td>
+        <table border="0" cellpadding="0" cellspacing="0" width="137">
+        
+                
+                
+                                 <tr>
+                                         <td background="/res/img/coldx_sep.gif"><img src="/res/img/nada.gif" width="137" height="1"/></td>
+                                         <td><img src="/res/img/nada.gif"/></td>
+                                 </tr>
+                
+
+                                 <tr>
+                                  <td>
+                
+                        
+                        
+                
+<script>
+  function openPopup(strurl,w,h,scrollbars,tk,popupName) {
+      strurl = strurl + '&tk='+ tk +',r' + '&popup=true';
+      if (scrollbars=='') {
+      	scrollbars='no';
+      }
+      tools = 'width='+w+','+'height='+h+','+'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars='+scrollbars+',resizable=yes,top=5,left=5';
+      window.open(strurl, popupName, tools);
+  }
+</script>
+<table width="137" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+<br>
+<a href="/190/trilogy/jsp/dispatcher.do?ty_key=fdt_az_sostituzione_sim_128k&tk=9606,r"><img title="" alt="" border="0" src="/res/attachments/images/coldx_sim_128k.gif"></a>
+<br>
+</td>
+</tr>
+</table>
+
+                                  </td>
+                                 </tr>
+
+         </table>
+ </td>
+ <td><img src="/res/img/nada.gif"/></td>
+</tr>
+
+
+
+
+
+    <tr>
+        <td height="17" colspan="2"><img src="/res/img/coldx_close.gif"/></td>
+    </tr>
+    <tr>
+        <td height="20" colspan="2"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+
+
+				</td>
+			</tr>
+			<tr>
+				<td  colspan="3" height="30">
+					
+
+
+
+
+
+<script src="/res/js/flashDetect.js" language="JavaScript" type="text/javascript"></script>
+
+
+
+<script language="JavaScript" type="text/javascript" src="/res/js/flashActivator.js"></script>
+  
+
+
+
+
+
+<!-- Footer 190 -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="760" align="center">
+    
+    <div class="new_footer">
+		<div class="new_footer_190_left"><img src="/res/img/new_header/bandierina_ing.gif" alt="English version" hspace="3" align="absmiddle">&nbsp; <a href="http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=190english&tk=9616,f" target="_blank">English Version</a></div>
+		<div class="new_footer_190_right">Copyright &copy; 2006 Vodafone Group &nbsp; | &nbsp; <a href="#" onFocus="if(this.blur)this.blur()"
+                                                      onClick="javascript:window.open('http://www.190.it/190/trilogy/jsp/dispatcher.do?ty_key=ty_privacy_policy_190&popup=true&ty_nocache=true', '', 'width=488,height=600,scrollbars=yes');">Privacy &amp; P.IVA</a></div>
+	</div>
+    <tr><!-- sostituisce css margin-->
+        <td height="15"><img src="/res/img/nada.gif"/></td>
+    </tr>
+</table>
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+	    function setUtCookie() {
+	        // cookie per tracciamento browser, flash, risoluzione 
+	        var Value = escape(1);
+	        var day = new Date();
+	        day.setDate(day.getDate() + 1);
+	        var Expire = day.toGMTString();
+	        var cName = "UserTracer=";
+	        var cExpire = "; expires=";
+	        document.cookie = cName + Value + cExpire + Expire;
+	    }
+
+
+		    function getUtCookie() {
+		        // cookie: se presente, recupero
+		        var read = document.cookie;
+		        var cook = read.indexOf("UserTracer=");
+		        if(cook != -1) {
+		            var cStart = cook + 11;
+		            var cEnd = read.indexOf(";", cook);
+		            if(cEnd == -1) cEnd = read.length;
+		            var value = read.substring(cStart, cEnd);
+		            value = unescape(value);
+		            return value;
+		        }
+		        else {
+		            return null;
+		        }
+		    }
+
+
+    	var UtCookie = getUtCookie();
+	    if(UtCookie != "1") {
+	        setUtCookie();
+	        var color = screen.colorDepth;
+	        var URL = "/res/trace/trace_additional_parameter.html" + "?vf=" + actualVersion + "&sw=" + screen.width + "&sh=" + screen.height + "&color=" + color;
+	        document.write("<IFRAME SRC=\"" + URL + "\" TITOLO=\"User Tracing\" WIDTH=\"0\" HEIGHT=\"0\" FRAMEBORDER=\"0\" MARGINWIDTH=\"0\" MARGINHEIGHT=\"0\">");
+	        document.write("</IFRAME>");
+	    }
+    
+</script>
+
+
+
+
+
+
+
+
+
+				</td>
+			</tr>
+	</table>
+	</body>
+</html>
