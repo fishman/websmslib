@@ -12,7 +12,7 @@
 	<key>main_site</key>
 	<string>https://myaccount.voipbuster.com/</string>
 	<key>update_url</key>
-	<string>http://www.malcom-mac.com/files/websmslib/plugins/voipbuster.plist</string>
+	<string>http://websmslib.googlecode.com/svn/trunk/plugins/voipbuster.plist</string>
 	<key>name</key>
 	<string>VoipBuster</string>
 	<key>steps</key>

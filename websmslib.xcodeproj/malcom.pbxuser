@@ -2,7 +2,7 @@
 {
 	089C165DFE840E0CC02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {982, 375}}";
+			sepNavIntBoundsRect = "{{0, 0}, {873, 384}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 45}";
 		};
@@ -115,8 +115,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 246644343;
-			PBXWorkspaceStateSaveDate = 246644343;
+			PBXPerProjectTemplateStateSaveDate = 246646479;
+			PBXWorkspaceStateSaveDate = 246646479;
 		};
 		perUserProjectItems = {
 			D9031B6F0E965F2A004CF760 = D9031B6F0E965F2A004CF760 /* PBXTextBookmark */;
@@ -127,15 +127,12 @@
 			D9031B870E9661CF004CF760 = D9031B870E9661CF004CF760 /* PBXTextBookmark */;
 			D9031B970E96623E004CF760 = D9031B970E96623E004CF760 /* PBXTextBookmark */;
 			D9031B9B0E96623E004CF760 = D9031B9B0E96623E004CF760 /* PBXTextBookmark */;
-			D9031BBD0E966656004CF760 = D9031BBD0E966656004CF760 /* PBXTextBookmark */;
 			D9031C010E9668BE004CF760 = D9031C010E9668BE004CF760 /* PBXTextBookmark */;
 			D9031C040E9668BE004CF760 = D9031C040E9668BE004CF760 /* PBXTextBookmark */;
 			D9031C130E966A2A004CF760 = D9031C130E966A2A004CF760 /* PBXTextBookmark */;
 			D9031C2D0E966E08004CF760 = D9031C2D0E966E08004CF760 /* PlistBookmark */;
 			D9031C2E0E966E08004CF760 = D9031C2E0E966E08004CF760 /* PlistBookmark */;
 			D9031C300E966E08004CF760 = D9031C300E966E08004CF760 /* PlistBookmark */;
-			D9031C3C0E966EE1004CF760 = D9031C3C0E966EE1004CF760 /* PlistBookmark */;
-			D9031C3D0E966EE1004CF760 = D9031C3D0E966EE1004CF760 /* PlistBookmark */;
 			D9031C590E966FDF004CF760 = D9031C590E966FDF004CF760 /* PBXTextBookmark */;
 			D9031C5A0E966FDF004CF760 = D9031C5A0E966FDF004CF760 /* PBXTextBookmark */;
 			D9031C710E967083004CF760 = D9031C710E967083004CF760 /* PBXTextBookmark */;
@@ -146,17 +143,80 @@
 			D9031CD30E9674CD004CF760 = D9031CD30E9674CD004CF760 /* PBXTextBookmark */;
 			D914CAED0EB37D6F0016CB55 = D914CAED0EB37D6F0016CB55 /* PBXTextBookmark */;
 			D914CAEE0EB37D6F0016CB55 = D914CAEE0EB37D6F0016CB55 /* PBXTextBookmark */;
-			D914CAF00EB37D6F0016CB55 = D914CAF00EB37D6F0016CB55 /* PBXTextBookmark */;
-			D914CAF10EB37D6F0016CB55 = D914CAF10EB37D6F0016CB55 /* PBXTextBookmark */;
-			D914CAF20EB37D6F0016CB55 = D914CAF20EB37D6F0016CB55 /* PBXTextBookmark */;
-			D914CAFB0EB37DDF0016CB55 = D914CAFB0EB37DDF0016CB55 /* PBXTextBookmark */;
-			D914CB120EB37E870016CB55 /* PBXTextBookmark */ = D914CB120EB37E870016CB55 /* PBXTextBookmark */;
-			D914CB130EB37E870016CB55 /* PBXTextBookmark */ = D914CB130EB37E870016CB55 /* PBXTextBookmark */;
-			D914CB140EB37E870016CB55 /* PBXTextBookmark */ = D914CB140EB37E870016CB55 /* PBXTextBookmark */;
-			D914CB150EB37E870016CB55 /* PBXTextBookmark */ = D914CB150EB37E870016CB55 /* PBXTextBookmark */;
+			D914CB120EB37E870016CB55 = D914CB120EB37E870016CB55 /* PBXTextBookmark */;
+			D914CB140EB37E870016CB55 = D914CB140EB37E870016CB55 /* PBXTextBookmark */;
+			D914CB850EB385E40016CB55 = D914CB850EB385E40016CB55 /* PBXTextBookmark */;
+			D914CB860EB385E40016CB55 = D914CB860EB385E40016CB55 /* PBXTextBookmark */;
+			D914CB870EB385E40016CB55 = D914CB870EB385E40016CB55 /* PlistBookmark */;
+			D914CB880EB385E40016CB55 = D914CB880EB385E40016CB55 /* PBXTextBookmark */;
+			D914CB890EB385E40016CB55 = D914CB890EB385E40016CB55 /* PlistBookmark */;
+			D914CB8B0EB385E40016CB55 = D914CB8B0EB385E40016CB55 /* PlistBookmark */;
+			D914CB8C0EB385E40016CB55 = D914CB8C0EB385E40016CB55 /* PlistBookmark */;
+			D914CB8E0EB385E40016CB55 = D914CB8E0EB385E40016CB55 /* PlistBookmark */;
+			D914CB8F0EB385E40016CB55 = D914CB8F0EB385E40016CB55 /* PlistBookmark */;
+			D914CB900EB385E50016CB55 = D914CB900EB385E50016CB55 /* PlistBookmark */;
+			D914CB910EB385E50016CB55 = D914CB910EB385E50016CB55 /* PlistBookmark */;
+			D914CB930EB385E50016CB55 = D914CB930EB385E50016CB55 /* PBXTextBookmark */;
+			D914CB940EB385E50016CB55 = D914CB940EB385E50016CB55 /* PBXTextBookmark */;
+			D914CB950EB385E50016CB55 = D914CB950EB385E50016CB55 /* PBXTextBookmark */;
+			D914CB960EB385E50016CB55 = D914CB960EB385E50016CB55 /* PBXTextBookmark */;
+			D914CB970EB385E50016CB55 = D914CB970EB385E50016CB55 /* PBXTextBookmark */;
+			D914CB980EB385E50016CB55 = D914CB980EB385E50016CB55 /* PlistBookmark */;
+			D914CB9A0EB385E50016CB55 = D914CB9A0EB385E50016CB55 /* PlistBookmark */;
+			D914CB9C0EB385E50016CB55 = D914CB9C0EB385E50016CB55 /* PlistBookmark */;
+			D914CB9E0EB385E50016CB55 = D914CB9E0EB385E50016CB55 /* PlistBookmark */;
+			D914CBA00EB385E50016CB55 = D914CBA00EB385E50016CB55 /* PlistBookmark */;
+			D914CBA20EB385E50016CB55 = D914CBA20EB385E50016CB55 /* PlistBookmark */;
+			D914CBA40EB385E50016CB55 = D914CBA40EB385E50016CB55 /* PlistBookmark */;
+			D914CBA60EB385E50016CB55 = D914CBA60EB385E50016CB55 /* PlistBookmark */;
+			D914CBA80EB385E50016CB55 = D914CBA80EB385E50016CB55 /* PlistBookmark */;
+			D914CBAA0EB385E50016CB55 = D914CBAA0EB385E50016CB55 /* PlistBookmark */;
+			D914CBAC0EB385E50016CB55 = D914CBAC0EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBAE0EB385E50016CB55 = D914CBAE0EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBAF0EB385E50016CB55 = D914CBAF0EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBB00EB385E50016CB55 = D914CBB00EB385E50016CB55 /* PlistBookmark */;
+			D914CBB10EB385E50016CB55 = D914CBB10EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBB20EB385E50016CB55 = D914CBB20EB385E50016CB55 /* PlistBookmark */;
+			D914CBB30EB385E50016CB55 = D914CBB30EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBB40EB385E50016CB55 = D914CBB40EB385E50016CB55 /* PlistBookmark */;
+			D914CBB60EB385E50016CB55 = D914CBB60EB385E50016CB55 /* PlistBookmark */;
+			D914CBB80EB385E50016CB55 = D914CBB80EB385E50016CB55 /* PlistBookmark */;
+			D914CBB90EB385E50016CB55 = D914CBB90EB385E50016CB55 /* PlistBookmark */;
+			D914CBBB0EB385E50016CB55 = D914CBBB0EB385E50016CB55 /* PlistBookmark */;
+			D914CBBC0EB385E50016CB55 = D914CBBC0EB385E50016CB55 /* PlistBookmark */;
+			D914CBBE0EB385E50016CB55 = D914CBBE0EB385E50016CB55 /* PlistBookmark */;
+			D914CBC00EB385E50016CB55 = D914CBC00EB385E50016CB55 /* PlistBookmark */;
+			D914CBC20EB385E50016CB55 = D914CBC20EB385E50016CB55 /* PlistBookmark */;
+			D914CBC40EB385E50016CB55 = D914CBC40EB385E50016CB55 /* PlistBookmark */;
+			D914CBC60EB385E50016CB55 = D914CBC60EB385E50016CB55 /* PlistBookmark */;
+			D914CBC80EB385E50016CB55 = D914CBC80EB385E50016CB55 /* PlistBookmark */;
+			D914CBCA0EB385E50016CB55 = D914CBCA0EB385E50016CB55 /* PlistBookmark */;
+			D914CBCC0EB385E50016CB55 = D914CBCC0EB385E50016CB55 /* PlistBookmark */;
+			D914CBCD0EB385E50016CB55 = D914CBCD0EB385E50016CB55 /* PlistBookmark */;
+			D914CBCE0EB385E50016CB55 = D914CBCE0EB385E50016CB55 /* PlistBookmark */;
+			D914CBD00EB385E50016CB55 = D914CBD00EB385E50016CB55 /* PlistBookmark */;
+			D914CBD10EB385E50016CB55 = D914CBD10EB385E50016CB55 /* PlistBookmark */;
+			D914CBD30EB385E50016CB55 = D914CBD30EB385E50016CB55 /* PlistBookmark */;
+			D914CBD50EB385E50016CB55 = D914CBD50EB385E50016CB55 /* PlistBookmark */;
+			D914CBD70EB385E50016CB55 = D914CBD70EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBD80EB385E50016CB55 = D914CBD80EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBD90EB385E50016CB55 = D914CBD90EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBDA0EB385E50016CB55 = D914CBDA0EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBDB0EB385E50016CB55 = D914CBDB0EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBDC0EB385E50016CB55 = D914CBDC0EB385E50016CB55 /* PlistBookmark */;
+			D914CBDE0EB385E50016CB55 = D914CBDE0EB385E50016CB55 /* PlistBookmark */;
+			D914CBE00EB385E50016CB55 = D914CBE00EB385E50016CB55 /* PlistBookmark */;
+			D914CBE20EB385E50016CB55 = D914CBE20EB385E50016CB55 /* PlistBookmark */;
+			D914CBE40EB385E50016CB55 = D914CBE40EB385E50016CB55 /* PlistBookmark */;
+			D914CBE60EB385E50016CB55 = D914CBE60EB385E50016CB55 /* PlistBookmark */;
+			D914CBE80EB385E50016CB55 = D914CBE80EB385E50016CB55 /* PlistBookmark */;
+			D914CBEA0EB385E50016CB55 = D914CBEA0EB385E50016CB55 /* PlistBookmark */;
+			D914CBEC0EB385E50016CB55 = D914CBEC0EB385E50016CB55 /* PlistBookmark */;
+			D914CBEE0EB385E50016CB55 = D914CBEE0EB385E50016CB55 /* PlistBookmark */;
+			D914CBF00EB385E50016CB55 = D914CBF00EB385E50016CB55 /* PBXTextBookmark */;
+			D914CBF40EB385F20016CB55 = D914CBF40EB385F20016CB55 /* PlistBookmark */;
+			D914CBF80EB385FD0016CB55 = D914CBF80EB385FD0016CB55 /* PlistBookmark */;
 			D94D356D0EAFD5CA0025B41C = D94D356D0EAFD5CA0025B41C /* PlistBookmark */;
-			D94D35750EAFD5E70025B41C = D94D35750EAFD5E70025B41C /* PlistBookmark */;
-			D94D35940EAFDEA80025B41C = D94D35940EAFDEA80025B41C /* PBXTextBookmark */;
 			D94D35E90EAFE3300025B41C = D94D35E90EAFE3300025B41C /* PBXTextBookmark */;
 			D94D36090EAFE41F0025B41C = D94D36090EAFE41F0025B41C /* PBXBookmark */;
 			D94D360B0EAFE41F0025B41C = D94D360B0EAFE41F0025B41C /* PBXBookmark */;
@@ -167,17 +227,14 @@
 			D94D36240EAFE5990025B41C = D94D36240EAFE5990025B41C /* PBXTextBookmark */;
 			D94D36760EAFE8400025B41C = D94D36760EAFE8400025B41C /* PBXTextBookmark */;
 			D94D36900EAFE8F70025B41C = D94D36900EAFE8F70025B41C /* PBXTextBookmark */;
-			D94D369C0EAFEC6B0025B41C = D94D369C0EAFEC6B0025B41C /* PlistBookmark */;
 			D96610AF0EA3E150001893CB = D96610AF0EA3E150001893CB /* PBXTextBookmark */;
 			D96610B30EA3E195001893CB = D96610B30EA3E195001893CB /* PBXTextBookmark */;
 			D96610B50EA3E195001893CB = D96610B50EA3E195001893CB /* PBXTextBookmark */;
-			D96611120EA40D7F001893CB = D96611120EA40D7F001893CB /* PlistBookmark */;
 			D96611140EA40D7F001893CB = D96611140EA40D7F001893CB /* PlistBookmark */;
 			D967198F0E9A0E0600687F23 = D967198F0E9A0E0600687F23 /* PBXTextBookmark */;
 			D96719900E9A0E0600687F23 = D96719900E9A0E0600687F23 /* PBXTextBookmark */;
 			D9671A060E9A104B00687F23 = D9671A060E9A104B00687F23 /* PBXTextBookmark */;
 			D9A700F80EA0B2110034BAEA = D9A700F80EA0B2110034BAEA /* PBXTextBookmark */;
-			D9EB1D9B0E9967A800CE6055 = D9EB1D9B0E9967A800CE6055 /* PBXTextBookmark */;
 			D9EB1D9C0E9967A800CE6055 = D9EB1D9C0E9967A800CE6055 /* PBXTextBookmark */;
 			D9EB1D9D0E9967A800CE6055 = D9EB1D9D0E9967A800CE6055 /* PBXTextBookmark */;
 			D9EB1D9F0E9967A800CE6055 = D9EB1D9F0E9967A800CE6055 /* PBXTextBookmark */;
@@ -316,16 +373,6 @@
 		path = "/Users/malcom/Documents/Programmazione/Progetti/Nemo/NemoX_SVN/sparkleplus-read-only/RSS.m";
 		sourceTree = "<absolute>";
 	};
-	D9031BBD0E966656004CF760 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9399C8E0E62C501000BE59B /* WebSMSPlugin.m */;
-		name = "WebSMSPlugin.m: 350";
-		rLen = 14;
-		rLoc = 11451;
-		rType = 0;
-		vrLen = 1141;
-		vrLoc = 11002;
-	};
 	D9031C010E9668BE004CF760 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D9399EAA0E62E0CC000BE59B /* NSString_Extensions.m */;
@@ -409,28 +456,6 @@
 		name = "vodafone-it.plist";
 		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-it.plist";
 		sourceTree = "<absolute>";
-	};
-	D9031C3C0E966EE1004CF760 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = D9031C310E966E08004CF760 /* vodafone-it.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-it.plist";
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	D9031C3D0E966EE1004CF760 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = D9031C2F0E966E08004CF760 /* vodafone-aziendale-it.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-aziendale-it.plist";
-		rLen = 0;
-		rLoc = 2147483647;
 	};
 	D9031C590E966FDF004CF760 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -553,46 +578,6 @@
 		vrLen = 1083;
 		vrLoc = 565;
 	};
-	D914CAF00EB37D6F0016CB55 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9399C930E62C722000BE59B /* TestClass.m */;
-		name = "TestClass.m: 68";
-		rLen = 0;
-		rLoc = 1844;
-		rType = 0;
-		vrLen = 1044;
-		vrLoc = 3485;
-	};
-	D914CAF10EB37D6F0016CB55 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9399C8D0E62C501000BE59B /* WebSMSPlugin.h */;
-		name = "WebSMSPlugin.h: 46";
-		rLen = 13;
-		rLoc = 1453;
-		rType = 0;
-		vrLen = 1083;
-		vrLoc = 565;
-	};
-	D914CAF20EB37D6F0016CB55 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9399C890E62C479000BE59B /* WebSMSEngine.m */;
-		name = "WebSMSEngine.m: 294";
-		rLen = 0;
-		rLoc = 9614;
-		rType = 0;
-		vrLen = 941;
-		vrLoc = 9155;
-	};
-	D914CAFB0EB37DDF0016CB55 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9399C890E62C479000BE59B /* WebSMSEngine.m */;
-		name = "WebSMSEngine.m: 293";
-		rLen = 0;
-		rLoc = 9524;
-		rType = 0;
-		vrLen = 999;
-		vrLoc = 9144;
-	};
 	D914CB120EB37E870016CB55 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D9399C890E62C479000BE59B /* WebSMSEngine.m */;
@@ -602,16 +587,6 @@
 		rType = 0;
 		vrLen = 983;
 		vrLoc = 9144;
-	};
-	D914CB130EB37E870016CB55 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9399D670E62D875000BE59B /* TransportClient.m */;
-		name = "TransportClient.m: 73";
-		rLen = 0;
-		rLoc = 1976;
-		rType = 0;
-		vrLen = 1104;
-		vrLoc = 1368;
 	};
 	D914CB140EB37E870016CB55 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -623,15 +598,1037 @@
 		vrLen = 983;
 		vrLoc = 9144;
 	};
-	D914CB150EB37E870016CB55 /* PBXTextBookmark */ = {
+	D914CB850EB385E40016CB55 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D9399D670E62D875000BE59B /* TransportClient.m */;
-		name = "TransportClient.m: 73";
+		name = "TransportClient.m: 13";
 		rLen = 0;
-		rLoc = 1976;
+		rLoc = 294;
 		rType = 0;
-		vrLen = 1100;
-		vrLoc = 1092;
+		vrLen = 705;
+		vrLoc = 189;
+	};
+	D914CB860EB385E40016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D93E60240E6F51BB00B3905E /* DBPrefsWindowController.h */;
+		name = "DBPrefsWindowController.h: 5";
+		rLen = 0;
+		rLoc = 92;
+		rType = 0;
+		vrLen = 1310;
+		vrLoc = 0;
+	};
+	D914CB870EB385E40016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D9CDC1C70E693AFA0000D126 /* ccountries.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/ccountries.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB880EB385E40016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9C0BA180E681BA0004F1E1A /* WebSMSApp.h */;
+		name = "WebSMSApp.h: 20";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	D914CB890EB385E40016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CB8A0EB385E40016CB55 /* alice.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/alice.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB8A0EB385E40016CB55 /* alice.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = alice.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/alice.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CB8B0EB385E40016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D94D354B0EAFD4B50025B41C /* att-us.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/att-us.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB8C0EB385E40016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CB8D0EB385E40016CB55 /* bell-ca.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/bell-ca.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB8D0EB385E40016CB55 /* bell-ca.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "bell-ca.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/bell-ca.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CB8E0EB385E40016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D96610DE0EA408B6001893CB /* tim.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tim.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB8F0EB385E40016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D9031C2F0E966E08004CF760 /* vodafone-aziendale-it.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-aziendale-it.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB900EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D9031C310E966E08004CF760 /* vodafone-it.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-it.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB910EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CB920EB385E50016CB55 /* voipstunt.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipstunt.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB920EB385E50016CB55 /* voipstunt.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = voipstunt.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipstunt.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CB930EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9F3151C0E71CE41003DAA66 /* WebSMSAppManager.h */;
+		name = "WebSMSAppManager.h: 37";
+		rLen = 0;
+		rLoc = 1013;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 311;
+	};
+	D914CB940EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9C0B99B0E68100C004F1E1A /* WebSMSPluginManager.h */;
+		name = "WebSMSPluginManager.h: 28";
+		rLen = 0;
+		rLoc = 799;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 259;
+	};
+	D914CB950EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9C0B99C0E68100C004F1E1A /* WebSMSPluginManager.m */;
+		name = "WebSMSPluginManager.m: 33";
+		rLen = 0;
+		rLoc = 786;
+		rType = 0;
+		vrLen = 1169;
+		vrLoc = 781;
+	};
+	D914CB960EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9F3151D0E71CE41003DAA66 /* WebSMSAppManager.m */;
+		name = "WebSMSAppManager.m: 110";
+		rLen = 0;
+		rLoc = 3305;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 2735;
+	};
+	D914CB970EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9399C8E0E62C501000BE59B /* WebSMSPlugin.m */;
+		name = "WebSMSPlugin.m: 120";
+		rLen = 0;
+		rLoc = 3236;
+		rType = 0;
+		vrLen = 756;
+		vrLoc = 3058;
+	};
+	D914CB980EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CB990EB385E50016CB55 /* callwave.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/callwave.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB990EB385E50016CB55 /* callwave.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = callwave.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/callwave.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CB9A0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CB9B0EB385E50016CB55 /* gmx.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/gmx.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB9B0EB385E50016CB55 /* gmx.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = gmx.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/gmx.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CB9C0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CB9D0EB385E50016CB55 /* o2-ie.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/o2-ie.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB9D0EB385E50016CB55 /* o2-ie.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "o2-ie.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/o2-ie.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CB9E0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CB9F0EB385E50016CB55 /* orange-ch.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/orange-ch.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CB9F0EB385E50016CB55 /* orange-ch.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "orange-ch.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/orange-ch.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBA00EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBA10EB385E50016CB55 /* smsdiscount-no-account.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount-no-account.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBA10EB385E50016CB55 /* smsdiscount-no-account.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "smsdiscount-no-account.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount-no-account.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBA20EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBA30EB385E50016CB55 /* smsdiscount.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBA30EB385E50016CB55 /* smsdiscount.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = smsdiscount.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBA40EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBA50EB385E50016CB55 /* tele2.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tele2.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBA50EB385E50016CB55 /* tele2.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = tele2.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tele2.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBA60EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBA70EB385E50016CB55 /* vodafone-ie.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-ie.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBA70EB385E50016CB55 /* vodafone-ie.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "vodafone-ie.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-ie.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBA80EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBA90EB385E50016CB55 /* voipbuster.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipbuster.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBA90EB385E50016CB55 /* voipbuster.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = voipbuster.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipbuster.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBAA0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBAB0EB385E50016CB55 /* voipcheap.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipcheap.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBAB0EB385E50016CB55 /* voipcheap.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = voipcheap.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipcheap.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBAC0EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	D914CBAE0EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9399D670E62D875000BE59B /* TransportClient.m */;
+		name = "TransportClient.m: 13";
+		rLen = 0;
+		rLoc = 294;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 189;
+	};
+	D914CBAF0EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D93E60240E6F51BB00B3905E /* DBPrefsWindowController.h */;
+		name = "DBPrefsWindowController.h: 5";
+		rLen = 0;
+		rLoc = 92;
+		rType = 0;
+		vrLen = 1310;
+		vrLoc = 0;
+	};
+	D914CBB00EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D9CDC1C70E693AFA0000D126 /* ccountries.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/ccountries.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBB10EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9C0BA180E681BA0004F1E1A /* WebSMSApp.h */;
+		name = "WebSMSApp.h: 20";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	D914CBB20EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D9CDC1C70E693AFA0000D126 /* ccountries.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/ccountries.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBB30EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9C0BA180E681BA0004F1E1A /* WebSMSApp.h */;
+		name = "WebSMSApp.h: 20";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	D914CBB40EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBB50EB385E50016CB55 /* bell-ca.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/bell-ca.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBB50EB385E50016CB55 /* bell-ca.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "bell-ca.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/bell-ca.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBB60EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBB70EB385E50016CB55 /* alice.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/alice.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBB70EB385E50016CB55 /* alice.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = alice.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/alice.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBB80EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D94D354B0EAFD4B50025B41C /* att-us.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			steps,
+			0,
+			action,
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/att-us.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBB90EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBBA0EB385E50016CB55 /* bell-ca.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/bell-ca.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBBA0EB385E50016CB55 /* bell-ca.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "bell-ca.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/bell-ca.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBBB0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D94D354B0EAFD4B50025B41C /* att-us.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/att-us.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBBC0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBBD0EB385E50016CB55 /* bell-ca.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/bell-ca.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBBD0EB385E50016CB55 /* bell-ca.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "bell-ca.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/bell-ca.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBBE0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBBF0EB385E50016CB55 /* callwave.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/callwave.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBBF0EB385E50016CB55 /* callwave.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = callwave.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/callwave.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBC00EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBC10EB385E50016CB55 /* gmx.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			name,
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/gmx.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBC10EB385E50016CB55 /* gmx.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = gmx.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/gmx.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBC20EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBC30EB385E50016CB55 /* o2-ie.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/o2-ie.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBC30EB385E50016CB55 /* o2-ie.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "o2-ie.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/o2-ie.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBC40EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBC50EB385E50016CB55 /* orange-ch.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/orange-ch.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBC50EB385E50016CB55 /* orange-ch.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "orange-ch.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/orange-ch.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBC60EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBC70EB385E50016CB55 /* smsdiscount-no-account.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount-no-account.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBC70EB385E50016CB55 /* smsdiscount-no-account.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "smsdiscount-no-account.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount-no-account.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBC80EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBC90EB385E50016CB55 /* smsdiscount.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBC90EB385E50016CB55 /* smsdiscount.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = smsdiscount.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBCA0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBCB0EB385E50016CB55 /* tele2.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tele2.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBCB0EB385E50016CB55 /* tele2.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = tele2.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tele2.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBCC0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D96610DE0EA408B6001893CB /* tim.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tim.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBCD0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D9031C2F0E966E08004CF760 /* vodafone-aziendale-it.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-aziendale-it.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBCE0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBCF0EB385E50016CB55 /* vodafone-ie.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-ie.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBCF0EB385E50016CB55 /* vodafone-ie.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "vodafone-ie.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-ie.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBD00EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D9031C310E966E08004CF760 /* vodafone-it.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-it.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBD10EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBD20EB385E50016CB55 /* voipbuster.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipbuster.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBD20EB385E50016CB55 /* voipbuster.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = voipbuster.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipbuster.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBD30EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBD40EB385E50016CB55 /* voipcheap.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipcheap.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBD40EB385E50016CB55 /* voipcheap.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = voipcheap.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipcheap.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBD50EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBD60EB385E50016CB55 /* voipstunt.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipstunt.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBD60EB385E50016CB55 /* voipstunt.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = voipstunt.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipstunt.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBD70EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9F3151C0E71CE41003DAA66 /* WebSMSAppManager.h */;
+		name = "WebSMSAppManager.h: 37";
+		rLen = 0;
+		rLoc = 1013;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 311;
+	};
+	D914CBD80EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9C0B99B0E68100C004F1E1A /* WebSMSPluginManager.h */;
+		name = "WebSMSPluginManager.h: 28";
+		rLen = 0;
+		rLoc = 799;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 259;
+	};
+	D914CBD90EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9C0B99C0E68100C004F1E1A /* WebSMSPluginManager.m */;
+		name = "WebSMSPluginManager.m: 33";
+		rLen = 0;
+		rLoc = 786;
+		rType = 0;
+		vrLen = 1169;
+		vrLoc = 781;
+	};
+	D914CBDA0EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9F3151D0E71CE41003DAA66 /* WebSMSAppManager.m */;
+		name = "WebSMSAppManager.m: 110";
+		rLen = 0;
+		rLoc = 3305;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 2735;
+	};
+	D914CBDB0EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9399C8E0E62C501000BE59B /* WebSMSPlugin.m */;
+		name = "WebSMSPlugin.m: 120";
+		rLen = 0;
+		rLoc = 3236;
+		rType = 0;
+		vrLen = 756;
+		vrLoc = 3058;
+	};
+	D914CBDC0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBDD0EB385E50016CB55 /* callwave.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/callwave.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBDD0EB385E50016CB55 /* callwave.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = callwave.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/callwave.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBDE0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBDF0EB385E50016CB55 /* gmx.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/gmx.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBDF0EB385E50016CB55 /* gmx.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = gmx.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/gmx.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBE00EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBE10EB385E50016CB55 /* o2-ie.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/o2-ie.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBE10EB385E50016CB55 /* o2-ie.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "o2-ie.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/o2-ie.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBE20EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBE30EB385E50016CB55 /* orange-ch.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/orange-ch.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBE30EB385E50016CB55 /* orange-ch.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "orange-ch.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/orange-ch.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBE40EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBE50EB385E50016CB55 /* smsdiscount-no-account.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount-no-account.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBE50EB385E50016CB55 /* smsdiscount-no-account.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "smsdiscount-no-account.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount-no-account.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBE60EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBE70EB385E50016CB55 /* smsdiscount.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBE70EB385E50016CB55 /* smsdiscount.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = smsdiscount.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/smsdiscount.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBE80EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBE90EB385E50016CB55 /* tele2.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tele2.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBE90EB385E50016CB55 /* tele2.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = tele2.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tele2.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBEA0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBEB0EB385E50016CB55 /* vodafone-ie.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-ie.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBEB0EB385E50016CB55 /* vodafone-ie.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "vodafone-ie.plist";
+		path = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/vodafone-ie.plist";
+		sourceTree = "<absolute>";
+	};
+	D914CBEC0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBED0EB385E50016CB55 /* voipbuster.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipbuster.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBED0EB385E50016CB55 /* voipbuster.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = voipbuster.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipbuster.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBEE0EB385E50016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D914CBEF0EB385E50016CB55 /* voipcheap.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipcheap.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBEF0EB385E50016CB55 /* voipcheap.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = voipcheap.plist;
+		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/voipcheap.plist;
+		sourceTree = "<absolute>";
+	};
+	D914CBF00EB385E50016CB55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	D914CBF40EB385F20016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D914CBF80EB385FD0016CB55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
 	};
 	D918E0160E72F7240020C694 /* WSMSPrefPane_Options.h */ = {
 		uiCtxt = {
@@ -729,9 +1726,9 @@
 	};
 	D9399C8E0E62C501000BE59B /* WebSMSPlugin.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1056, 5740}}";
-			sepNavSelRange = "{11451, 14}";
-			sepNavVisRange = "{11002, 1141}";
+			sepNavIntBoundsRect = "{{0, 0}, {1056, 5502}}";
+			sepNavSelRange = "{3236, 0}";
+			sepNavVisRange = "{3058, 756}";
 			sepNavWindowFrame = "{{959, 274}, {719, 558}}";
 		};
 	};
@@ -769,9 +1766,9 @@
 	};
 	D9399D670E62D875000BE59B /* TransportClient.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1254, 3794}}";
-			sepNavSelRange = "{1976, 0}";
-			sepNavVisRange = "{1092, 1100}";
+			sepNavIntBoundsRect = "{{0, 0}, {1254, 3822}}";
+			sepNavSelRange = "{808, 0}";
+			sepNavVisRange = "{592, 352}";
 			sepNavWindowFrame = "{{61, 101}, {688, 730}}";
 		};
 	};
@@ -793,9 +1790,9 @@
 	};
 	D93E60240E6F51BB00B3905E /* DBPrefsWindowController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {873, 1064}}";
+			sepNavIntBoundsRect = "{{0, 0}, {873, 966}}";
 			sepNavSelRange = "{92, 0}";
-			sepNavVisRange = "{0, 1477}";
+			sepNavVisRange = "{0, 1310}";
 			sepNavWindowFrame = "{{15, 134}, {882, 739}}";
 		};
 	};
@@ -977,30 +1974,6 @@
 		rLen = 57;
 		rLoc = 0;
 	};
-	D94D35750EAFD5E70025B41C /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = D94D354B0EAFD4B50025B41C /* att-us.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			steps,
-			0,
-			action,
-		);
-		name = "/Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/att-us.plist";
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	D94D35940EAFDEA80025B41C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9399D670E62D875000BE59B /* TransportClient.m */;
-		name = "TransportClient.m: 73";
-		rLen = 0;
-		rLoc = 1976;
-		rType = 0;
-		vrLen = 933;
-		vrLoc = 1506;
-	};
 	D94D35E90EAFE3300025B41C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D9F316990E71EEC1003DAA66 /* Dialogs.strings */;
@@ -1089,17 +2062,6 @@
 		vrLen = 1504;
 		vrLoc = 386;
 	};
-	D94D369C0EAFEC6B0025B41C /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/Info.plist;
-		rLen = 0;
-		rLoc = 2147483647;
-	};
 	D96610AF0EA3E150001893CB /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D9C0B7DF0E67E488004F1E1A /* MCDebug.m */;
@@ -1136,17 +2098,6 @@
 		name = tim.plist;
 		path = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tim.plist;
 		sourceTree = "<absolute>";
-	};
-	D96611120EA40D7F001893CB /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = D96610DE0EA408B6001893CB /* tim.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/malcom/Documents/Programmazione/Progetti/WebSMS/websmslib/plugins/tim.plist;
-		rLen = 0;
-		rLoc = 2147483647;
 	};
 	D96611140EA40D7F001893CB /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -1346,7 +2297,7 @@
 	};
 	D9C0B99B0E68100C004F1E1A /* WebSMSPluginManager.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {728, 560}}";
+			sepNavIntBoundsRect = "{{0, 0}, {873, 560}}";
 			sepNavSelRange = "{799, 0}";
 			sepNavVisRange = "{259, 941}";
 			sepNavWindowFrame = "{{38, 122}, {688, 730}}";
@@ -1354,15 +2305,15 @@
 	};
 	D9C0B99C0E68100C004F1E1A /* WebSMSPluginManager.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {846, 2450}}";
-			sepNavSelRange = "{251, 0}";
-			sepNavVisRange = "{0, 719}";
+			sepNavIntBoundsRect = "{{0, 0}, {873, 2338}}";
+			sepNavSelRange = "{786, 0}";
+			sepNavVisRange = "{781, 1169}";
 			sepNavWindowFrame = "{{38, 122}, {688, 730}}";
 		};
 	};
 	D9C0BA180E681BA0004F1E1A /* WebSMSApp.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {729, 585}}";
+			sepNavIntBoundsRect = "{{0, 0}, {873, 384}}";
 			sepNavSelRange = "{503, 0}";
 			sepNavVisRange = "{0, 503}";
 			sepNavWindowFrame = "{{15, 160}, {776, 713}}";
@@ -1372,16 +2323,6 @@
 		uiCtxt = {
 			sepNavWindowFrame = "{{84, 71}, {882, 739}}";
 		};
-	};
-	D9EB1D9B0E9967A800CE6055 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D93E60240E6F51BB00B3905E /* DBPrefsWindowController.h */;
-		name = "DBPrefsWindowController.h: 5";
-		rLen = 0;
-		rLoc = 92;
-		rType = 0;
-		vrLen = 1477;
-		vrLoc = 0;
 	};
 	D9EB1D9C0E9967A800CE6055 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1497,7 +2438,7 @@
 	};
 	D9F3151C0E71CE41003DAA66 /* WebSMSAppManager.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {918, 644}}";
+			sepNavIntBoundsRect = "{{0, 0}, {873, 644}}";
 			sepNavSelRange = "{1013, 0}";
 			sepNavVisRange = "{311, 997}";
 			sepNavWindowFrame = "{{61, 135}, {756, 696}}";
@@ -1505,9 +2446,9 @@
 	};
 	D9F3151D0E71CE41003DAA66 /* WebSMSAppManager.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {846, 2072}}";
+			sepNavIntBoundsRect = "{{0, 0}, {873, 2142}}";
 			sepNavSelRange = "{3305, 0}";
-			sepNavVisRange = "{2695, 1174}";
+			sepNavVisRange = "{2735, 1094}";
 			sepNavWindowFrame = "{{114, 110}, {756, 696}}";
 		};
 	};

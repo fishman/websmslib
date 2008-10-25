@@ -12,7 +12,7 @@
 	<key>main_site</key>
 	<string>http://www.tele2.it</string>
 	<key>update_url</key>
-	<string>http://www.malcom-mac.com/files/websmslib/plugins/tele2.plist</string>
+	<string>http://websmslib.googlecode.com/svn/trunk/plugins/tele2.plist</string>
 	<key>name</key>
 	<string>Tele2</string>
 	<key>steps</key>

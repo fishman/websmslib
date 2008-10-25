@@ -12,7 +12,7 @@
 	<key>main_site</key>
 	<string>http://www.tim.it</string>
 	<key>update_url</key>
-	<string>http://www.malcom-mac.com/files/websmslib/plugins/tim.plist</string>
+	<string>http://websmslib.googlecode.com/svn/trunk/plugins/tim.plist</string>
 	<key>name</key>
 	<string>TIM</string>
 	<key>steps</key>

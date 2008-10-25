@@ -12,7 +12,7 @@
 	<key>main_site</key>
 	<string>http://www.orange.ch</string>
 	<key>update_url</key>
-	<string>http://www.malcom-mac.com/files/websmslib/plugins/orange-ch.plist</string>
+	<string>http://websmslib.googlecode.com/svn/trunk/plugins/orange-ch.plist</string>
 	<key>name</key>
 	<string>Orange CH</string>
 	<key>steps</key>

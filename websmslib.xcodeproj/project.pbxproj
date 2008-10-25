@@ -12,6 +12,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D9031CC70E96743D004CF760 /* NSHideSuggestionField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9031CC60E96743D004CF760 /* NSHideSuggestionField.m */; };
+		D914CB6E0EB384D50016CB55 /* plugins in Resources */ = {isa = PBXBuildFile; fileRef = D914CB5B0EB384D50016CB55 /* plugins */; };
 		D918E0180E72F7240020C694 /* WSMSPrefPane_Options.m in Sources */ = {isa = PBXBuildFile; fileRef = D918E0170E72F7240020C694 /* WSMSPrefPane_Options.m */; };
 		D918E0CC0E72FFF70020C694 /* Registration.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D918E0CB0E72FFF70020C694 /* Registration.tiff */; };
 		D918E0D80E73002C0020C694 /* KEXT.icns in Resources */ = {isa = PBXBuildFile; fileRef = D918E0D70E73002C0020C694 /* KEXT.icns */; };
@@ -50,7 +51,6 @@
 		D94D35FD0EAFE3D10025B41C /* arrow_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D94D35FC0EAFE3D10025B41C /* arrow_2.png */; };
 		D96719CA0E9A0EE400687F23 /* HMBlkAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96719C90E9A0EE400687F23 /* HMBlkAppKit.framework */; };
 		D96719DE0E9A0EEA00687F23 /* HMBlkAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D96719C90E9A0EE400687F23 /* HMBlkAppKit.framework */; };
-		D97B31250E76F36E0022E414 /* plugins in Resources */ = {isa = PBXBuildFile; fileRef = D97B31140E76F36E0022E414 /* plugins */; };
 		D9925BB70E702ED2007D1229 /* standard_plugin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D9925BB60E702ED2007D1229 /* standard_plugin.jpeg */; };
 		D9925CE30E7034A2007D1229 /* NSData_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D9925CE20E7034A2007D1229 /* NSData_Extensions.m */; };
 		D9990B6F0E7156130097DBB2 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D9990B6E0E7156130097DBB2 /* MAAttachedWindow.m */; };
@@ -104,6 +104,7 @@
 		8D1107320486CEB800E47090 /* websmslib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = websmslib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9031CC50E96743D004CF760 /* NSHideSuggestionField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSHideSuggestionField.h; sourceTree = "<group>"; };
 		D9031CC60E96743D004CF760 /* NSHideSuggestionField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSHideSuggestionField.m; sourceTree = "<group>"; };
+		D914CB5B0EB384D50016CB55 /* plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = plugins; sourceTree = "<group>"; };
 		D918E0160E72F7240020C694 /* WSMSPrefPane_Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMSPrefPane_Options.h; sourceTree = "<group>"; };
 		D918E0170E72F7240020C694 /* WSMSPrefPane_Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMSPrefPane_Options.m; sourceTree = "<group>"; };
 		D918E0CB0E72FFF70020C694 /* Registration.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Registration.tiff; sourceTree = "<group>"; };
@@ -165,7 +166,6 @@
 		D94D35550EAFD5910025B41C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		D94D35FC0EAFE3D10025B41C /* arrow_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_2.png; sourceTree = "<group>"; };
 		D96719C90E9A0EE400687F23 /* HMBlkAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMBlkAppKit.framework; path = "HMBlkAppKit source/build/Release/HMBlkAppKit.framework"; sourceTree = "<group>"; };
-		D97B31140E76F36E0022E414 /* plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = plugins; sourceTree = "<group>"; };
 		D9925BB60E702ED2007D1229 /* standard_plugin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = standard_plugin.jpeg; sourceTree = "<group>"; };
 		D9925CE10E7034A2007D1229 /* NSData_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSData_Extensions.h; sourceTree = "<group>"; };
 		D9925CE20E7034A2007D1229 /* NSData_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_Extensions.m; sourceTree = "<group>"; };
@@ -523,7 +523,7 @@
 		D9CDC1FE0E6940750000D126 /* Stored Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D97B31140E76F36E0022E414 /* plugins */,
+				D914CB5B0EB384D50016CB55 /* plugins */,
 			);
 			name = "Stored Resources";
 			sourceTree = "<group>";
@@ -644,8 +644,8 @@
 				D918E0D80E73002C0020C694 /* KEXT.icns in Resources */,
 				D918E0F00E7300D90020C694 /* info.png in Resources */,
 				D918E0FC0E7301210020C694 /* Autoexec.tiff in Resources */,
-				D97B31250E76F36E0022E414 /* plugins in Resources */,
 				D94D35FD0EAFE3D10025B41C /* arrow_2.png in Resources */,
+				D914CB6E0EB384D50016CB55 /* plugins in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

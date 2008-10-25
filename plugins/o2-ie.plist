@@ -12,7 +12,7 @@
 	<key>main_site</key>
 	<string>https://myaccount.voipbuster.com/</string>
 	<key>update_url</key>
-	<string>http://www.malcom-mac.com/files/websmslib/plugins/o2-ie.plist</string>
+	<string>http://websmslib.googlecode.com/svn/trunk/plugins/o2-ie.plist</string>
 	<key>name</key>
 	<string>O2 Ireland</string>
 	<key>steps</key>

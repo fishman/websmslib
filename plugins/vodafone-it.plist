@@ -12,7 +12,7 @@
 	<key>main_site</key>
 	<string>http://www.190.it</string>
 	<key>update_url</key>
-	<string>http://www.malcom-mac.com/files/websmslib/plugins/vodafone-it.plist</string>
+	<string>http://websmslib.googlecode.com/svn/trunk/plugins/vodafone-it.plist</string>
 	<key>name</key>
 	<string>Vodafone Italia</string>
 	<key>steps</key>

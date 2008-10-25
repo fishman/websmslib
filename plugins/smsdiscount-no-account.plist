@@ -12,7 +12,7 @@
 	<key>main_site</key>
 	<string>http://www.smsdiscount.com/</string>
 	<key>update_url</key>
-	<string>http://www.malcom-mac.com/files/websmslib/plugins/smsdiscount-no-account.plist</string>
+	<string>http://websmslib.googlecode.com/svn/trunk/plugins/smsdiscount-no-account.plist</string>
 	<key>name</key>
 	<string>SMSdiscount (No account)</string>
 	<key>steps</key>
