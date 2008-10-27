@@ -1,0 +1,11 @@
+Authentication:
+--proxy-basic
+--proxy-digest
+--proxy-ntlm
+
+Proxy type:
+--socks <host[:port]>
+-x <host[:port]>
+
+Authentication:
+-U <user:password>

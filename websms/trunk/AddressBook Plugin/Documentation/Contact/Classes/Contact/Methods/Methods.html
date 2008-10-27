@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>Methods</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="generator" content="HeaderDoc">
+<style type="text/css"><!--a:link {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #0000ff;}a:visited {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #0000ff;}a:visited:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}a:active {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}a:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: small; color: #ff6600;}h4 {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: tiny; font-weight: bold;}body {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: 10pt;}--></style></head><body bgcolor="#ffffff">
+<h1><font face="Geneva,Arial,Helvtica">Methods</font></h1><br>
+<a name="HeaderDoc_methods"></a>
+<dl>
+<dt><tt><a href="Methods.html#//apple_ref/occ/instm/Contact/caseInsensitiveCompare:" target="doc">-caseInsensitiveCompare:</a></tt></dt>
+<dd>Compares two contacts.
+</dd>
+<dt><tt><a href="Methods.html#//apple_ref/occ/clm/Contact/contact" target="doc">+contact</a></tt></dt>
+<dd>Returns a contact object.
+ </dd>
+<dt><tt><a href="Methods.html#//apple_ref/occ/clm/Contact/contactWithName:number:" target="doc">+contactWithName:number:</a></tt></dt>
+<dd>Returns a contact object initialized with the given <tt>name</tt> and <tt>number</tt>.
+</dd>
+<dt><tt><a href="Methods.html#//apple_ref/occ/instm/Contact/initWithName:number:" target="doc">-initWithName:number:</a></tt></dt>
+<dd>Returns a contact object initialized with the given <tt>name</tt> and <tt>number</tt>.
+</dd>
+<dt><tt><a href="Methods.html#//apple_ref/occ/instm/Contact/name" target="doc">-name</a></tt></dt>
+<dd>Returns the contact's name.
+</dd>
+<dt><tt><a href="Methods.html#//apple_ref/occ/instm/Contact/number" target="doc">-number</a></tt></dt>
+<dd>Returns the contact's number.
+</dd>
+<dt><tt><a href="Methods.html#//apple_ref/occ/instm/Contact/setName:" target="doc">-setName:</a></tt></dt>
+<dd>Sets the contact's name.
+</dd>
+<dt><tt><a href="Methods.html#//apple_ref/occ/instm/Contact/setNumber:" target="doc">-setNumber:</a></tt></dt>
+<dd>Sets the contact's number.
+</dd>
+</dl>
+<hr><!-- headerDoc=instm;  uid=//apple_ref/occ/instm/Contact/caseInsensitiveCompare:;  name=Contact::caseInsensitiveCompare: -->
+<a name="//apple_ref/occ/instm/Contact/caseInsensitiveCompare:"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="caseInsensitiveCompare:">caseInsensitiveCompare:</a></h3>
+</td></tr></table><hr><dl></dl><p>Compares two contacts.
+</p>
+<blockquote><pre>- (<!-- a logicalPath="//apple_ref/occ/cl/NSComparisonResult //apple_ref/occ/cl/NSComparisonResult //apple_ref/occ/tdef/NSComparisonResult //apple_ref/occ/tag/NSComparisonResult //apple_ref/occ/econst/NSComparisonResult //apple_ref/occ/struct/NSComparisonResult //apple_ref/occ/clconst/NSComparisonResult" --><font class="type">NSComparisonResult</font><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/instm/caseInsensitiveCompare //apple_ref/occ/clm/caseInsensitiveCompare //apple_ref/occ/intfcm/caseInsensitiveCompare //apple_ref/occ/func/caseInsensitiveCompare //apple_ref/occ/ftmplt/caseInsensitiveCompare //apple_ref/occ/defn/caseInsensitiveCompare //apple_ref/occ/macro/caseInsensitiveCompare" --><font class="function">caseInsensitiveCompare</font><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/Contact //apple_ref/occ/cl/Contact //apple_ref/occ/tdef/Contact //apple_ref/occ/tag/Contact //apple_ref/occ/econst/Contact //apple_ref/occ/struct/Contact //apple_ref/occ/clconst/Contact" --><font class="type">Contact</font><!-- /a --> <font class="type">*</font>)<font class="param">other</font>;</pre></blockquote>
+<h5><font face="Lucida Grande,Helvetica,Arial">Parameter Descriptions</font></h5>
+<blockquote>
+<dl>
+<dt><code><i>other</i></code></dt><dd>The contact to compare the receiver to.</dd>
+</dl>
+</blockquote>
+<dl><dt><i>method result</i></dt><dd><tt>NSOrderedAscending</tt> when the receiver precedes <tt>other</tt> in lexical ordering,
+<tt>NSOrderedSame</tt> if the receiver and <tt>other</tt> are equivalent in lexical value, and
+<tt>NSOrderedDescending</tt> if the receiver follows <tt>other</tt>.
+ </dd>
+<h5><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5><p>This method returns <tt>NSOrderAscending</tt> if 
+</p>
+</dl>
+<hr><!-- headerDoc=clm;  uid=//apple_ref/occ/clm/Contact/contact;  name=Contact::contact -->
+<a name="//apple_ref/occ/clm/Contact/contact"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="contact">contact</a></h3>
+</td></tr></table><hr><dl></dl><p>Returns a contact object.
+ </p>
+<blockquote><pre>+ (<!-- a logicalPath="//apple_ref/occ/cl/Contact //apple_ref/occ/cl/Contact //apple_ref/occ/tdef/Contact //apple_ref/occ/tag/Contact //apple_ref/occ/econst/Contact //apple_ref/occ/struct/Contact //apple_ref/occ/clconst/Contact" --><font class="type">Contact</font><!-- /a --> <font class="type">*</font>)<font class="param">contact</font>;</pre></blockquote>
+<dl></dl>
+<hr><!-- headerDoc=clm;  uid=//apple_ref/occ/clm/Contact/contactWithName:number:;  name=Contact::contactWithName:number: -->
+<a name="//apple_ref/occ/clm/Contact/contactWithName:number:"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="contactWithName:number:">contactWithName:number:</a></h3>
+</td></tr></table><hr><dl></dl><p>Returns a contact object initialized with the given <tt>name</tt> and <tt>number</tt>.
+</p>
+<blockquote><pre>+ (<!-- a logicalPath="//apple_ref/occ/cl/Contact //apple_ref/occ/cl/Contact //apple_ref/occ/tdef/Contact //apple_ref/occ/tag/Contact //apple_ref/occ/econst/Contact //apple_ref/occ/struct/Contact //apple_ref/occ/clconst/Contact" --><font class="type">Contact</font><!-- /a --> <font class="type">*</font>)<!-- a logicalPath="//apple_ref/occ/instm/contactWithName //apple_ref/occ/clm/contactWithName //apple_ref/occ/intfcm/contactWithName //apple_ref/occ/func/contactWithName //apple_ref/occ/ftmplt/contactWithName //apple_ref/occ/defn/contactWithName //apple_ref/occ/macro/contactWithName" --><font class="function">contactWithName</font><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/econst/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/clconst/NSString" --><font class="type">NSString</font><!-- /a --> <font class="type">*</font>)<font class="param">name</font> <!-- a logicalPath="//apple_ref/occ/instm/number //apple_ref/occ/clm/number //apple_ref/occ/intfcm/number //apple_ref/occ/func/number //apple_ref/occ/ftmplt/number //apple_ref/occ/defn/number //apple_ref/occ/macro/number" --><font class="function">number</font><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/econst/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/clconst/NSString" --><font class="type">NSString</font><!-- /a --> <font class="type">*</font>)<font class="param">number</font>;</pre></blockquote>
+<h5><font face="Lucida Grande,Helvetica,Arial">Parameter Descriptions</font></h5>
+<blockquote>
+<dl>
+<dt><code><i>name</i></code></dt><dd>The contact's name.</dd>
+<dt><code><i>number</i></code></dt><dd>The contact's number.</dd>
+</dl>
+</blockquote>
+<dl></dl>
+<hr><!-- headerDoc=instm;  uid=//apple_ref/occ/instm/Contact/initWithName:number:;  name=Contact::initWithName:number: -->
+<a name="//apple_ref/occ/instm/Contact/initWithName:number:"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="initWithName:number:">initWithName:number:</a></h3>
+</td></tr></table><hr><dl></dl><p>Returns a contact object initialized with the given <tt>name</tt> and <tt>number</tt>.
+</p>
+<blockquote><pre>- (<!-- a logicalPath="//apple_ref/occ/cl/id //apple_ref/occ/cl/id //apple_ref/occ/tdef/id //apple_ref/occ/tag/id //apple_ref/occ/econst/id //apple_ref/occ/struct/id //apple_ref/occ/clconst/id" --><font class="type">id</font><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/instm/initWithName //apple_ref/occ/clm/initWithName //apple_ref/occ/intfcm/initWithName //apple_ref/occ/func/initWithName //apple_ref/occ/ftmplt/initWithName //apple_ref/occ/defn/initWithName //apple_ref/occ/macro/initWithName" --><font class="function">initWithName</font><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/econst/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/clconst/NSString" --><font class="type">NSString</font><!-- /a --> <font class="type">*</font>)<font class="param">name</font> <!-- a logicalPath="//apple_ref/occ/instm/number //apple_ref/occ/clm/number //apple_ref/occ/intfcm/number //apple_ref/occ/func/number //apple_ref/occ/ftmplt/number //apple_ref/occ/defn/number //apple_ref/occ/macro/number" --><font class="function">number</font><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/econst/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/clconst/NSString" --><font class="type">NSString</font><!-- /a --> <font class="type">*</font>)<font class="param">number</font>;</pre></blockquote>
+<h5><font face="Lucida Grande,Helvetica,Arial">Parameter Descriptions</font></h5>
+<blockquote>
+<dl>
+<dt><code><i>name</i></code></dt><dd>The contact's name.</dd>
+<dt><code><i>number</i></code></dt><dd>The contact's number.</dd>
+</dl>
+</blockquote>
+<dl></dl>
+<hr><!-- headerDoc=instm;  uid=//apple_ref/occ/instm/Contact/name;  name=Contact::name -->
+<a name="//apple_ref/occ/instm/Contact/name"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="name">name</a></h3>
+</td></tr></table><hr><dl></dl><p>Returns the contact's name.
+</p>
+<blockquote><pre>- (<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/econst/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/clconst/NSString" --><font class="type">NSString</font><!-- /a --> <font class="type">*</font>)<font class="param">name</font>;</pre></blockquote>
+<dl><dt><i>method result</i></dt><dd>The contact's name.
+ </dd>
+</dl>
+<hr><!-- headerDoc=instm;  uid=//apple_ref/occ/instm/Contact/number;  name=Contact::number -->
+<a name="//apple_ref/occ/instm/Contact/number"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="number">number</a></h3>
+</td></tr></table><hr><dl></dl><p>Returns the contact's number.
+</p>
+<blockquote><pre>- (<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/econst/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/clconst/NSString" --><font class="type">NSString</font><!-- /a --> <font class="type">*</font>)<font class="param">number</font>;</pre></blockquote>
+<dl><dt><i>method result</i></dt><dd>The contact's number.
+ </dd>
+</dl>
+<hr><!-- headerDoc=instm;  uid=//apple_ref/occ/instm/Contact/setName:;  name=Contact::setName: -->
+<a name="//apple_ref/occ/instm/Contact/setName:"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="setName:">setName:</a></h3>
+</td></tr></table><hr><dl></dl><p>Sets the contact's name.
+</p>
+<blockquote><pre>- (<!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/econst/void //apple_ref/occ/struct/void //apple_ref/occ/clconst/void" --><font class="type">void</font><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/instm/setName //apple_ref/occ/clm/setName //apple_ref/occ/intfcm/setName //apple_ref/occ/func/setName //apple_ref/occ/ftmplt/setName //apple_ref/occ/defn/setName //apple_ref/occ/macro/setName" --><font class="function">setName</font><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/econst/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/clconst/NSString" --><font class="type">NSString</font><!-- /a --> <font class="type">*</font>)<font class="param">name</font>;</pre></blockquote>
+<h5><font face="Lucida Grande,Helvetica,Arial">Parameter Descriptions</font></h5>
+<blockquote>
+<dl>
+<dt><code><i>name</i></code></dt><dd>The contact's name.</dd>
+</dl>
+</blockquote>
+<dl></dl>
+<hr><!-- headerDoc=instm;  uid=//apple_ref/occ/instm/Contact/setNumber:;  name=Contact::setNumber: -->
+<a name="//apple_ref/occ/instm/Contact/setNumber:"></a>
+<table border="0"  cellpadding="2" cellspacing="2" width="300"><tr><td valign="top" height="12" colspan="5"><h3><a name="setNumber:">setNumber:</a></h3>
+</td></tr></table><hr><dl></dl><p>Sets the contact's number.
+</p>
+<blockquote><pre>- (<!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/econst/void //apple_ref/occ/struct/void //apple_ref/occ/clconst/void" --><font class="type">void</font><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/instm/setNumber //apple_ref/occ/clm/setNumber //apple_ref/occ/intfcm/setNumber //apple_ref/occ/func/setNumber //apple_ref/occ/ftmplt/setNumber //apple_ref/occ/defn/setNumber //apple_ref/occ/macro/setNumber" --><font class="function">setNumber</font><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/econst/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/clconst/NSString" --><font class="type">NSString</font><!-- /a --> <font class="type">*</font>)<font class="param">number</font>;</pre></blockquote>
+<h5><font face="Lucida Grande,Helvetica,Arial">Parameter Descriptions</font></h5>
+<blockquote>
+<dl>
+<dt><code><i>number</i></code></dt><dd>The contact's number.</dd>
+</dl>
+</blockquote>
+<dl></dl>
+<p>(Last Updated April 07, 2008)
+</p></body></html>

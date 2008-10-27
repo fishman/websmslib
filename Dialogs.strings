@@ -1,0 +1,41 @@
+"Sending_Start"								=	"Sending message using %@...";
+"Sending_StartLoadingStages"				=	"sending task will be performed in %d stages";
+"Sending_PerformingStageN"					=	"Loading data for stage %d/%d...";
+"Sending_ConnectionEstablished"				=	"connection established, downloading...";
+"Sending_WrongResponseFromServer"			=	"Unexpected response from server. Try again or update plugin.";
+"Sending_SendingFailed"						=	"Sending failed!";
+"Sending_SendingAborted"					=	"Sending aborted!";
+"Sending_SendingAborted_Desc"				=	"You have aborted sending process.";
+"Sending_ConnectionFailed"					=	"Connection failed";
+"Sending_ConnectionFailed_Desc"				=	"Cannot connect to server. Are you connected to internet?";
+"Sending_ConnectionError"					=	"An error has occurred";
+"Sending_ConnectionError_Desc"				=	"Cannot send message. An error has occurred: show activity monitor to learn more";
+"Sending_SendingOK"							=	"Message sent to %@!";
+"Sending_SendingOK_Desc"					=	"Your message was delivered correctly using %@ to %@ at %@.";
+"Sending_WaitCaptcha"						=	"Waiting for captcha...";
+"Sending_WaitCaptcha_Desc"					=	"";//"Insert captcha code:";
+"Sending_WaitingData"						=	"Waiting for server at %@...";
+
+"UI_InsertCaptcha"							=	"";//"Put captcha here";
+"UI_ContinueCaptcha"						=	"Send";
+"UI_Abort"									=	"Abort";
+"UI_OptionsMenu"							=	"Options,Preferences,Show Activity Monitor,-,About WebSMSLib...,Donate,Check Updates...,Quit";
+
+"UI_Update_CheckUpdates"					=	"Checking updates... %d plugin updated";
+"UI_Update_CheckUpdatesFor"					=	"Checking update for %@...";
+"UI_Update_Summary"							=	"%d plugins updated, %d failed...";
+"UI_Update_ReceivingData"					=	"Downloading data for %@...";
+
+"UI_UpdateDate_Never"						=	"Never updated";
+"UI_UpdateDate_Today"						=	"Today";
+"UI_UpdateDate_Date"						=	"Updated on %@";
+
+"UI_NoPluginMantainer"						=	"Not specified yet";
+"UI_RemainingChars"							=	"%d characters remaining...";
+"UI_InsertEmailReport"						=	"Insert your email here";
+"UI_Report_EmailSubject"					=	"[websmslib] Report for plugin %@";
+"UI_Report_EmailBody"						=	"You have received a bug report with this note:\n%@";
+"UI_Report_Export"							=	"Choose a destination for this bug report log:";
+"UI_Compose_Message"						=	"";//"Insert your message here ;-)";
+
+"UI_About"									=	"Version %@";

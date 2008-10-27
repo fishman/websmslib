@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>test-animations</title>
+	
+	<script type="text/javascript" src="../../lib/Animations.js"/>
+	<script type="text/javascript" src="../fixtures/fixtures.js"/>
+	<script type="text/javascript" src="../test.js"/>
+	<script type="text/javascript" src="test-animations.js"/>
+	<script type="text/javascript" src="../../lib/Additions.js"/>
+	<script type="text/javascript" src="../../lib/Colors.js"/>
+	
+	<style type="text/css">
+		@import url("../test.css");
+		
+		#fading0
+		{
+			background-color: red;
+			height: 3em;
+			opacity: 0.0;
+		}
+		#shrinking0
+		{
+			background-color: blue;
+			height: 3em;
+		}
+		#crossblind-container,
+		#crossfade-container
+		{
+			height: 3em;
+			position: relative;
+		}
+		#crossblind0,
+		#crossblind1,
+		#crossfade0,
+		#crossfade1
+		{
+			position: absolute;
+			height: 3em;
+			width: 100%;
+			overflow: hidden;
+		}
+		#crossblind0
+		{
+			background-color: lime;
+		}
+		#crossblind1
+		{
+			background-color: magenta;
+			display: none;
+		}
+		#crossfade0
+		{
+			background-color: khaki;
+		}
+		#crossfade1
+		{
+			background-color: teal;
+			opacity: 0.0;
+		}
+		#chameleon0
+		{
+			background-color: magenta;
+			height: 3em;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<h1>Animations Functional Test</h1>
+	
+	<h2>GUI Mockup</h2>
+	<div id="gui-mockup">
+		<div id="fading0"></div>
+		<input type="button" id="fader0" value="Fade!" />
+
+		<div id="shrinking0"></div>
+		<input type="button" id="shrinker0" value="Shrink!" />
+
+		<div id="crossblind-container">
+			<div id="crossblind0"></div>
+			<div id="crossblind1"></div>
+		</div>
+		<input type="button" id="crosser0" value="Cross Blind!" />
+
+		<div id="crossfade-container">
+			<div id="crossfade0"></div>
+			<div id="crossfade1"></div>
+		</div>
+		<input type="button" id="crosser1" value="Cross Fade!" />
+
+		<div id="chameleon0"></div>
+	</div>
+	
+	<h2>Test results</h2>
+	<div id="test-messages">
+	</div>
+
+	<h2>Debug info</h2>
+	<div id="debug-messages">
+	</div>
+
+	<h2>View source</h2>
+	<ul id="scripts-list">
+	</ul>
+</body>
+</html>

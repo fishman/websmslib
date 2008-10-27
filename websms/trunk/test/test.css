@@ -1,0 +1,50 @@
+html
+{
+	font-family: "Lucida Sans";
+}
+h1
+{
+	font-size: 20pt;
+}
+h1.test-running
+{
+	padding-left: 30px;
+	background: transparent url("images/throbber.gif") no-repeat left center;
+}
+h1.test-failed
+{
+	padding-left: 30px;
+	background: transparent url("images/icon-failure.png") no-repeat left center;
+}
+h1.test-succeeded
+{
+	padding-left: 30px;
+	background: transparent url("images/icon-success.png") no-repeat left center;
+}
+h2
+{
+	font-size: 14pt;
+}
+#test-messages,
+#gui-mockup
+{
+	border: 4px dashed #ccc;
+	padding: 10px;
+}
+#debug-messages
+{
+	border: 4px dashed #c99;
+	background-color: #ecc;
+	padding: 10px;	
+}
+
+#scripts-list
+{
+	border: 4px dashed #99c;
+	background-color: #cce;
+	padding: 10px;
+}
+#scripts-list li
+{
+	margin-left: 1em;
+}
