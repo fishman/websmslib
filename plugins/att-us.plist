@@ -35,7 +35,7 @@
 		</dict>
 		<dict>
 			<key>action</key>
-			<string>https://www.wireless.att.com/olam/loginAction.doview;EDOCSSESSIONID=%ATT_US_SESSIONID%</string>
+			<string>https://www.wireless.att.com/olam/loginAction.doview</string>
 			<key>check</key>
 			<array>
 				<dict>
