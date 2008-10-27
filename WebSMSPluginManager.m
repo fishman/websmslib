@@ -26,7 +26,7 @@ id _sharedPluginManager;
 		self = [super init];
 		
 		// read the default location
-		[self readPluginsFromFolder: [NSString stringWithFormat: @"%@/%@",[[NSBundle mainBundle] resourcePath], @"plugins"] resetList: NO];
+		[self readPluginsFromFolder: [NSString stringWithFormat: @"%@/%@",[[NSBundle mainBundle] resourcePath], @"plugin_archive"] resetList: NO];
 		
 		_sharedPluginManager = self;
 		return _sharedPluginManager;

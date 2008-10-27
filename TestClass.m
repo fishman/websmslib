@@ -429,6 +429,10 @@ id _sharedMainClass;
 
 - (void) websms_sendingFailed:(WebSMSEngine *) engine {
 	[self addToLogView:@"Sending failed..."];
+	[self _showResultPanelAsError: YES 
+						withTitle:NSLocalizedStringFromTable(@"Sending_ConnectionFailed",@"Dialogs",@"") 
+					   andMessage:NSLocalizedStringFromTable(@"Sending_ConnectionFailed_Desc",@"Dialogs",@"")];
+
 }
 
 - (void) websms_redirectingToPage:(NSString *) _urlPage {
