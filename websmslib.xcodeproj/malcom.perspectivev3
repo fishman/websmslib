@@ -304,6 +304,7 @@
 								<string>D9C0B99A0E680FF6004F1E1A</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>D9CDC1FE0E6940750000D126</string>
+								<string>D9C25DD80EB6886C0051899F</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C77FABC04509CD000000102</string>
@@ -315,7 +316,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 374}, {203, 632}}</string>
+							<string>{{0, 0}, {203, 632}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -364,7 +365,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D9C25DED0EB689070051899F</string>
+										<string>D9C25DF60EB68DD60051899F</string>
 										<key>history</key>
 										<array>
 											<string>D9031B6F0E965F2A004CF760</string>
@@ -423,7 +424,7 @@
 											<string>D9C25DCD0EB687E30051899F</string>
 											<string>D9C25DE70EB689070051899F</string>
 											<string>D9C25DE80EB689070051899F</string>
-											<string>D9C25DE90EB689070051899F</string>
+											<string>D9C25DED0EB689070051899F</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -479,18 +480,7 @@
 											<string>D914CBDA0EB385E50016CB55</string>
 											<string>D914CBDB0EB385E50016CB55</string>
 											<string>D914CBF00EB385E50016CB55</string>
-											<string>D9C25D6F0EB686B10051899F</string>
-											<string>D9C25D700EB686B10051899F</string>
-											<string>D9C25D710EB686B10051899F</string>
-											<string>D9C25D720EB686B10051899F</string>
-											<string>D9C25DCF0EB687E30051899F</string>
-											<string>D9C25DD00EB687E30051899F</string>
-											<string>D9C25DD10EB687E30051899F</string>
-											<string>D9C25DD20EB687E30051899F</string>
 											<string>D9C25DD30EB687E30051899F</string>
-											<string>D9C25DEA0EB689070051899F</string>
-											<string>D9C25DEB0EB689070051899F</string>
-											<string>D9C25DEC0EB689070051899F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -530,6 +520,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {922, 202}}</string>
+										<key>RubberWindowFrame</key>
+										<string>241 155 1147 691 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -546,8 +538,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {922, 202}}</string>
-										<key>RubberWindowFrame</key>
-										<string>241 155 1147 691 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -562,11 +552,11 @@
 											<key>PBXCVSModuleTreeModuleColumnWidthsKey</key>
 											<array>
 												<real>200</real>
-												<real>56.66162109375</real>
+												<real>56</real>
 												<real>63</real>
 												<real>60</real>
 												<real>63</real>
-												<real>139.556640625</real>
+												<real>139</real>
 											</array>
 											<key>PBXCVSModuleTreeModuleColumnsKey</key>
 											<array>
@@ -634,11 +624,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D9C25D750EB686C80051899F</string>
+				<string>D9C25DF70EB68DD60051899F</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>D9C25D760EB686C80051899F</string>
+				<string>D9C25DF80EB68DD60051899F</string>
 				<string>D9399C960E62C731000BE59B</string>
-				<string>D9C25D770EB686C80051899F</string>
+				<string>D9C25DF90EB68DD60051899F</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -806,7 +796,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>246843655.504134</real>
+	<real>246844886.919714</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>3</integer>
 	<key>ToolbarIsVisible</key>
