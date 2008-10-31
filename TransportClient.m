@@ -55,9 +55,9 @@
 
 - (void) exec {
 	// create url to load
-	NSString *ind = ([[_options objectForKey: @"CURLOPT_POSTFIELDS"] length] < 1 ? 
-								[_options objectForKey: @"CURLOPT_URL"] : 
-									[NSString stringWithFormat: @"%@?%@",[_options objectForKey: @"CURLOPT_URL"],
+	BOOL isAPOSTMethod = ([[_options objectForKey: @"CURLOPT_POSTFIELDS"] length] > 0);
+	NSString *ind = (!isAPOSTMethod ? [_options objectForKey: @"CURLOPT_URL"] : 
+										[NSString stringWithFormat: @"%@?%@",[_options objectForKey: @"CURLOPT_URL"],
 									 [_options objectForKey: @"CURLOPT_POSTFIELDS"]]);
 	
 	// create request
@@ -72,9 +72,10 @@
 	}
 	
 	_request = [[NSMutableURLRequest alloc] initWithURL: _url];
-	[_request setHTTPMethod: @"GET"];
+	[_request setHTTPMethod: (isAPOSTMethod ? @"POST" : @"GET")];
 	[_request setHTTPShouldHandleCookies: YES];
 	
+	// it's a fucking private method...
 	[NSURLRequest setAllowsAnyHTTPSCertificate: YES forHost: [_url host]];
 	
 	// setup user agent (standard mode or custom)

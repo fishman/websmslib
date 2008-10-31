@@ -75,6 +75,10 @@
 		D9F317ED0E71FF3E003DAA66 /* email_send.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F317EC0E71FF3E003DAA66 /* email_send.png */; };
 		D9F318190E720178003DAA66 /* ActivityMonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F318180E720178003DAA66 /* ActivityMonitorController.m */; };
 		D9F318470E72026A003DAA66 /* ActivityMonitor.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F318460E72026A003DAA66 /* ActivityMonitor.xib */; };
+		D9FA55D70EB8C7FB00876731 /* CURLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FA55D40EB8C7FB00876731 /* CURLHandle.m */; };
+		D9FA55D80EB8C7FB00876731 /* CURLHandle+extras.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FA55D60EB8C7FB00876731 /* CURLHandle+extras.m */; };
+		D9FA55F30EB8C89B00876731 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FA55F20EB8C89B00876731 /* libcurl.dylib */; };
+		D9FA56040EB8C8EB00876731 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FA56030EB8C8EB00876731 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -205,6 +209,12 @@
 		D9F318170E720178003DAA66 /* ActivityMonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityMonitorController.h; sourceTree = "<group>"; };
 		D9F318180E720178003DAA66 /* ActivityMonitorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityMonitorController.m; sourceTree = "<group>"; };
 		D9F318460E72026A003DAA66 /* ActivityMonitor.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityMonitor.xib; sourceTree = "<group>"; };
+		D9FA55D30EB8C7FB00876731 /* CURLHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLHandle.h; sourceTree = "<group>"; };
+		D9FA55D40EB8C7FB00876731 /* CURLHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLHandle.m; sourceTree = "<group>"; };
+		D9FA55D50EB8C7FB00876731 /* CURLHandle+extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CURLHandle+extras.h"; sourceTree = "<group>"; };
+		D9FA55D60EB8C7FB00876731 /* CURLHandle+extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CURLHandle+extras.m"; sourceTree = "<group>"; };
+		D9FA55F20EB8C89B00876731 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		D9FA56030EB8C8EB00876731 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +227,8 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				D9F311830E71913E003DAA66 /* AddressBook.framework in Frameworks */,
 				D9285EF10E7352530003FC2B /* Message.framework in Frameworks */,
+				D9FA55F30EB8C89B00876731 /* libcurl.dylib in Frameworks */,
+				D9FA56040EB8C8EB00876731 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +245,7 @@
 				D9399C8E0E62C501000BE59B /* WebSMSPlugin.m */,
 				D9399D660E62D875000BE59B /* TransportClient.h */,
 				D9399D670E62D875000BE59B /* TransportClient.m */,
+				D9FA55D20EB8C7FB00876731 /* CURLHandle (Working in Progress) */,
 				D9C0B97D0E680FCC004F1E1A /* Extra */,
 				D9B7BD2A0E65687900F42987 /* Message */,
 				D9031CC50E96743D004CF760 /* NSHideSuggestionField.h */,
@@ -285,6 +298,8 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				D9FA55F20EB8C89B00876731 /* libcurl.dylib */,
+				D9FA56030EB8C8EB00876731 /* SystemConfiguration.framework */,
 			);
 			name = websmslib;
 			sourceTree = "<group>";
@@ -583,6 +598,17 @@
 			name = "Application Manager";
 			sourceTree = "<group>";
 		};
+		D9FA55D20EB8C7FB00876731 /* CURLHandle (Working in Progress) */ = {
+			isa = PBXGroup;
+			children = (
+				D9FA55D30EB8C7FB00876731 /* CURLHandle.h */,
+				D9FA55D40EB8C7FB00876731 /* CURLHandle.m */,
+				D9FA55D50EB8C7FB00876731 /* CURLHandle+extras.h */,
+				D9FA55D60EB8C7FB00876731 /* CURLHandle+extras.m */,
+			);
+			name = "CURLHandle (Working in Progress)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -698,6 +724,8 @@
 				D9444B5A0E73D14E00665CC9 /* DKDefines.c in Sources */,
 				D9444B700E73D1B400665CC9 /* DKBox.m in Sources */,
 				D9031CC70E96743D004CF760 /* NSHideSuggestionField.m in Sources */,
+				D9FA55D70EB8C7FB00876731 /* CURLHandle.m in Sources */,
+				D9FA55D80EB8C7FB00876731 /* CURLHandle+extras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,6 +804,7 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "-lcurl";
 				PRODUCT_NAME = websmslib;
 			};
 			name = Release;

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>report_contacts</key>
+	<dict>
+		<key>mail</key>
+		<string>malcom.mac@gmail.com</string>
+		<key>name</key>
+		<string>Daniele Margutti</string>
+	</dict>
+	<key>main_site</key>
+	<string>http://www.tele2.it</string>
+	<key>update_url</key>
+	<string>http://websmslib.googlecode.com/svn/trunk/plugins/tele2.plist</string>
+	<key>name</key>
+	<string>Tele2</string>
+	<key>steps</key>
+	<array>
+		<dict>
+			<key>referrer</key>
+			<string>http://www.tele2internet.it/</string>
+			<key>data</key>
+			<string></string>
+			<key>action</key>
+			<string>http://www.tele2internet.it/</string>
+			<key>cookies</key>
+			<array>
+				<dict>
+					<key>value</key>
+					<string>passed</string>
+					<key>name</key>
+					<string>BrowserDetect</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://www.tele2internet.it/</string>
+			<key>data</key>
+			<string>login_username=%USERNAME%&amp;login_password=%PASSWORD%&amp;redirect_url=&amp;go.x=&amp;go.y=</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>Nome utente o password non validi. Si prega di riprovare!</string>
+					<key>reason</key>
+					<string>Username o password errati</string>
+				</dict>
+			</array>
+			<key>action</key>
+			<string>http://www.tele2internet.it/clogin.phtml</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://www.tele2internet.it/clogin.phtml</string>
+			<key>data</key>
+			<string></string>
+			<key>vars</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>input type=&quot;hidden&quot; name=&quot;uniqID&quot; value=&quot;([^&quot;]+)&quot;</string>
+					<key>name</key>
+					<string>TELE2_IT_UID</string>
+				</dict>
+			</array>
+			<key>action</key>
+			<string>http://www.sms.tele2internet.it/</string>
+		</dict>
+		<dict>
+			<key>referrer</key>
+			<string>http://www.sms.tele2internet.it/</string>
+			<key>data</key>
+			<string>banner_id=&amp;type_flash=&amp;timed_at=&amp;uniqID=%TELE2_IT_UID%&amp;message=%TEXT%%20%FROM%&amp;gsmnumber=%2B%TO_CCODE%%TO%&amp;show_sender_number=&amp;fromname=%FROM%&amp;send_sms=Invia</string>
+			<key>check</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>Controlla che il numero di cellulare sia preceduto da</string>
+					<key>reason</key>
+					<string>Il numero di cellulare non è preceduto dal +39</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>Il messaggio non pu</string>
+					<key>reason</key>
+					<string>Messaggio troppo lungo</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>necessario disporre di</string>
+					<key>reason</key>
+					<string>Pepite insufficienti</string>
+				</dict>
+			</array>
+			<key>action</key>
+			<string>http://www.sms.tele2internet.it/</string>
+		</dict>
+	</array>
+	<key>charset</key>
+	<string>iso-8859-1</string>
+	<key>success_marker</key>
+	<string>stato preso in consegna</string>
+	<key>code_name</key>
+	<string>tele-2</string>
+	<key>max_message_length</key>
+	<integer>125</integer>
+	<key>version</key>
+	<string>0.0.2</string>
+</dict>
+</plist>
