@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		276435EE0FA7545B00A2CFDB /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276435ED0FA7545B00A2CFDB /* BWToolkitFramework.framework */; };
+		276436180FA7547500A2CFDB /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 276435ED0FA7545B00A2CFDB /* BWToolkitFramework.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -88,6 +90,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				276436180FA7547500A2CFDB /* BWToolkitFramework.framework in CopyFiles */,
 				D94D35570EAFD5940025B41C /* Sparkle.framework in CopyFiles */,
 				D96719DE0E9A0EEA00687F23 /* HMBlkAppKit.framework in CopyFiles */,
 			);
@@ -100,6 +103,7 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		276435ED0FA7545B00A2CFDB /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BWToolkitFramework.framework; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -229,6 +233,7 @@
 				D9285EF10E7352530003FC2B /* Message.framework in Frameworks */,
 				D9FA55F30EB8C89B00876731 /* libcurl.dylib in Frameworks */,
 				D9FA56040EB8C8EB00876731 /* SystemConfiguration.framework in Frameworks */,
+				276435EE0FA7545B00A2CFDB /* BWToolkitFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +262,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				276435ED0FA7545B00A2CFDB /* BWToolkitFramework.framework */,
 				D94D35550EAFD5910025B41C /* Sparkle.framework */,
 				D96719C90E9A0EE400687F23 /* HMBlkAppKit.framework */,
 				D9285EF00E7352530003FC2B /* Message.framework */,
