@@ -96,7 +96,7 @@ id _ui_sharedActivityMonitor;
 	
 	ABPerson *me = [[ABAddressBook sharedAddressBook] me];		
 	if (me != nil && [me valueForProperty: kABEmailProperty] != nil)
-		[_report_fld_contact setStringValue: [[me valueForProperty: kABEmailProperty] valueAtIndex: 0]];
+		[_report_fld_contact setStringValue: [me valueForProperty: kABEmailProperty]];
 	else [_report_fld_contact setStringValue: NSLocalizedStringFromTable(@"UI_InsertEmailReport",@"Dialogs",@"")];
 	
 	[self _report_btn_changePlugin: nil];
